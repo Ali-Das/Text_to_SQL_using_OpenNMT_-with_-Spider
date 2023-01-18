@@ -1,0 +1,98 @@
+eval_err_num:1635
+extra pred: SELECT title FROM course WHERE competition_type = "Roberto" AND last_name = "Almeida";
+extra gold: SELECT t2.house_number  ,  t1.name FROM restaurant AS t1 JOIN LOCATION AS t2 ON t1.id  =  t2.restaurant_id WHERE t2.city_name  =  "mountain view" AND t1.food_type  =  "arabic" AND t1.rating  >  2.5;
+
+eval_err_num:1636
+extra pred: SELECT milliseconds FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+extra gold: SELECT t2.house_number  ,  t1.name FROM restaurant AS t1 JOIN LOCATION AS t2 ON t1.id  =  t2.restaurant_id WHERE t2.city_name  =  "mountain view" AND t1.food_type  =  "arabic" AND t1.rating  >  2.5;
+
+eval_err_num:1637
+extra pred: SELECT title FROM course WHERE country = 'Statistics'
+extra gold: SELECT t2.house_number  ,  t1.name FROM restaurant AS t1 JOIN LOCATION AS t2 ON t1.id  =  t2.restaurant_id WHERE t2.city_name  =  "mountain view" AND t1.food_type  =  "arabic" AND t1.rating  >  2.5;
+
+eval_err_num:1638
+extra pred: SELECT title FROM products WHERE name = "Fast As a Shark";
+extra gold: SELECT t2.house_number  ,  t1.name FROM restaurant AS t1 JOIN LOCATION AS t2 ON t1.id  =  t2.restaurant_id WHERE t2.city_name  =  "san francisco" AND t1.name  =  "jamerican cuisine";
+
+eval_err_num:1639
+extra pred: SELECT title FROM products WHERE name = "sesame"
+extra gold: SELECT t2.house_number  ,  t1.name FROM restaurant AS t1 JOIN LOCATION AS t2 ON t1.id  =  t2.restaurant_id WHERE t2.city_name  =  "san francisco" AND t1.name  =  "jamerican cuisine";
+
+eval_err_num:1640
+extra pred: SELECT title FROM products WHERE name = "Fast Info. Systems"
+extra gold: SELECT t2.house_number  ,  t1.name FROM restaurant AS t1 JOIN LOCATION AS t2 ON t1.id  =  t2.restaurant_id WHERE t2.city_name  =  "san francisco" AND t1.name  =  "jamerican cuisine";
+
+eval_err_num:1641
+extra pred: SELECT ResName FROM Rating AS T1 JOIN Restaurant AS T2 ON T1.Room = T2.RoomId WHERE T1.Address = "Confirmed"
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "bay area" );
+
+eval_err_num:1642
+extra pred: SELECT kids FROM Restaurant WHERE Winery = "ROY" AND pets_allowed_yn = "SWEAZY";
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "bay area" );
+
+eval_err_num:1643
+extra pred: SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21"
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "bay area" );
+
+eval_err_num:1644
+extra pred: SELECT ResName FROM Restaurant WHERE Student.Fname = "ROY" AND LastName = "SWEAZY";
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "bay area" );
+
+eval_err_num:1645
+extra pred: SELECT Kids FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id  WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "region0" ) AND t1.rating  >  2.5;
+
+eval_err_num:1646
+extra pred: SELECT T2.star_rating_description FROM Rating AS T1 JOIN Restaurant AS T2 ON T1.mID = T2.mID JOIN Restaurant AS T3 ON T1.rID = T3.rID WHERE T3.name = 'Anonymous Jackson'
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id  WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "region0" ) AND t1.rating  >  2.5;
+
+eval_err_num:1647
+extra pred: SELECT kids FROM Restaurant WHERE Winery = "ROY" AND pets_allowed_yn = "SWEAZY";
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id  WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "region0" ) AND t1.rating  >  2.5;
+
+eval_err_num:1648
+extra pred: SELECT ResTypeDescription FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+extra gold: SELECT t2.house_number  ,  t1.name FROM LOCATION AS t2 JOIN restaurant AS t1 ON t1.id  =  t2.restaurant_id  WHERE t1.city_name IN ( SELECT city_name FROM geographic WHERE region  =  "region0" ) AND t1.rating  >  2.5;
+
+                     easy                 medium               hard                 extra                all
+count                289                  222                  461                  687                  1659
+=====================   EXECUTION ACCURACY     =====================
+execution            0.000                0.005                0.000                0.000                0.001
+
+====================== EXACT MATCHING ACCURACY =====================
+exact match          0.000                0.000                0.000                0.000                0.000
+
+---------------------PARTIAL MATCHING ACCURACY----------------------
+select               0.000                1.000                0.000                0.000                0.091
+select(no AGG)       0.000                1.000                0.167                0.000                0.182
+where                1.000                0.000                0.250                0.000                0.429
+where(no OP)         1.000                0.000                0.250                0.000                0.429
+group(no Having)     0.000                0.000                0.000                0.000                0.000
+group                0.000                0.000                0.000                0.000                0.000
+order                0.000                0.000                0.000                0.000                0.000
+and/or               1.000                0.414                0.744                0.438                0.618
+IUEN                 0.000                0.000                0.000                0.000                0.000
+keywords             1.000                1.000                0.800                0.000                0.875
+---------------------- PARTIAL MATCHING RECALL ----------------------
+select               0.000                0.005                0.000                0.000                0.001
+select(no AGG)       0.000                0.005                0.002                0.000                0.001
+where                0.008                0.000                0.002                0.000                0.002
+where                0.016                1.000                0.004                1.000                0.004
+where(no OP)         0.016                1.000                0.004                1.000                0.004
+group(no Having)     1.000                1.000                1.000                1.000                1.000
+group                1.000                1.000                1.000                1.000                1.000
+order                1.000                1.000                1.000                1.000                1.000
+and/or               1.000                0.586                0.853                0.609                0.764
+IUEN                 1.000                1.000                1.000                1.000                1.000
+keywords             0.016                0.009                0.017                1.000                0.009
+PS C:\Users\Alaka\PycharmProjects\spider-master>
+
+
+
+
+
+
+
+
+
+

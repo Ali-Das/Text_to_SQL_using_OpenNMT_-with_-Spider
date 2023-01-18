@@ -1,0 +1,1034 @@
+SELECT count(*) FROM artist
+SELECT count(*) FROM enzyme
+SELECT name , LOCATION , gender_mf FROM artist WHERE gender = 'T' ORDER BY Year_Join
+SELECT name , dates_active , age FROM Person ORDER BY age DESC
+SELECT T1.artist_name , T1.age , artist_name FROM artist AS T1 JOIN artist AS T2 ON T1.artist_name = T2.artist_name WHERE T2.languages = "Female"
+SELECT min(distance) , min(age) , min(age) FROM people WHERE nationality = "German"
+SELECT T1.artist_name , T1.date FROM artist AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id ORDER BY T2.resolution LIMIT 1
+SELECT song_name , genre_is FROM song ORDER BY emp_dob LIMIT 1
+SELECT DISTINCT country FROM artist WHERE age > 9
+SELECT DISTINCT country FROM artist WHERE age > 30
+SELECT country , count(*) FROM artist GROUP BY country
+SELECT Country_name , COUNT(*) FROM artist AS T1 JOIN country AS T2 ON T1.artist_name = T2.artist_name GROUP BY T1.Musical_ID
+SELECT song_name FROM artist WHERE Age > (SELECT T1.artist_name FROM song
+SELECT DISTINCT artist_name FROM artist WHERE age > (SELECT artist_name FROM song WHERE languages = 'english')
+SELECT LOCATION , LOCATION FROM stadium WHERE capacity BETWEEN 1830 AND 1840
+SELECT LOCATION , LOCATION FROM station WHERE capacity BETWEEN 1830 AND 15
+SELECT avg(capacity) , avg(capacity) FROM stadium
+SELECT avg(student_capacity) , max(salary) FROM stadium
+SELECT name , capacity FROM stadium ORDER BY capacity DESC LIMIT 1
+SELECT name , capacity FROM stadium ORDER BY capacity DESC LIMIT 1
+SELECT count(*) FROM Ref_colors WHERE YEAR = 1885 OR YEAR = "Conglomerate"
+SELECT count(*) FROM postseason WHERE YEAR = 1885 OR date_from = "Conglomerate"
+SELECT apt_type_code , count(*) FROM stadium GROUP BY name
+SELECT count(*) , constructorid FROM constructors GROUP BY Competition
+SELECT name , capacity FROM stadium WHERE YEAR = 2011 GROUP BY station_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name , t1.capacity FROM stadium AS T1 JOIN stadium AS T2 ON T1.id = t2.stadium_id WHERE T2.bikes_available > 1880 GROUP BY T1.building_id ORDER BY count(*) DESC LIMIT 1
+SELECT YEAR FROM SECTION GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1
+SELECT YEAR FROM SECTION GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1
+SELECT name FROM stadium WHERE building_id NOT IN (SELECT stadium_id FROM event)
+SELECT name FROM stadium WHERE id NOT IN (SELECT stadium_id FROM event)
+SELECT country FROM weather WHERE TIME > 10000000 INTERSECT SELECT country FROM competition WHERE age > 1990
+SELECT name FROM stadium WHERE YEAR = 2011
+SELECT name FROM stadium WHERE id NOT IN (SELECT stadium_id FROM event) AS T1 JOIN event AS T2 ON t1.event_id = T2.id WHERE name = 'Australia'
+SELECT premises_type , COUNT(*) FROM artist GROUP BY role_code
+SELECT T1.artist_name , COUNT(*) FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name WHERE TYPE = "Herbs"
+SELECT max(used_kb) , Company_name FROM mailshot_customers GROUP BY Company_name
+SELECT T1.artist_name , count(*) FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name GROUP BY T2.artist_name
+SELECT title FROM albums; WHERE YEAR = "Nokia Cameron"
+SELECT T1.artist_name FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name WHERE T2.languages = "english"
+SELECT title , chromosome FROM vocals AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE title = "english"
+SELECT T1.artist_name , T1.country FROM country AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T2.song_name LIKE "%love%"
+SELECT name , LOCATION FROM stadium WHERE YEAR = 2017 INTERSECT SELECT LOCATION FROM stadium WHERE YEAR = 2017
+SELECT T1.name , T2.location FROM stadium AS T1 JOIN stadium AS T2 ON T1.id = T2.stadium_id WHERE T1.year = 2015 INTERSECT SELECT T1.name , T2.location FROM stadium AS T1 JOIN game AS T2 ON T1.id = T2.stadium_id WHERE T1.year = 2011
+SELECT count(*) FROM stadium ORDER BY capacity DESC LIMIT 1
+SELECT count(*) FROM stadium WHERE capacity = (SELECT game_id FROM stadium ORDER BY rental_rate DESC LIMIT 1
+SELECT count(*) FROM Student_Tests_Taken WHERE LENGTH = "2010-10-23"
+SELECT count(*) FROM furniture WHERE weight > 85
+SELECT Weight FROM people ORDER BY Height ASC LIMIT 1
+SELECT sum(T2.total) FROM customers AS T1 JOIN laptimes AS T2 ON T1.id = T2.game_id ORDER BY T2.Age LIMIT 1
+SELECT max(Milliseconds) , image_url FROM products
+SELECT Birth_Place , Weight FROM products
+SELECT count(*) FROM manufacturer WHERE age > 85
+SELECT count(*) FROM student WHERE age > 10
+SELECT count(*) FROM student AS T1 JOIN lives_in AS T2 ON T1.student_id = T2.student_id WHERE T2.activity_name = 'F'
+SELECT avg(T2.rating) FROM student AS T1 JOIN course AS T2 ON T1.stuid = T2.course_id WHERE T2.activity_name = "OTHA"
+SELECT count(DISTINCT acc_type) FROM vocals
+SELECT count(DISTINCT bedType) FROM products_for_hire
+SELECT T3.stu_fname FROM student AS T1 JOIN enroll AS T2 ON T1.stu_num = T2.stu_num WHERE T2.enroll_grade = 'C' OR T2.enroll_grade = 'A'
+SELECT T1.stu_fname FROM student AS T1 JOIN enroll AS T2 ON T1.stu_num = T2.stu_num WHERE T2.enroll_grade = 'A' OR T2.enroll_grade = 'A'
+SELECT T3.stu_fname FROM student AS T1 JOIN enroll AS T2 ON T1.stu_num = T2.stu_num WHERE T2.enroll_grade = 'C' INTERSECT SELECT T1.stuid FROM STUDENT WHERE enroll_grade = "PIT"
+SELECT T2.fname FROM Faculty AS T1 JOIN Faculty_participates_in AS T2 ON T1.StuID = T2.StuID WHERE T2.first_name = "Monterey" INTERSECT SELECT T1.StuID FROM Faculty AS T1 JOIN Student AS T2 ON T1.FacID = T2.advisor WHERE T1.CName = 520
+SELECT StuID FROM Student WHERE Major NOT IN (SELECT T1.StuID FROM Has_allergy AS T1 JOIN Allergy_Type AS T2 ON T1.Allergy = T2.Allergy WHERE T2.allergytype = "food")
+SELECT T1.student_id , T1.name_last FROM Student_Course_Enrolment AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.family_name = 'yes'
+SELECT StuID FROM students WHERE student_id NOT IN (SELECT student_id FROM student_course_attendance)
+SELECT StuID FROM Student EXCEPT SELECT StuID FROM student_course_attendance WHERE family_name = 301
+SELECT fname , age FROM student WHERE StuID NOT IN (SELECT StuID FROM Has_allergy WHERE Allergy = "Soy")
+SELECT fname FROM student WHERE city_code = 'PHL' EXCEPT SELECT T1.emp_fname FROM student AS T1 JOIN enroll AS T2 ON T1.stu_num = T2.stu_num WHERE enroll_grade = 'C'
+SELECT TYPE , avg(weight) FROM people ORDER BY Height ASC LIMIT 1
+SELECT T1.name , T1.AllergyType FROM customer AS T1 JOIN medicine_enzyme_interaction AS T2 ON T1.id = T2.game_id ORDER BY T2.duration DESC LIMIT 1
+SELECT user_name , sex FROM user_profiles WHERE followers > 85
+SELECT avg(damage_millions_USD) , max(damage_millions_USD) FROM users WHERE age > 1000
+SELECT avg(age) , min(age) , gender FROM Person GROUP BY gender
+SELECT avg(age) , min(age) , city_code FROM student GROUP BY sex
+SELECT avg(weight) , avg(weight) FROM products GROUP BY payment_method_code
+SELECT avg(weight) , avg(product_price) FROM products GROUP BY product_type_code
+SELECT DISTINCT T1.fname , T1.age FROM student AS T1 JOIN lives_in AS T2 ON T1.stuid = T2.stuid WHERE stu_gpa = 'C'
+SELECT DISTINCT T1.Fname , Age FROM Student WHERE Major = 600
+SELECT rID FROM Students WHERE LName = 121
+SELECT rID FROM participants WHERE lname = "orange"
+SELECT T1.student_id , count(*) FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id
+SELECT T2.student_id FROM Students AS T1 JOIN takes AS T2 ON T1.student_id = T2.class_code WHERE T2.activity_name = "advanced to the Wall"
+SELECT T2.emp_fname , T1.stu_lname FROM student AS T1 JOIN enroll AS T2 ON T1.stu_num = T2.stu_num GROUP BY T2.stu_num HAVING count(*) > 1
+SELECT fname , sex FROM student GROUP BY sex HAVING count(*) > 1
+SELECT LName FROM student WHERE age = (SELECT min(age) FROM student)
+SELECT T1.stu_lname FROM student AS T1 JOIN enroll AS T2 ON T1.stu_num = T2.stu_num WHERE T2.enroll_grade = 'A' AND T2.class_code = 10018
+SELECT avg(age) FROM student WHERE cust_id NOT IN (SELECT T1.StuID FROM loan)
+SELECT avg(age) FROM student WHERE city_code != 'HKG'
+SELECT count(*) FROM papers
+SELECT count(*) FROM enzyme
+SELECT T1.Service_Type_Description , T1.file_size , count(*) FROM country AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id GROUP BY T2.country_id
+SELECT T3.course_name , count(*) , country FROM constructors GROUP BY nationality
+SELECT count(*) FROM country
+SELECT count(*) FROM country
+SELECT card_id , stu_phone , count(*) FROM camera_lens AS T1 JOIN phone AS T2 ON T1.Model_name = T2.chip_model GROUP BY T1.id
+SELECT firstname , unit_of_measure FROM Rooms WHERE billing_country = "Banking"
+SELECT Model_name FROM chip_model ORDER BY RAM_MiB ASC LIMIT 1
+SELECT T2.cell_mobile_number FROM chip_model AS T1 JOIN phone AS T2 ON T1.Model_name = T2.chip_model WHERE T2.invoice_number = 102.76
+SELECT model_name FROM chip_model WHERE weight < (SELECT avg(max_speed) FROM Aircraft)
+SELECT Model_name FROM people WHERE weight < (SELECT avg(height) FROM furniture_manufacte)
+SELECT title FROM vocals WHERE title = 'Statistics'
+SELECT DISTINCT T1.name FROM races AS T1 JOIN flight AS T2 ON T1.id = T2.genre_id WHERE T1.name = "Rock";
+SELECT min(T1.duration) , T3.Representative_Name FROM files AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T2.event_details = "pop"
+SELECT title , Duration FROM course
+SELECT DISTINCT T2.Hardware_Model_name FROM chip_model AS T1 JOIN phone AS T2 ON T1.Graphics_mode = T2.screen_mode WHERE T1.used_kb > 1880
+SELECT DISTINCT chip_model FROM Customers_cards WHERE card_number > 3000
+SELECT decor , count(*) FROM Financial_transactions GROUP BY label
+SELECT count(*) , T1.name FROM constructors AS T1 JOIN people AS T2 ON T1.team_id_loser = T2.team_id_br GROUP BY T1.name;
+SELECT country FROM stadium GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT country FROM airlines WHERE competition_type = 'Tournament' GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) , Company_name FROM Vehicles; GROUP BY Destroyed_by_Employee_ID
+SELECT card_id , customer_first_name FROM camera_lens GROUP BY constructorid
+SELECT title FROM Aircraft WHERE T2.customer_first_name = "LG-P760";
+SELECT count(*) FROM browser WHERE name = "Fast As a Shark";
+SELECT count(*) FROM team_franchise WHERE name = "Mountain Corporation";
+SELECT count(*) FROM appointment WHERE outcome_code = 'King';
+SELECT count(*) FROM chip_model AS T1 JOIN team AS T2 ON T1.team_id_loser = T2.team_id_br WHERE T2.name = 'Boston Red Stockings'
+SELECT count(*) FROM MEDIATYPE WHERE wifi = 'No'
+SELECT AVG(Milliseconds) FROM files AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T1.first_name = 'LINDA'
+SELECT avg(RAM_MiB) FROM Customers_cards WHERE card_type_code = "Debit"
+SELECT AVG(Milliseconds) FROM body_builder AS T1 JOIN people AS T2 ON T1.Model_name = T2.id WHERE T2.Birth_Date = "Latin"
+SELECT avg(T1.height) FROM body_builder AS T1 JOIN people AS T2 ON T1.Model_name = T2.id WHERE T2.Birth_Date = "Latin"
+SELECT forename , Duration FROM Rooms
+SELECT head_id , Appelation FROM Rooms
+SELECT country , distance FROM branch WHERE membership_amount >= 20
+SELECT start_station_id , Country FROM Financial_transactions WHERE billing_country = "BK"
+SELECT count(*) FROM products WHERE title = "Fast Staff'
+SELECT count(*) FROM tracks WHERE id > 1000
+SELECT avg(weight) , avg(weight) FROM GENRE GROUP BY avg(weight)
+SELECT avg(weight) , min(weight) , YEAR FROM customer GROUP BY sex
+SELECT country FROM stadium WHERE competition_type = 'Friendly' GROUP BY country HAVING count(*) >= 3
+SELECT name FROM swimmer GROUP BY nationality HAVING COUNT(*) >= 3
+SELECT T1.duration , min(T1.RAM_MiB) FROM chip_model AS T1 JOIN phone AS T2 ON T1.Model_name = T2.chip_model WHERE T1.Type = "Pop"
+SELECT Model_name , RAM_MiB FROM chip_model WHERE model_name = "4560596484842"
+SELECT Model_name FROM chip_model WHERE model_name = (SELECT chip_model FROM chip_model
+SELECT chip_model FROM chip_model ORDER BY RAM_MiB DESC LIMIT 1
+SELECT avg(Speed) FROM products WHERE languages = "Fast Jose"
+SELECT AVG(Milliseconds) FROM files AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T2.genre_is = 'Marketing'
+SELECT AVG(UnitPrice) FROM products WHERE name = "Fast As a Shark";
+SELECT AVG(UnitPrice) FROM products
+SELECT max(T1.length_meters) , COUNT(*) FROM Rooms GROUP BY Competition
+SELECT DISTINCT T1.file_size FROM products AS T1 JOIN Manufacturers AS T2 ON T1.f_id = T2.track_id
+SELECT Model_name FROM chip_model AS T1 JOIN phone AS T2 ON T1.Model_name = T2.chip_model WHERE T2.Product_Name = 2002 GROUP BY T1.product_name ORDER BY count(*) DESC LIMIT 1
+SELECT chip_model FROM chip_model GROUP BY gtype ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM files WHERE duration > 4
+SELECT count(*) FROM files WHERE duration > 4
+SELECT count(*) FROM postseason WHERE Allergy = "Cancelled";
+SELECT count(*) FROM item WHERE title = "Fast Failure"
+SELECT count(*) FROM chip_model AS T1 JOIN team AS T2 ON T1.Model_name = T2.team_id_br WHERE T2.first_name = 'Boston Red Stockings'
+SELECT count(*) FROM MEDIATYPE AS T1 JOIN phone AS T2 ON T1.Model_name = T2.chip_model WHERE T2.Company_name = "Nokia Corporation";
+SELECT product_details , roomName , T1.Hardware_colours FROM phone GROUP BY complaint_status_code HAVING count(*) > 3
+SELECT T1.Name , T1.driverid FROM user_profiles AS T1 JOIN review AS T2 ON T1.i_id = T2.i_id GROUP BY T2.i_id HAVING count(*) > 3
+SELECT product_details FROM products WHERE product_details = "%Latte%" OR product_details > 5
+SELECT DISTINCT T1.type FROM chip_model AS T1 JOIN phone AS T2 ON T1.Model_name = T2.chip_model WHERE T2.Company_name = "Nokia Corporation";
+SELECT date FROM races WHERE YEAR NOT IN (SELECT Winning_Pilot FROM hosting_city GROUP BY YEAR HAVING count(*) > 8
+SELECT DISTINCT YEAR FROM weather WHERE YEAR > 220 INTERSECT SELECT DISTINCT YEAR FROM Albums WHERE YEAR > 1000
+SELECT avg(velocity) FROM aircraft ORDER BY altitude DESC LIMIT 1
+SELECT avg(velocity) FROM aircraft ORDER BY altitude DESC LIMIT 1
+SELECT count(*) FROM Vehicles WHERE wifi = "LG-P760";
+SELECT milliseconds FROM tracks WHERE T1.first_name = "Fast As a Shark";
+SELECT * FROM furniture WHERE complaint_type_code > (SELECT avg(product_price) FROM track)
+SELECT count(*) FROM products WHERE name = 'Cytosol' GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM country WHERE country_id > 2
+SELECT country FROM airport WHERE competition_type = 'Friendly' GROUP BY country HAVING count(*) > 2
+SELECT count(*) FROM Reservations WHERE T1.CName > 8
+SELECT title FROM vocals WHERE title LIKE '%International%'
+SELECT f_id FROM chip_model ORDER BY RAM_MiB DESC LIMIT 1
+SELECT problem_log_id FROM item GROUP BY max_page_size ORDER BY count(*) DESC LIMIT 5;
+SELECT T1.name , T1.last_name , T1.fault_log_entry_datetime FROM game AS T1 JOIN MATCH AS T2 ON T1.department_id = T2.department_id GROUP BY T2.Winning_Aircraft HAVING count(*) > 3
+SELECT stu_fname , stu_lname FROM files WHERE duration < (SELECT avg(stu_gpa) FROM student)
+SELECT AVG(Milliseconds) FROM GENRE AS T1 JOIN TRACK AS T2 ON T1.GenreId = T2.GenreId WHERE T1.Name = "Latin" OR T1.Name < 5
+SELECT max(Milliseconds) FROM files AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T1.duration = "mp3" UNION SELECT song_name FROM song WHERE T1.duration < 1000
+SELECT Model_name FROM chip_model AS T1 JOIN TRACK AS T2 ON T1.product_id = T2.course_id WHERE T1.Type = "Graphics"
+SELECT DISTINCT chip_model FROM phone WHERE product_details = "LG-P760";
+SELECT country FROM competition EXCEPT SELECT country FROM competition WHERE competition_type = 'Friendly'
+SELECT name FROM addresses WHERE country != 'Hartford'
+SELECT T1.name , T1.location FROM products AS T1 JOIN Manufacturers AS T2 ON T1.Aircraft_ID = T2.Winning_Aircraft GROUP BY T2.Winning_Aircraft HAVING count(*) >= 3
+SELECT T1.name , STOP FROM Vehicles AS T1 JOIN products AS T2 ON T1.zip_code = T2.zip_code GROUP BY T2.zip_code HAVING count(*) >= 3
+SELECT T1.name , T1.country FROM country AS T1 JOIN song AS T2 ON T1.id = T2.country_id GROUP BY T1.id HAVING COUNT(*) > 3 UNION SELECT name , id FROM circuits WHERE installation_date = "Defender"
+SELECT T1.WiFi , T1.country FROM country AS T1 JOIN invoices AS T2 ON T2.medicine_id = T1.id GROUP BY T1.id HAVING count(*) > 3 UNION SELECT name , id FROM circuits WHERE installation_date = 'activitor'
+SELECT country FROM customers WHERE title = "Demon Ernser"
+SELECT country FROM customers WHERE title = "sesame"
+SELECT product_category_description FROM products WHERE name = "Fast Kitty Rag"
+SELECT title FROM vocals WHERE name LIKE "%Latte%"
+SELECT vehicle_flight_number , name FROM airlines WHERE Airport_Name = "London Heathrow"
+SELECT T1.name , T2.alid FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid JOIN airport AS T3 ON T1.alid = T3.alid WHERE T2.hours = "London Airlines'
+SELECT T1.name , STOP FROM airport AS T1 JOIN routes AS T2 ON T1.apid = T2.src_apid WHERE city = 'Canada'
+SELECT rid FROM airport WHERE first_name = "Roberto" AND last_name = 'Argentina'
+SELECT count(*) FROM airlines
+SELECT count(*) FROM airlines
+SELECT count(*) FROM country
+SELECT count(*) FROM Customers
+SELECT count(*) FROM Flight
+SELECT count(*) FROM Flight
+SELECT T1.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid WHERE T1.first_name = 'American Airlines'
+SELECT T1.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid WHERE T1.first_name = 'American Airlines'
+SELECT count(*) FROM airlines WHERE country = 'Russia'
+SELECT count(*) FROM airlines WHERE country = 'Russia'
+SELECT city , country FROM airports WHERE city = 'United York'
+SELECT city , country FROM addresses WHERE name LIKE "4%"
+SELECT name FROM airports WHERE name = 'Goroka'
+SELECT name FROM airports WHERE name = 'Cuba'
+SELECT route_name FROM routes AS T1 JOIN airports AS T2 ON T1.dst_apid = T2.apid WHERE T1.name = 'Italy'
+SELECT region_name FROM airports WHERE country = 'Goroka'
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT count(*) FROM Flight WHERE origin = "Mountain Angeles"
+SELECT count(*) FROM Flight WHERE origin = "Los Angeles"
+SELECT count(*) FROM Flight WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Airbus Angeles"
+SELECT count(*) FROM Flight WHERE origin = "Mountain Angeles"
+SELECT flno FROM Flight WHERE origin = "Airbus Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles" AND destination = "Honolulu"
+SELECT count(*) FROM Flight WHERE origin = "Los Angeles"
+SELECT count(*) FROM flight AS T1 JOIN flight AS T2 ON T1.id = T2.airport_id WHERE T1.name = 'American Airlines'
+SELECT title FROM Ref_colors WHERE name = "Fast Kitty City'
+SELECT count(*) FROM Residents WHERE name = "Los Angeles"
+SELECT count(*) FROM flight AS T1 JOIN flight AS T2 ON T1.id = T2.airport_id WHERE country = 'Canada'
+SELECT count(*) FROM Residents WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT count(*) FROM airport WHERE origin = "Mountain Angeles"
+SELECT count(*) FROM flight AS T1 JOIN flight AS T2 ON T1.id = T2.airport_id WHERE country = 'Canada'
+SELECT city FROM airports GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT T2.dst_apid FROM Tourist_Attractions AS T1 JOIN airports AS T2 ON T1.dst_apid = T2.city_id GROUP BY T1.city_id ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM airports GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT t3.city FROM airports AS T1 JOIN routes AS T2 ON T1.apid = T2.dst_apid GROUP BY T2.dst_apid ORDER BY count(*) DESC LIMIT 1
+SELECT destination FROM airport GROUP BY destination ORDER BY count(*) DESC LIMIT 1
+SELECT name FROM airports WHERE destination = 'Goroka' GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT destination FROM Flight GROUP BY destination ORDER BY count(*) LIMIT 1
+SELECT flno FROM airport ORDER BY elevation ASC LIMIT 1
+SELECT T1.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid GROUP BY T1.name ORDER BY count(*) DESC LIMIT 1
+SELECT origin FROM Flight GROUP BY origin ORDER BY count(*) DESC LIMIT 1
+SELECT country , country FROM Flight GROUP BY country ORDER BY count(*) ASC LIMIT 1
+SELECT crs_credit , Country FROM Flight GROUP BY Country ORDER BY count(*) ASC LIMIT 1
+SELECT T1.flno FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid WHERE T1.name = 'American Airlines'
+SELECT T2.name FROM Flight AS T1 JOIN flight AS T2 ON T1.company_id = T2.company_id WHERE T1.name = 'China'
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT T2.name FROM Flight AS T1 JOIN airports AS T2 ON T1.dst_apid = T2.apid WHERE T1.name = "Airbus Airlines'
+SELECT T1.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid WHERE T1.name = 'American Airlines'
+SELECT T1.name FROM airlines AS T1 JOIN flight AS T2 ON T1.id = T2.airport_id WHERE T1.firstname = "Dameon" AND T1.name = 'American Airport'
+SELECT sum(Domestic_Passengers) FROM routes WHERE dst_apid = "Banking" EXCEPT SELECT T1.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid WHERE T1.name = 'American Airlines'
+SELECT T1.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid WHERE T1.name = "Dameon" AND T1.name != Airport'
+SELECT T2.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid GROUP BY T1.name HAVING count(*) >= 10
+SELECT T2.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid GROUP BY T1.name HAVING count(*) >= 10
+SELECT T1.name FROM airlines AS T1 JOIN routes AS T2 ON T1.alid = T2.alid WHERE T2.bikes_available < 10
+SELECT name FROM airlines WHERE distance < 200
+SELECT T1.flno FROM drivers AS T1 JOIN driverstandings AS T2 ON T1.id = T2.driverid WHERE T1.duration = "Demon Harris"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT T1.flno FROM Flight AS T1 JOIN Flight AS T2 ON T1.aid = T2.aid WHERE origin = "Los A340-300"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT flno FROM Flight WHERE origin = "Los Angeles"
+SELECT T1.flno FROM Flight AS T1 JOIN Aircraft AS T2 ON T1.aid = T2.aid WHERE T2.document_name = "Airbus A340-300"
+SELECT count(*) FROM Flight WHERE city = "Los Angeles" OR origin = "Los Angeles"
+SELECT count(*) FROM Flight WHERE origin = "Los Angeles" OR origin = "Los Angeles"
+SELECT name FROM airports EXCEPT SELECT T1.name FROM airports AS T1 JOIN routes AS T2 ON T1.apid = T2.src_apid WHERE T1.name = 'China'
+SELECT name FROM airports EXCEPT SELECT T1.name FROM airports AS T1 JOIN routes AS T2 ON T1.apid = T2.src_apid WHERE T1.name = 'American TO Stockings' OR country = 'Canada'
+SELECT count(*) FROM Staff;
+SELECT count(*) FROM Staff;
+SELECT name FROM employees ORDER BY age
+SELECT Name FROM Employees ORDER BY Age ASC
+SELECT gender , count(*) FROM employees GROUP BY gender
+SELECT rank , count(*) FROM employees GROUP BY department_id
+SELECT city FROM Addresses WHERE age < 40 GROUP BY city HAVING count(*) > 1
+SELECT city FROM employees WHERE age < 40 GROUP BY city HAVING count(*) > 1
+SELECT t3.headquartered_city , count(*) FROM store AS t1 JOIN furniture_manufacte AS t2 ON t1.store_id = t2.store_id JOIN district AS t3 ON t2.district_id = t3.district_id GROUP BY t3.headquartered_city
+SELECT t3.headquartered_city , count(*) FROM store AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID GROUP BY T1.Shop_ID
+SELECT shop_id , City_Population FROM shop WHERE store_id = (SELECT avg(score) FROM shop)
+SELECT Shop_Name , City_Population FROM shop ORDER BY Open_Year DESC LIMIT 1
+SELECT max(Cows) , max(product_price) , t1.typical_selling_price FROM catalog_contents
+SELECT Low_Estimate , max(product_price) FROM manufacturer
+SELECT name , LOCATION , floors FROM shop ORDER BY Shop_Name DESC
+SELECT shop_id , LOCATION , floors FROM manufacturer ORDER BY Open_Year DESC
+SELECT t1.store_name FROM store AS t1 JOIN store_district AS t2 ON t1.store_id = t2.store_id JOIN district AS t3 ON t2.district_id = t3.district_id WHERE t3.store_name > (SELECT t1.store_name FROM District"
+SELECT Shop_Name FROM shop WHERE rental_date > (SELECT avg(score) FROM products)
+SELECT T1.name FROM Employee AS T1 JOIN Certificate AS T2 ON T1.eid = T2.eid JOIN Aircraft AS T3 ON T3.aid = T2.aid GROUP BY T1.eid ORDER BY count(*) DESC LIMIT 1
+SELECT Employees.employee_name FROM employees WHERE first_name = "Nancy" AND last_name = "Edwards";
+SELECT T1.name FROM Employee AS T1 JOIN Certificate AS T2 ON T1.eid = T2.eid GROUP BY T1.eid ORDER BY count(*) DESC LIMIT 1
+SELECT T1.first_name FROM employees AS T1 JOIN employees AS T2 ON T1.reports_to = T2.id ORDER BY T2.rental_date DESC LIMIT 1
+SELECT name FROM Employee WHERE engineer_id NOT IN (SELECT engineer_id FROM Engineer_Visits)
+SELECT name FROM Employee WHERE id NOT IN (SELECT engineer_id FROM Employee)
+SELECT Shop_Name FROM shop GROUP BY store_id ORDER BY count(*) DESC LIMIT 1
+SELECT t3.headquartered_city FROM shop AS t1 JOIN shop AS t2 ON T1.Shop_ID = T2.Shop_ID GROUP BY T1.Shop_ID ORDER BY count(*) DESC LIMIT 1
+SELECT Shop_Name FROM shop WHERE Shop_ID NOT IN (SELECT Shop_ID FROM stock)
+SELECT Shop_Name FROM shop WHERE Shop_ID NOT IN (SELECT Shop_ID FROM Office_locations)
+SELECT T3.Shop_Name FROM stock AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE store_id = 1 GROUP BY T1.Shop_ID
+SELECT T1.name , count(*) FROM employees AS T1 JOIN departments AS T2 ON T1.department_id = T2.department_id GROUP BY T2.department_name
+SELECT title FROM item
+SELECT max(OMIM) FROM item
+SELECT * FROM tweets
+SELECT * FROM tweets
+SELECT District_name FROM district WHERE city_area < 2012 INTERSECT SELECT district FROM store WHERE city_population > 50000
+SELECT District_name FROM shop WHERE Open_Year < 2012 INTERSECT SELECT district FROM shop WHERE Open_Year > 50000
+SELECT count(DISTINCT roomtype) FROM store
+SELECT count(DISTINCT bedType) FROM store
+SELECT count(*) FROM Documents_with_expenses
+SELECT count(*) FROM Documents
+SELECT document_id , document_name , document_description FROM Documents;
+SELECT account_id , date_account_opened , document_description FROM Documents
+SELECT T1.document_id , T2.document_name FROM Ref_document_types AS T1 JOIN Ref_document_types AS T2 ON T1.document_type_code = T2.document_type_code WHERE T1.document_name LIKE '%s%'
+SELECT document_name , document_name FROM Documents WHERE document_name LIKE "%CV%"
+SELECT document_id , genre_is , document_description FROM Documents WHERE document_name = 'Noel CV'
+SELECT document_id , genre_is , document_description FROM Documents WHERE document_name = 'Noel CV'
+SELECT count(DISTINCT SOURCE) FROM Ref_Document_Status;
+SELECT count(DISTINCT label) FROM Documents
+SELECT count(*) FROM Documents WHERE document_type_code = "done";
+SELECT count(*) FROM Documents AS T1 JOIN Ref_document_types AS T2 ON T1.document_id = T2.document_id WHERE T1.document_name = "King to read a book"
+SELECT invoice_number , count(*) FROM Documents GROUP BY product_category
+SELECT product_category , count(*) FROM Player_Attributes GROUP BY semester , t1.other_characteristic_details
+SELECT T1.incident_type_code , T2.incident_type_description FROM files AS T1 JOIN medicine_enzyme_interaction AS T2 ON T1.customer_id = T2.customer_id GROUP BY T1.customer_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.document_type_name , T2.budget_type_description FROM files AS T1 JOIN medicine_enzyme_interaction AS T2 ON T1.order_id = T1.id GROUP BY T1.id ORDER BY count(*) DESC LIMIT 1
+SELECT f_id FROM documents GROUP BY formats HAVING count(*) > 1
+SELECT f_id FROM TRACK GROUP BY date_of_latest_revision HAVING count(*) > 1
+SELECT vehicle_id FROM Vehicles; EXCEPT SELECT Destroyed_by_Employee_ID FROM Documents_with_expenses
+SELECT vehicle_id FROM ARTIST EXCEPT SELECT rID FROM Documents_with_expenses
+SELECT count(*) FROM papers
+SELECT count(*) FROM papers
+SELECT min(Order_Quantity) , T1.file_size , Participant_Details FROM Ref_document_types
+SELECT card_id , T1.forename , mean_humidity FROM enzyme
+SELECT DISTINCT document_type_code FROM teachers
+SELECT DISTINCT form_type_code FROM race
+SELECT f_id FROM ref_product_categories WHERE product_category_code = "Green"
+SELECT f_id FROM Documents WHERE product_category_code = "Spices" OR document_type_code = "Kohler"
+SELECT count(*) FROM vocals WHERE participant_type_code = "flax"
+SELECT count(*) FROM vocals WHERE TYPE = "lead"
+SELECT crs_credit FROM products WHERE product_details > 8
+SELECT Num_of_Component FROM Rooms WHERE incident_type_code > 1000
+SELECT TYPE , count(*) FROM Products GROUP BY Product_Type_Code
+SELECT allergytype , count(*) FROM medicine_enzyme_interaction GROUP BY allergytype
+SELECT policy_type_code FROM vocals GROUP BY zip_code ORDER BY count(*) DESC LIMIT 1
+SELECT TYPE FROM vocals GROUP BY customer_type_code ORDER BY count(*) DESC LIMIT 1
+SELECT TYPE FROM Products GROUP BY gtype HAVING count(*) < 3
+SELECT TYPE FROM vocals GROUP BY TYPE HAVING count(*) < 3
+SELECT max(Milliseconds) , date_incident_end FROM furniture WHERE crs_code = "enrico09@example.com"
+SELECT T1.incident_type_code , t1.other_characteristic_details , t1.characteristic_data_type FROM CHARACTERISTICS AS T1 JOIN people AS T2 ON T1.medicine_id = T2.id
+SELECT incident_type_description FROM All_documents WHERE document_type_code = 'Iron CV"
+SELECT max(t2.active_to_date) FROM All_documents AS T1 JOIN Ref_document_types AS T2 ON T1.document_type_code = T2.document_type_code WHERE T1.document_name = "How to read a book"
+SELECT document_name FROM documents WHERE document_name LIKE "%CV%"
+SELECT document_name FROM documents WHERE document_name = "David CV"
+SELECT TYPE , count(*) FROM Documents GROUP BY TYPE
+SELECT TYPE , count(*) FROM Documents GROUP BY allergytype
+SELECT policy_type_code FROM Ref_Incident_Type GROUP BY policy_type_code ORDER BY count(*) DESC LIMIT 1
+SELECT product_type_code FROM products GROUP BY product_type_code ORDER BY count(*) DESC LIMIT 1
+SELECT product_type_code FROM Products EXCEPT SELECT T1.product_name FROM Products AS T1 JOIN Order_items AS T2 ON T1.card_id = T2.Product_ID
+SELECT TYPE FROM enzyme WHERE TYPE != 'Heme'
+SELECT TYPE , Product_Type_Code FROM Products
+SELECT premises_type , budget_type_description FROM premises
+SELECT product_category_description FROM ref_product_categories WHERE product_category_code = "Herbs"
+SELECT product_category_description FROM ref_product_categories WHERE product_category_code = "Herbs"
+SELECT product_category_description FROM Ref_Document_Types WHERE document_description = "Herbs"
+SELECT Product_Type_Code FROM vocals WHERE document_description = "VIOLENCE"
+SELECT DISTINCT form_type_code FROM enzyme WHERE Device_ID LIKE "%Latte%"
+SELECT course_description FROM catalog_contents WHERE product_stock_number LIKE "2%"
+SELECT product_category_description FROM ref_product_categories WHERE T2.product_description = "LG-P760";
+SELECT product_category_description FROM products WHERE product_details = "Chocolate"
+SELECT count(*) FROM papers
+SELECT count(*) FROM papers
+SELECT count(*) FROM All_documents WHERE T1.document_name LIKE "done";
+SELECT count(*) FROM All_documents AS T1 JOIN Ref_document_types AS T2 ON T1.document_id = T2.document_id WHERE T1.document_name = "King to read a book"
+SELECT * FROM ref_colors WHERE product_details LIKE "%Latte%"
+SELECT title FROM tweets WHERE text LIKE '%intern%'
+SELECT T1.lesson_id , T2.document_name FROM Ref_document_types AS T1 JOIN Documents AS T2 ON T1.document_id = T2.document_id WHERE T2.document_name = "LG-P760";
+SELECT document_id FROM documents WHERE document_name = "David CV"
+SELECT * FROM documents WHERE T2.document_name = "David CV"
+SELECT t2.section_title FROM documents AS t1 JOIN document_sections AS t2 ON t1.document_code = t2.document_code JOIN functional_areas AS t3 ON t2.characteristic_id = t3.characteristic_id WHERE t1.product_name = "sesame"
+SELECT document_id , count(*) FROM Documents_to_be_destroyed GROUP BY document_type_code ORDER BY count(*)
+SELECT document_id , count(*) FROM Documents_to_be_destroyed GROUP BY document_type_code ORDER BY count(*)
+SELECT document_type_code , count(*) FROM Documents_to_be_destroyed GROUP BY document_type_code
+SELECT count(*) , nationality FROM constructors GROUP BY document_id;
+SELECT document_id FROM Documents GROUP BY document_id HAVING count(*) >= 2
+SELECT document_id FROM Documents GROUP BY document_id HAVING count(*) >= 2
+SELECT document_id , name FROM Documents GROUP BY document_id ORDER BY count(*) DESC LIMIT 1
+SELECT document_id , document_name FROM Documents GROUP BY document_type_code ORDER BY count(*) DESC LIMIT 1
+SELECT document_id FROM Documents WHERE document_id = 'SF'
+SELECT document_id FROM Documents GROUP BY document_type_code ORDER BY count(*) ASC LIMIT 1
+SELECT document_id FROM files GROUP BY document_type_code HAVING count(*) = 2
+SELECT document_id FROM Documents GROUP BY document_type_code HAVING count(*) BETWEEN 2 AND Documents_with_expenses
+SELECT document_id FROM Documents WHERE T1.document_name = "done" AND document_type_code = "Paper";
+SELECT T1.document_id FROM Documents AS T1 JOIN ARTIST AS T2 ON T1.document_id = T2.document_id WHERE T1.document_name LIKE '%s%'
+SELECT count(*) FROM list
+SELECT count(*) FROM Tasks
+SELECT Name FROM Teachers ORDER BY Age ASC
+SELECT Name FROM Teachers ORDER BY Age ASC
+SELECT max(Age) , Age FROM Guests
+SELECT T1.age , guest_last_name FROM people WHERE death_year = "German"
+SELECT title FROM Teachers WHERE name != 'Alice' AND last_name != last_name
+SELECT title FROM Teachers WHERE friend != '%man%'
+SELECT Name FROM Teachers WHERE role_code = "HR" OR date_from = "Temple"
+SELECT Name FROM teachers WHERE Age = 1 OR Age = 109
+SELECT T1.Total_Points FROM gymnast AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.People_ID ORDER BY T2.Age LIMIT 1
+SELECT address FROM TEACHERS WHERE job = 'student'
+SELECT T2.Hometown , COUNT(*) FROM list AS T1 JOIN teachers AS T2 ON T1.classroom = T2.classroom GROUP BY T2.firstname
+SELECT count(*) , role_code FROM list GROUP BY role_code
+SELECT T2.Hometown FROM people AS T1 JOIN playlist_tracks AS T2 ON T1.id = T2.game_id GROUP BY T2.Host_city_ID ORDER BY COUNT(*) DESC LIMIT 1
+SELECT Description FROM trip GROUP BY start_station_name ORDER BY COUNT(*) DESC LIMIT 1
+SELECT T2.Hometown FROM gymnast AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.People_ID GROUP BY T2.Hometown HAVING COUNT(*) >= 2
+SELECT T1.Service_Type_Description FROM Reservations AS T1 JOIN Teachers AS T2 ON T1.Room = T2.RoomId GROUP BY T1.Room HAVING count(*) >= 2
+SELECT T1.name , T3.prof_high_degree FROM Course_Authors_and_Tutors AS T1 JOIN Teachers AS T2 ON T1.teacher_id = T2.teacher_id WHERE T2.subject_name = "film"
+SELECT T1.name , T1.stu_lname , T4.crs_description FROM ENROLLED_IN AS T1 JOIN Teachers AS T2 ON T1.name = T2.friend WHERE T1.CName = "AFTER"
+SELECT course_name FROM on_call WHERE T2.course_name = "Florida" ORDER BY basePrice;
+SELECT name FROM Course_Authors_and_Tutors ORDER BY personal_name
+SELECT T2.firstname FROM list AS T1 JOIN teachers AS T2 ON T1.classroom = T2.classroom WHERE T2.firstname = "OTHA" AND T2.lastname = "Medhurst"
+SELECT DISTINCT T2.lastname FROM list AS T1 JOIN teachers AS T2 ON T1.classroom = T2.classroom WHERE T2.firstname = 'Alice' AND T2.lastname = 'female'
+SELECT T1.name , COUNT(*) FROM nurse AS T1 JOIN on_call AS T2 ON T1.EmployeeID = T2.nurse GROUP BY T1.teacher_id
+SELECT count(*) , T1.name FROM department AS T1 JOIN on_call AS T2 ON T1.EmployeeID = T2.nurse GROUP BY T1.teacher_id
+SELECT How_to_Get_There FROM teachers GROUP BY emp_jobcode HAVING count(*) >= 2
+SELECT T2.roomName FROM list AS T1 JOIN teachers AS T2 ON T1.classroom = T2.classroom GROUP BY T2.firstname HAVING count(*) >= 2
+SELECT name FROM Teachers EXCEPT SELECT T1.name FROM Lessons AS T1 JOIN Teachers AS T2 ON T1.teacher_id = T2.teacher_id
+SELECT customer_name FROM course WHERE course_id NOT IN (SELECT course_id FROM prereq)
+SELECT count(*) FROM Person WHERE age < 40
+SELECT T1.interaction_type FROM body_builder AS T1 JOIN constructorstandings AS T2 ON T1.bandmate = T2.id WHERE stageposition > 140 ORDER BY T1.title
+SELECT count(*) FROM All_documents WHERE address != 'Hartford'
+SELECT T1.theme , T2.party_name FROM member AS T1 JOIN member AS T2 ON T1.Member_ID = T2.Member_ID WHERE T2.Rank_in_Round > 6000
+SELECT T1.staff_id , T1.staff_name FROM staff AS T1 JOIN Staff_Department_Assignments AS T2 ON T1.staff_id = T2.staff_id GROUP BY T2.staff_id ORDER BY count(*) DESC LIMIT 1
+SELECT avg(price) FROM Project_Staff WHERE billing_city = "Janessa" AND YEAR < 2005
+SELECT year_opened FROM Products_for_hire WHERE origin = "Janessa" AND last_name = "Sawayn";
+SELECT date FROM staff WHERE hours > 700
+SELECT id , age , age FROM races WHERE dorm_name > 85
+SELECT T1.name , T1.other_account_details , T1.organisation_details FROM accounts AS T1 JOIN laptimes AS T2 ON T1.driverid = T2.driverid GROUP BY T1.statement_id ORDER BY count(*) DESC LIMIT 1
+SELECT head_id , name FROM Staff GROUP BY name ORDER BY count(*) DESC LIMIT 1
+SELECT name FROM instructor WHERE id NOT IN (SELECT id FROM prereq)
+SELECT T1.name , T1.age FROM customers AS T1 JOIN train AS T2 ON T1.Club_ID = T2.Club_ID GROUP BY T2.dormid ORDER BY count(*) DESC LIMIT 1
+SELECT avg(price_in_euros) , avg(basePrice) FROM Invoices WHERE bedtype = "MasterCard"
+SELECT avg(T1.sales) FROM Bookings AS T1 JOIN coach AS T2 ON T1.exhibition_id = T2.exhibition_id WHERE T2.budget_type_Description = "Ebba"
+SELECT ResName FROM PHOTOS AS T1 JOIN has_amenity AS T2 ON T1.Tourist_Attraction_ID = T2.Tourist_Attraction_ID WHERE T1.city < T2.Jul INTERSECT SELECT T2.Name FROM STAFF AS T1 JOIN has_amenity AS T2 ON T1.Tourist_Attraction_ID = T2.Tourist_Attraction_ID WHERE T1.student_capacity > 100000
+SELECT count(*) FROM item WHERE id NOT IN ( SELECT enzyme_id FROM medicine_enzyme_interaction WHERE LENGTH > 8
+SELECT count(*) FROM home_game WHERE budgeted > "1989-09-03" OR YEAR < '1989-04-24 23:51:54'
+SELECT count(*) FROM player
+SELECT count(*) FROM player
+SELECT count(*) FROM Vehicles;
+SELECT count(*) FROM volume
+SELECT name_first , name_last FROM player WHERE country = '';
+SELECT name_first , name_last FROM player
+SELECT avg(age) , job FROM Person
+SELECT avg(age) FROM products WHERE job = "UK" AND pages_per_minute_color = 1
+SELECT min(rank) FROM TRACK
+SELECT AVG(UnitPrice) FROM TRACK
+SELECT min(rank) FROM review
+SELECT min(rank) FROM MATCH
+SELECT count(DISTINCT SOURCE) FROM injury_accident
+SELECT count(DISTINCT T1.Official_native_language) FROM player
+SELECT count(DISTINCT Name) FROM PHOTOS
+SELECT count(DISTINCT Name) FROM Person
+SELECT T1.title FROM constructors AS T1 JOIN constructorstandings AS T2 ON T1.constructorid = T2.constructorid GROUP BY T2.GenreId HAVING avg(bikes_available) > 10
+SELECT name FROM people WHERE points > 10
+SELECT title FROM albums; WHERE director = 'James Cameron" INTERSECT SELECT player_api_id FROM song WHERE replacement_cost = 1
+SELECT pName FROM Player WHERE birth_country = "Midfielder" INTERSECT SELECT player_api_id FROM Player_Attributes WHERE preferred_foot = "Defender"
+SELECT COUNT(*) FROM MATCH WHERE YEAR = 1885 OR YEAR = 2010
+SELECT count(*) FROM MATCH WHERE LOCATION = "England" OR Eliminated_By = "Orton"
+SELECT T1.country , T1.state_province_county FROM country AS T1 JOIN match_season AS T2 ON T1.Country_id = T2.Country WHERE T2.College = "Maryland" INTERSECT SELECT T1.country , T1.name_last FROM country AS T1 JOIN match_season AS T2 ON T1.Country_id = T2.Country WHERE T1.Country_name = "Defender"
+SELECT T1.state , name_last FROM player AS T1 JOIN player_award AS T2 ON T1.player_id = T2.player_id WHERE T2.College = 1998 INTERSECT SELECT T1.Country_name , name_last FROM country AS T1 JOIN match_season AS T2 ON T1.Country_id = T2.Country WHERE T1.Country_name = "Indonesia"
+SELECT emp_fname , country FROM employee ORDER BY age LIMIT 1
+SELECT emp_fname , country FROM Student ORDER BY age LIMIT 1
+SELECT name_first , name_last FROM player ORDER BY emp_dob
+SELECT fname , lname FROM actor ORDER BY age
+SELECT Date_Claim_Made FROM player WHERE birth_country = '';
+SELECT fname , lname FROM people ORDER BY date_of_birth
+SELECT T1.name_first , name_last FROM player AS T1 JOIN player_award AS T2 ON T1.player_id = T2.player_id GROUP BY T1.player_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name_first , T1.country FROM player AS T1 JOIN player_award AS T2 ON T1.player_id = T2.player_id GROUP BY T1.player_id ORDER BY count(*) DESC LIMIT 1
+SELECT YEAR FROM SECTION GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1
+SELECT YEAR FROM SECTION GROUP BY YEAR ORDER BY count(*) DESC LIMIT 1
+SELECT t1.name , rank FROM captain AS T1 JOIN captain AS T2 ON T1.team_id = T2.team_id WHERE T1.class = (SELECT avg(rating) FROM prereq
+SELECT T1.name_first , COUNT(*) FROM player AS T1 JOIN player_award AS T2 ON T1.player_id = T2.player_id GROUP BY T1.player_id ORDER BY COUNT(*) DESC LIMIT 1;
+SELECT title FROM captain ORDER BY salary DESC LIMIT 1
+SELECT artist_name FROM captain WHERE competition_type = 'Panama' GROUP BY Reign ORDER BY COUNT(*) DESC LIMIT 1
+SELECT T1.name FROM postseason AS T1 JOIN Rooms AS T2 ON T1.Customer_Event_ID = T2.constructorid WHERE T2.first_name = "Graphics" GROUP BY T1.customer_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.title , T1.Pixels FROM vocals AS T1 JOIN songs AS T2 ON T1.film_id = T2.film_id WHERE T2.languages = 'Psychology'
+SELECT POSITION , avg(overall_rating) FROM player GROUP BY POSITION
+SELECT POSITION , AVG(total) FROM player
+SELECT Total_Points , name_last FROM player GROUP BY POSITION
+SELECT name_first , name_last FROM player WHERE death_year = '';
+SELECT count(*) , POSITION FROM player GROUP BY POSITION
+SELECT Country_name , COUNT(*) FROM country AS T1 JOIN match_season AS T2 ON T1.Country_id = T2.Country GROUP BY T1.Country_name
+SELECT country FROM competition GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT country FROM competition GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT country FROM swimmer GROUP BY country HAVING count(*) > 1
+SELECT country FROM country WHERE competition_type > 85
+SELECT count(*) , Competition FROM constructors GROUP BY Competition
+SELECT sum(enrollment) , COUNT(*) FROM elimination GROUP BY Competition
+SELECT count(*) , Competition FROM MATCH GROUP BY Competition
+SELECT T1.Aircraft , COUNT(*) FROM country AS T1 JOIN MATCH AS T2 ON T1.Country_id = T2.Winning_Aircraft GROUP BY T2.Winning_Aircraft
+SELECT t1.name , rank FROM captain ORDER BY age LIMIT 3
+SELECT name , rank FROM captain ORDER BY date LIMIT 3
+SELECT count(*) FROM salary AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE T2.name = "Demon Red Stockings'
+SELECT count(*) FROM postseason AS T1 JOIN follows AS T2 ON T1.u_id = T2.team_id_br WHERE T2.first_name = "Fanny"
+SELECT t1.name , T1.country , T1.surname FROM candidates AS T1 JOIN people AS T2 ON T1.i_id = T2.i_id ORDER BY T2.rank DESC LIMIT 1
+SELECT name_first , name_last FROM player GROUP BY emp_jobcode ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) , POSITION FROM player GROUP BY POSITION
+SELECT POSITION , count(*) FROM player GROUP BY POSITION
+SELECT count(*) FROM ship AS T1 JOIN ship AS T2 ON T1.Ship_ID = T2.Ship_ID WHERE T2.Nationality = "United States"
+SELECT name , cost FROM ship ORDER BY name DESC
+SELECT name , dates_active , date FROM races
+SELECT avg(weight) , min(weight) , min(oppose_rate) FROM people GROUP BY emp_jobcode
+SELECT avg(weight) , day_of_week FROM people GROUP BY day_of_week
+SELECT T2.Birth_Date , T1.Fate FROM ship AS t1 JOIN captain AS t2 ON t1.ship_id = t2.ship_id WHERE t1.product_name = "chervil"
+SELECT title FROM playlists; WHERE name != "%Digital%"
+SELECT product FROM enzyme WHERE name = "Demon Cameron"
+SELECT name , email FROM races WHERE duration > 10
+SELECT T1.name , T4.country_name FROM ship AS T1 JOIN captain AS T2 ON T1.Ship_ID = T2.Ship_ID GROUP BY T1.id ORDER BY count(*) DESC LIMIT 1
+SELECT DISTINCT t1.product_name FROM products AS T1 JOIN songs AS T2 ON T1.id = T2.id WHERE T2.nationality = "sesame"
+SELECT count(DISTINCT Name) FROM PHOTOS
+SELECT count(*) FROM manufacturer WHERE flag = 'Panama'
+SELECT T1.name , T1.Aircraft FROM mission AS T1 JOIN ship AS T2 ON T1.Ship_ID = T2.Ship_ID WHERE TYPE = "United States"
+SELECT product_details , image_url FROM ship WHERE Appelation = "United States"
+SELECT date_of_birth FROM Residents WHERE other_details LIKE '%Miss%'
+SELECT address_content , address_line_2 FROM addresses
+SELECT first_name , last_name FROM address
+SELECT count(*) FROM COURSE
+SELECT count(*) FROM COURSE
+SELECT count(DISTINCT class_section) FROM CLASS WHERE crs_code = 'ACCT-211'
+SELECT course_description FROM COURSES
+SELECT T1.zip_postcode FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.city = "Lyla"
+SELECT Zip_code FROM weather WHERE name = 94107
+SELECT T2.emp_fname , T1.dept_code FROM course AS T1 JOIN CLASS AS T2 ON T1.crs_code = T2.crs_code GROUP BY T1.dept_code ORDER BY sum(T1.crs_credit) DESC LIMIT 1
+SELECT T2.dept_name , T2.dept_address FROM employees AS T1 JOIN departments AS T2 ON T1.department_id = T2.department_id GROUP BY T1.department_id ORDER BY sum(degrees) DESC LIMIT 1
+SELECT count(DISTINCT dept_name) FROM course
+SELECT count(DISTINCT dept_name) FROM course
+SELECT count(DISTINCT rank) FROM CLASS
+SELECT count(DISTINCT sportname) FROM degrees
+SELECT count(*) FROM degrees WHERE dept_name = "San Jose State University"
+SELECT count(*) FROM degrees WHERE dept_name = "San Jose State University"
+SELECT Name , Other_Details FROM ref_colors
+SELECT Name , Other_Details FROM ref_colors
+SELECT T1.personal_name , T1.credits FROM ENROLLED_IN AS T1 JOIN Subjects AS T2 ON T1.course_id = T2.course_id GROUP BY T2.course_id HAVING count(*) <= 2
+SELECT T1.id , T1.credits FROM accounts AS T1 JOIN teaches AS T2 ON T1.course_id = T2.course_id GROUP BY T2.course_id HAVING count(*) < 2
+SELECT Song FROM invoices
+SELECT name FROM genres; ORDER BY name DESC
+SELECT semester , YEAR FROM SECTION GROUP BY semester , YEAR ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name , T2.account_name FROM list AS T1 JOIN prereq AS T2 ON T1.student_id = T2.student_id GROUP BY T2.s_id ORDER BY count(*) DESC LIMIT 1
+SELECT course_description FROM ref_product_categories WHERE t1.product_name LIKE 'S%'
+SELECT T2.dept_name FROM products AS t1 JOIN enrollments AS t2 ON t1.product_category_code = t2.product_category_code WHERE t1.product_name LIKE "%Functional%"
+SELECT cName , stu_phone , individual_last_name FROM course WHERE crs_code = 'CIS-220'
+SELECT T1.date_of_enrolment , individual_middle_name , min(stu_gpa) FROM Student_Course_Enrolment AS T1 JOIN enroll AS T2 ON T1.class_code = T2.class_code JOIN course AS T3 ON T1.crs_code = T3.crs_code JOIN department AS T4 ON T3.dept_code = T4.dept_code WHERE T4.dept_name = "LG-P760";
+SELECT first_name , middle_name , last_name FROM Student_Course_Enrolment WHERE course_id = 1
+SELECT T1.date_of_enrolment , T1.course_description , individual_last_name FROM Student_Course_Enrolment WHERE 18000 = 600;
+SELECT T4.dept_name FROM Courses AS T1 JOIN enroll AS T2 ON T1.class_code = T2.Claim_id GROUP BY t2.program_id ORDER BY count(*) DESC LIMIT 1
+SELECT CLASS FROM CLASS GROUP BY CLASS ORDER BY count(*) DESC LIMIT 1
+SELECT T1.address_line_1 , T1.Claim_id FROM Student_Course_Enrolment AS T1 JOIN enroll AS T2 ON T1.classroom = T2.classroom GROUP BY program ORDER BY count(*) DESC LIMIT 1
+SELECT T1.title , T1.credits FROM CLASS AS T1 JOIN enroll AS T2 ON T1.classroom = T2.classroom GROUP BY T1.id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.student_id , T1.other_details , count(*) FROM Student_Course_Enrolment AS T1 JOIN Students AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id ORDER BY count(*) DESC LIMIT 1
+SELECT T3.course_name , T1.Pixels , count(*) FROM Student_Course_Enrolment AS T1 JOIN Students AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id ORDER BY COUNT(*) DESC LIMIT 1
+SELECT title FROM course WHERE course_id NOT IN (SELECT course_id FROM prereq)
+SELECT title FROM course WHERE id NOT IN (SELECT course_id FROM prereq)
+SELECT T1.course_name FROM Courses AS T1 JOIN Student_Course_Enrolment AS T2 ON T1.course_id = T2.course_id
+SELECT T1.course_name FROM Courses AS T1 JOIN Student_Course_Enrolment AS T2 ON T1.course_id = T2.course_id
+SELECT T1.course_name FROM COURSE AS T1 JOIN ENROLLED_IN AS T2 ON T1.course_id = T2.course_id GROUP BY T1.course_name ORDER BY count(*) DESC LIMIT 1
+SELECT T1.course_name FROM Courses AS T1 JOIN Student_Course_Enrolment AS T2 ON T1.course_id = T2.course_id GROUP BY T1.course_name ORDER BY COUNT(*) DESC LIMIT 1
+SELECT lname FROM student WHERE state = 111 EXCEPT SELECT lname FROM student WHERE state = 'M'
+SELECT lname FROM student WHERE city_code = 'PHL' AND city_code != 'BAL'
+SELECT date_valid_from , T1.amount_of_refund FROM item AS T1 JOIN SECTION AS T2 ON T1.course_id = T2.customer_id WHERE T1.dept_name = 'Psychology' GROUP BY T2.course_id HAVING count(*) >= 2
+SELECT T1.id , T1.surname FROM files AS T1 JOIN SECTION AS T2 ON T1.apid = T2.driverid GROUP BY T1.employeeid HAVING count(*) >= 2
+SELECT customer_phone FROM employees AS T1 JOIN invoices AS T2 ON T2.customer_id = T2.address_id WHERE T1.first_name = "Graphics"
+SELECT customer_phone FROM Student_Addresses WHERE family_name = "Life Insurance"
+SELECT first_name , middle_name , last_name FROM student WHERE first_name = 107
+SELECT stu_fname , individual_middle_name , stu_gpa FROM student WHERE stu_gpa = 'CIS-220'
+SELECT first_name , middle_name , last_name FROM Staff;
+SELECT T3.EMP_FNAME , T1.date_of_completion , avg(years_working) FROM college AS T1 JOIN player_college AS T2 ON T1.course_id = T2.course_Id ORDER BY stu_gpa ASC LIMIT 1
+SELECT DISTINCT product_details FROM employees WHERE first_name = "Astrid" AND last_name = "Edwards";
+SELECT DISTINCT stu_fname FROM student AS T1 JOIN enroll AS T2 ON T1.stu_num = T2.stu_num JOIN CLASS AS T3 ON T2.class_code = T3.class_code WHERE T3.crs_code = 'ACCT-211' OR T1.stu_lname = 'A'
+SELECT T2.address , count(*) FROM address AS T1 JOIN teachers AS T2 ON T1.classroom = T2.classroom GROUP BY T2.address_id ORDER BY count(*) DESC LIMIT 1
+SELECT T2.dept_name , T1.long , count(*) FROM student AS T1 JOIN address AS T2 ON T1.address_id = T2.address_id GROUP BY T2.address_id ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM department WHERE T1.first_name = "LG-P760";
+SELECT avg(rating) FROM Products
+SELECT Date , Date_Payment_Made , Amount_Payment FROM Payments
+SELECT payment_date FROM files WHERE Document_name = "Marry CV"
+SELECT count(*) FROM item WHERE title = "Fast Staff'
+SELECT count(*) FROM papers
+SELECT payment_date FROM trip ORDER BY duration DESC LIMIT 1
+SELECT max(date_moved_in) FROM Residents WHERE first_name = "Carole" AND last_name = "Smith";
+SELECT count(*) , class_room FROM CLASS GROUP BY class_room ORDER BY count(*) DESC LIMIT 1
+SELECT avg(enr) , COUNT(*) FROM Courses GROUP BY dept_code
+SELECT date_test_taken FROM INVOICES
+SELECT Date , count(*) FROM user_profiles GROUP BY date_of_latest_revision ORDER BY count(*) ASC LIMIT 1
+SELECT semester , YEAR FROM takes WHERE course_id = 1958 INTERSECT SELECT semester , YEAR FROM takes WHERE semester = 'Spring' AND YEAR = 2010
+SELECT f_id FROM SECTION WHERE semester = 'Fall' AND YEAR = 2009 INTERSECT SELECT course_id FROM SECTION WHERE semester = 'Spring' AND YEAR = 2010
+SELECT count(DISTINCT dept_address) FROM Students_in_Detention
+SELECT DISTINCT fname FROM student
+SELECT T2.student_details FROM students AS T1 JOIN student_course_attendance AS T2 ON T1.student_id = T2.student_id ORDER BY T1.registration_date DESC
+SELECT * FROM students ORDER BY age DESC
+SELECT product_details FROM vocals WHERE product_details = "David "%Latte%"
+SELECT t2.section_title FROM products AS t1 JOIN document_sections AS t2 ON t1.document_code = t2.color_code WHERE t1.product_name = "David CV"
+SELECT T3.stu_fname FROM chip_model AS T1 JOIN follows AS T2 ON T1.class_code = T2.class_code JOIN student AS T3 ON T2.stu_num = T3.id WHERE T1.crs_code = "Text" OR T2.enroll_grade = 'Carol Explorer'
+SELECT T3.stu_fname FROM orders AS T1 JOIN teachers AS T2 ON T1.stu_num = T2.stu_num WHERE T2.enroll_grade = 'C' OR T2.enroll_grade = 'A'
+SELECT title FROM item ORDER BY title
+SELECT title FROM item ORDER BY title
+SELECT title FROM albums; WHERE title = 'Steven Spielberg'
+SELECT title FROM swimmer WHERE title = 'Steven Spielberg'
+SELECT count(*) FROM authors AS T1 JOIN course AS T2 ON T1.classroom = T2.classroom WHERE T2.firstname = "KAWA" AND T1.lastname = "Gibbons"
+SELECT count(*) FROM item AS T1 JOIN prescribes AS T2 ON T1.code = T2.medication WHERE T1.name = 'Differential to the Wall";
+SELECT title , director FROM movie ORDER BY budget_million
+SELECT title , director FROM Movie WHERE director = "null" ORDER BY director
+SELECT title FROM albums; WHERE director = 'Steven Spielberg'
+SELECT title FROM albums; WHERE director = 'Steven Spielberg'
+SELECT country , count(*) FROM camera_lens GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT country , count(*) FROM weather GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT count(DISTINCT Team) FROM Movie
+SELECT count(DISTINCT program_id) FROM movie AS T1 JOIN injury_accident AS T2 ON T1.id = T2.game_id WHERE T1.participant_details = 'Ethiopia'
+SELECT product FROM products WHERE name = "sesame"
+SELECT title FROM film WHERE title = "Fast POLLOCK'
+SELECT product_category_description FROM products WHERE name = "Fast Kitty Rag"
+SELECT title FROM course WHERE name = "LG-P760";
+SELECT count(*) FROM film WHERE languages = "Fast As a Shark";
+SELECT count(*) FROM item WHERE languages = 'Physics'
+SELECT T2.languages , COUNT(*) FROM management AS T1 JOIN albums AS T2 ON T1.f_id = T2.f_id GROUP BY T2.name ORDER BY count(*) ASC LIMIT 1
+SELECT t3.characteristic_name , count(*) FROM channel AS t1 JOIN broadcast AS t2 ON t1.channel_id = t2.channel_id GROUP BY t2.station_id ORDER BY count(*) LIMIT 1
+SELECT T1.name , COUNT(*) FROM drivers AS T1 JOIN assignedto AS T2 ON T1.manufacturer = T2.code GROUP BY T2.name
+SELECT count(*) , Competition FROM MATCH GROUP BY Competition
+SELECT title FROM albums;
+SELECT title FROM Aircraft WHERE name = "sesame"
+SELECT title FROM albums; WHERE T2.name = "Japan"
+SELECT title FROM film WHERE title = "Demon POLLOCK'
+SELECT Song FROM film ORDER BY rating_in_percent
+SELECT subject_name FROM SUBJECTS ORDER BY image_name
+SELECT max(gradepoint) , image_url , T1.city_id FROM Skills ORDER BY LENGTH DESC LIMIT 3
+SELECT date , director FROM film ORDER BY rental_rate DESC LIMIT 3
+SELECT min(bathroom_count) , avg(market_share) FROM weekly_weather
+SELECT max(stars) , min(stars) FROM weekly_weather WHERE incident_type_code = "Amersham"
+SELECT T1.date_of_completion FROM Ref_Service_Types AS T1 JOIN TRACK AS T2 ON T1.GenreId = T2.id WHERE T2.first_name = "Graphics"
+SELECT date_stored FROM Restaurant WHERE T2.first_name = "LG-P760";
+SELECT Elimination_Move FROM products WHERE name = "Fast As Before Shark";
+SELECT Elimination_Move FROM products WHERE t1.campus = "sesame"
+SELECT title FROM film WHERE title = "sesame"
+SELECT T1.title FROM game AS T1 JOIN LANGUAGE AS T2 ON T1.id = T2.game_id WHERE T2.player = 'AIRPORT POLLOCK'
+SELECT title FROM film WHERE special_features = 'R'
+SELECT title FROM film WHERE title = "Fast Jose"
+SELECT count(*) , T1.director FROM Movie AS T1 JOIN Rating AS T2 ON T1.mID = T2.mID GROUP BY T2.AlbumID
+SELECT count(*) FROM Movie
+SELECT product_category_description , OWNER FROM weekly_weather ORDER BY max_aperture DESC LIMIT 1
+SELECT max(market_share) , contact_number FROM customer_contact_channels ORDER BY (active_to_date - active_from_date) DESC LIMIT 1
+SELECT title FROM channel WHERE OWNER = "LG-P760";
+SELECT title FROM film WHERE name = 'Psychology'
+SELECT T1.duration FROM screen_mode AS T1 JOIN phone AS T2 ON T1.Graphics_mode = T2.screen_mode WHERE t2.Company_name = "Nokia Ernser"
+SELECT T1.country FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM products WHERE product != "%Scanner%"
+SELECT country FROM vocals WHERE name != '%International%'
+SELECT title FROM channel WHERE special_features = 'CCTV' INTERSECT SELECT title FROM channel WHERE OWNER = 'CCTV'
+SELECT T1.date_in_location_from , T3.Type FROM channel AS t1 JOIN broadcast AS t2 ON t1.channel_id = t2.channel_id WHERE t2.time_of_day = 'Morning'
+SELECT characteristic_name , channel , T1.Hardware_colours FROM channel WHERE OWNER != 'CCTV'
+SELECT max(market_share) , country , country FROM channel WHERE OWNER != 'CCTV'
+SELECT channel_code FROM channel GROUP BY OWNER HAVING count(*) > 2
+SELECT Software_Platform FROM channel GROUP BY Software_Platform HAVING count(*) > 2
+SELECT f_id FROM channel WHERE OWNER != 'CCTV'
+SELECT avg(price) FROM channel WHERE OWNER != 'CCTV'
+SELECT product_details FROM products WHERE product_details != "%Latte%"
+SELECT product_details FROM channel WHERE OWNER != 'CCTV'
+SELECT count(*) FROM player
+SELECT count(*) FROM player WHERE birth_country = "Fail"
+SELECT Player_name FROM albums; ORDER BY Votes DESC
+SELECT title FROM albums; ORDER BY max_aperture DESC
+SELECT title FROM course WHERE title = 'Statistics'
+SELECT title FROM albums;
+SELECT avg(rating) FROM TRACK WHERE Manufacturer = "MasterCard"
+SELECT AVG(Milliseconds) FROM chip_model
+SELECT rank FROM player ORDER BY Time_of_purchase DESC LIMIT 1
+SELECT Elimination_Move FROM player ORDER BY Floor_Exercise_Points DESC LIMIT 1
+SELECT player_api_id FROM Player_Attributes WHERE height < ( SELECT avg(overall_rating) FROM Player_Attributes WHERE preferred_foot = "left"
+SELECT T1.duration FROM Player AS T1 JOIN Player_Attributes AS T2 ON T1.player_api_id = T2.player_api_id WHERE T1.duration < 85
+SELECT DISTINCT T1.player_name FROM Player AS T1 JOIN Player_Attributes AS T2 ON T1.player_api_id = T2.player_api_id WHERE T2.dribbling = 2002
+SELECT player_api_id FROM Player WHERE Days = "left"
+SELECT pName FROM Player WHERE HS > 8
+SELECT pName FROM Player WHERE height > 18000
+SELECT Player_name FROM Player ORDER BY Player_name ASC
+SELECT preferred_foot FROM Player ORDER BY meter_100
+SELECT T2.Birth_Date FROM constructors AS T1 JOIN Player_Attributes AS T2 ON T1.date_stored = T2.People_ID ORDER BY T1.Points ASC LIMIT 1
+SELECT T2.Birth_Date FROM Player AS T1 JOIN people AS T2 ON T1.candidate_id = T2.people_id ORDER BY T1.Points ASC LIMIT 1
+SELECT unit_price FROM people ORDER BY Height DESC LIMIT 1
+SELECT Elimination_Move FROM player ORDER BY Height DESC LIMIT 1
+SELECT avg(overall_rating) FROM Player WHERE HS > 2000
+SELECT avg(HS) FROM Player WHERE HS > 5
+SELECT name FROM player ORDER BY name DESC
+SELECT name FROM player ORDER BY name
+SELECT Nationality , COUNT(*) FROM people GROUP BY Nationality
+SELECT count(*) , job FROM Person GROUP BY name
+SELECT Nationality FROM people GROUP BY Nationality ORDER BY COUNT(*) DESC LIMIT 1
+SELECT Nationality FROM people GROUP BY Nationality ORDER BY COUNT(*) DESC LIMIT 1
+SELECT Nationality FROM people GROUP BY Nationality HAVING COUNT(*) >= 2
+SELECT Nationality FROM people GROUP BY Nationality HAVING COUNT(*) >= 2
+SELECT Date , birth_place FROM people ORDER BY image_name ASC
+SELECT image_name , image_url FROM people ORDER BY image_name
+SELECT Name FROM people WHERE Nationality != "United States"
+SELECT Name FROM people WHERE People_ID NOT IN (SELECT People_ID FROM entrepreneur)
+SELECT Name FROM people WHERE People_ID NOT IN (SELECT Affirmative FROM player_coach)
+SELECT Name FROM people WHERE People_ID NOT IN (SELECT People_ID FROM perpetrator)
+SELECT count(DISTINCT Birth_Place) FROM people
+SELECT count(DISTINCT label) FROM department
+SELECT count(DISTINCT state) FROM bank
+SELECT individual_first_name , individual_middle_name , T1.Hardware_colours FROM individuals ORDER BY mgr_start_date
+SELECT email_address , cell_mobile_phone_number , email_address FROM addresses
+SELECT max(Population) , min(Population) FROM settlements
+SELECT last_name FROM student WHERE state = "Roberto" AND last_name = "Almeida";
+SELECT name FROM playlists; WHERE name != "%Digital%"
+SELECT DISTINCT T1.state , day_Number FROM Customers
+SELECT T3.ssn , T1.Mascot FROM orders AS T1 JOIN review AS T2 ON T1.i_id = T2.id GROUP BY T2.i_id HAVING count(*) >= 2
+SELECT title , chromosome , porphyria FROM customers ORDER BY birth_date LIMIT 1
+SELECT count(*) FROM park WHERE state = 'NY'; OR state = 'R';
+SELECT count(*) FROM ARTIST WHERE name NOT IN (SELECT T1.prereq_id FROM review)
+SELECT rid FROM trip WHERE zip_code = "Howard" GROUP BY city_code ORDER BY count(*) DESC LIMIT 1
+SELECT T1.Char_cells , T1.Hardware_colours FROM customers AS T1 JOIN candidate AS T2 ON T1.Negative = T2.customer_id WHERE T1.first_name = "LG-P760";
+SELECT T1.date_order_placed FROM Addresses AS T1 JOIN Staff AS T2 ON T1.cmi_cross_ref_id = T2.thing_id WHERE T2.source_system_code = "LG-P760";
+SELECT name FROM product WHERE name LIKE "%ALA%"
+SELECT country FROM competition WHERE LENGTH > 10000000
+SELECT Nationality FROM organizations WHERE founded > 1900
+SELECT count(*) FROM inventory WHERE special_features LIKE 'Full';
+SELECT count(*) FROM country WHERE country_id = country_id
+SELECT max(t2.active_to_date) FROM country AS T1 JOIN songs AS T2 ON T1.id = T2.country_id WHERE T1.first_name = "Rock";
+SELECT milliseconds FROM course WHERE dept_name = "Fast States'
+SELECT title FROM vocals WHERE name = "Fast Kitty City'
+SELECT title FROM products WHERE title = "Fast As Rag"
+SELECT Address FROM addresses WHERE city = "Blackville"
+SELECT max(t2.active_to_date) FROM affected_region AS T1 JOIN region AS T2 ON T1.region_id = T2.region_id JOIN storm AS T3 ON T2.Tourist_ID = T3.storm_id WHERE T2.region_name = 'Denmark'
+SELECT T2.name FROM products AS T1 JOIN LANGUAGE AS T2 ON T1.camera_lens_id = T2.id GROUP BY T2.name ORDER BY count(*) DESC LIMIT 1
+SELECT artist_name FROM products WHERE name = "Fast Info. Rag"
+SELECT T2.balance , date_incident_end FROM party AS T1 JOIN lives_in AS T2 ON T1.city_id = T2.driverid WHERE T2.interaction_type = "Female"
+SELECT County_name , surname FROM addresses
+SELECT region_name , Population FROM region
+SELECT Area , T1.Date_Stored FROM Person AS T1 JOIN region AS T2 ON T1.region_id = T2.region_id JOIN products AS T3 ON T2.person_id = T3.student_id
+SELECT AVG(UnitPrice) FROM Elimination WHERE country = 'male'
+SELECT milliseconds FROM products WHERE name = "Fast As a Shark";
+SELECT T1.country FROM country AS T1 JOIN invoices AS T2 ON T1.alid = T2.alid ORDER BY T2.duration LIMIT 1
+SELECT country FROM people WHERE competition_type = 'Friendly' ORDER BY sales_billion LIMIT 1
+SELECT sum(city_population) , max(duration) FROM enzyme WHERE County_name = 636
+SELECT count(T2.friend) , count(*) FROM Residents AS T1 JOIN people AS T2 ON T1.id = T2.country_id WHERE T2.first_name = 'Australia'
+SELECT avg(price) FROM products WHERE name = "Fast As a Shark";
+SELECT avg(price) FROM GENRE WHERE Country = "United Kingdom"
+SELECT max(t2.active_to_date) FROM albums AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id WHERE T1.name = "Aerosmith";
+SELECT max(t2.active_to_date) FROM country AS T1 JOIN country AS T2 ON T1.id = T2.genre_id WHERE T1.first_name = 'LINDA' OR country = "Pop"
+SELECT count(*) FROM Person AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.city_code = "Rock"
+SELECT milliseconds FROM enzyme WHERE T1.name = "flax"
+SELECT avg(room_count) , avg(resolution) FROM people WHERE nationality = 'London'
+SELECT max(Milliseconds) , meter_300 FROM elimination WHERE Account_details = "United Kingdom"
+SELECT count(DISTINCT title) FROM albums AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE TYPE = "shared"
+SELECT count(DISTINCT title) FROM vocals AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE TYPE = "shared"
+SELECT count(*) FROM vocals AS T1 JOIN songs AS T2 ON T1.songid = T1.id WHERE title = "Demon Kitty Rag"
+SELECT count(DISTINCT label) FROM film WHERE languages = 'Physics'
+SELECT count(DISTINCT language_id) FROM song WHERE languages = "english")
+SELECT count(*) FROM vocals AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE title = "shared"
+SELECT T1.Official_native_language FROM country AS T1 JOIN files AS T2 ON T1.f_id = T2.f_id WHERE T1.duration = "Defender"
+SELECT count(*) FROM country AS T1 JOIN election AS T2 ON T1.Country_id = T2.Country WHERE T2.College = "Maryland"
+SELECT country FROM competition GROUP BY country ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM vocals WHERE TYPE = (SELECT avg(product_price) FROM products)
+SELECT title FROM vocals WHERE first_name = "orange" GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM item ORDER BY birth_date DESC LIMIT 1
+SELECT count(*) FROM country AS T1 JOIN songs AS T2 ON T1.songid = T2.country_id WHERE T2.name = "Billy to the Wall";
+SELECT count(*) FROM constructors AS T1 JOIN people AS T2 ON T1.game_id = T2.id WHERE T2.name = "voluptatem"
+SELECT T1.name FROM Person AS T1 JOIN people AS T2 ON T1.course_id = T2.course_id WHERE T2.name = "Monterey" AND T1.gender = 'Paid'
+SELECT T1.name FROM mission AS T1 JOIN circuits AS T2 ON T1.f_id = T2.f_id WHERE T2.name = "United to the Wall";
+SELECT region FROM medicine WHERE birth_country = "United Cameron" INTERSECT SELECT Nationality FROM county_public_safety WHERE YEAR = 2;
+SELECT T1.Country_name FROM country AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T2.name = "Forward" INTERSECT SELECT T1.Country_name FROM country AS T1 JOIN files AS T2 ON T1.f_id = T2.f_id WHERE T1.Country_name = "Indonesia"
+SELECT count(DISTINCT title) FROM vocals AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE TYPE = "shared"
+SELECT count(*) FROM department WHERE dept_name = "Fast Kitty Systems"
+SELECT region_name FROM region WHERE Appelation = "United CV"
+SELECT product_details FROM region WHERE region_name = "%Latte%"
+SELECT Official_native_language FROM competition WHERE country = "UK" OR country = "bangla"
+SELECT country FROM competition WHERE competition_type = 'Friendly' OR country = "Almeida";
+SELECT title FROM instructor WHERE name = "sesame" GROUP BY name ORDER BY count(*) DESC LIMIT 1
+SELECT t3.characteristic_name FROM albums AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE T2.staff_first_name = "Christop" GROUP BY T2.artist_name ORDER BY count(*) DESC LIMIT 1
+SELECT t3.characteristic_name FROM country AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE T1.country = "Demon POLLOCK'
+SELECT t3.characteristic_name FROM country AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE T1.country = "Marianne"
+SELECT t3.headquartered_city FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id GROUP BY T1.city_id ORDER BY count(*) DESC LIMIT 1
+SELECT max(t2.active_to_date) FROM customers AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.first_name = 'LINDA' GROUP BY T1.city_id ORDER BY count(*) DESC LIMIT 1
+SELECT name , headquarter , country FROM airports ORDER BY Year_Join DESC LIMIT 1
+SELECT date , name , role_description FROM manufacturers WHERE name = 'Cytosol'
+SELECT avg(active_to_date - T1.formats FROM files AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T2.genre_is != "pop"
+SELECT avg(active_to_date FROM country AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T1.duration != "pop"
+SELECT count(*) FROM people WHERE Nationality != 'Hartford'
+SELECT count(*) FROM country WHERE country_id NOT IN ( SELECT country_id FROM roller_coaster WHERE country = 'Canada') )
+SELECT T1.Official_native_language FROM country AS T1 JOIN match_season AS T2 ON T1.Country_id = T2.Country WHERE T1.Capital = "Maryland"
+SELECT T1.Official_native_language FROM country AS T1 JOIN management AS T2 ON T1.department_id = T2.department_id WHERE T2.Country = "Maryland"
+SELECT count(DISTINCT T1.Official_native_language) FROM country AS T1 JOIN match_season AS T2 ON T1.Country_id = T2.Country WHERE T1.Capital < 50000
+SELECT count(DISTINCT nationality) FROM university
+SELECT country FROM airports WHERE regional_population > (SELECT min(min_dew_point_f) FROM Albums WHERE country = 'Friendly'
+SELECT country FROM airports WHERE elevation > (SELECT min(min_dew_point_f) FROM county_public_safety WHERE country = 'Greenland'
+SELECT Competition_type FROM country WHERE Population < (SELECT avg(height) FROM people) WHERE state = 94107)
+SELECT title FROM country WHERE elevation < (SELECT min(min_dew_point_f) FROM vocals WHERE country = 94107)
+SELECT Appelation FROM country WHERE Population > (SELECT avg(city_area) FROM district)
+SELECT Competition_type FROM country WHERE Population > (SELECT avg(city_area) FROM district)
+SELECT Official_native_language FROM country WHERE Country != "Village"
+SELECT Official_native_language FROM country WHERE Country != "Village"
+SELECT country_id FROM competition WHERE resolution > 500
+SELECT country FROM competition WHERE competition_type = 'Friendly' AND country != 'Iceland'
+SELECT count(*) FROM routes WHERE billing_city = "Punk" EXCEPT SELECT Account_details FROM status WHERE languages = 'Tournament'
+SELECT COUNT(*) FROM country WHERE country_id != country_id
+SELECT title FROM course WHERE course_id NOT IN (SELECT station_id FROM farm_competition)
+SELECT title FROM city WHERE Status != 'Cash'
+SELECT DISTINCT T1.city FROM addresses AS T1 JOIN country AS T2 ON T1.city_id = T2.city_id WHERE T1.Country_name = "Maryland"
+SELECT DISTINCT city FROM addresses WHERE city = 'United States'
+SELECT name , dates_active , number_deaths FROM country ORDER BY Year_Join LIMIT 1
+SELECT country , headquarter , country FROM competition ORDER BY Year_Join LIMIT 1
+SELECT name , chromosome , country FROM competition ORDER BY Year_Join DESC LIMIT 1
+SELECT name , headquarter , founder FROM country ORDER BY revenue DESC LIMIT 1
+SELECT T1.name , T1.country FROM country AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id GROUP BY T2.country_id HAVING count(*) >= 3
+SELECT count(*) , formats FROM files GROUP BY country HAVING count(*) > 2
+SELECT count(*) , city FROM district WHERE City_Population > (SELECT avg(city_area) FROM district) GROUP BY district
+SELECT count(*) , city FROM district WHERE City_Population > (SELECT avg(city_area) FROM district)
+SELECT T1.Char_cells , T1.Pixels , T1.CheckIn FROM student AS T1 JOIN Manufacturers AS T2 ON T1.manufacturer = T2.subject_id WHERE Budgeted > 6000 GROUP BY T1.name
+SELECT DISTINCT sum(city_population) FROM WINE WHERE Amount_Settled > 93
+SELECT avg(T2.fastestlapspeed) , min(Population) FROM student WHERE Votes < (SELECT avg(age) FROM student)
+SELECT DISTINCT T1.name , avg(trust) FROM products AS T1 JOIN checking AS T2 ON T1.people_id = T2.track_id GROUP BY T2.id HAVING count(*) = 1
+SELECT name , LOCATION FROM country ORDER BY elevation DESC LIMIT 5
+SELECT name , Num_of_Component FROM races ORDER BY market_rate DESC LIMIT 5
+SELECT Name FROM country ORDER BY White DESC LIMIT 3
+SELECT T1.name FROM accounts AS T1 JOIN routes AS T2 ON T1.id = T2.game_id GROUP BY T2.s_id ORDER BY count(*) DESC LIMIT 3
+SELECT t1.name FROM people AS T1 JOIN region AS T2 ON T1.Ship_ID = T2.Ship_ID ORDER BY votes LIMIT 3
+SELECT billing_country FROM competition ORDER BY White ASC LIMIT 3
+SELECT count(*) FROM country AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = "Defender"
+SELECT count(*) FROM country AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = "Defender"
+SELECT billing_country , City_Population FROM country WHERE Country = "German"
+SELECT T1.Name FROM country AS T1 JOIN hosting_city AS T2 ON T1.Country_id = T2.Country WHERE T1.country = "Forward" INTERSECT SELECT T1.Country_name FROM country AS T1 JOIN party_events AS T2 ON T1.region_id = T2.Country WHERE T1.Country_name = "Defender"
+SELECT avg(T2.Number_cities) , max(damage_millions_USD) FROM weekly_weather AS T1 JOIN affected_region AS T2 ON T1.Appelation = T2.Appelation WHERE T1.County = "Central Coast"
+SELECT country , average_attendance FROM weather WHERE country = 'United States' GROUP BY country HAVING count(*) > 1
+SELECT town_city FROM addresses WHERE city_code = "Good States'
+SELECT town_city FROM county_public_safety WHERE city_code = "East" AND Population BETWEEN 50 AND 1500
+SELECT T2.name FROM genres AS T1 JOIN songs AS T2 ON T1.f_id = T2.f_id GROUP BY T1.artist_id ORDER BY count(*) DESC LIMIT 1
+SELECT languages FROM song WHERE competition_type = 'R' GROUP BY languages ORDER BY count(*) DESC LIMIT 1
+SELECT avg(rating) , COUNT(*) FROM actor GROUP BY country
+SELECT country_id , project_details FROM people GROUP BY country_id ORDER BY count(*) DESC LIMIT 1
+SELECT Country FROM people WHERE Country = "Defender"
+SELECT count(*) FROM products WHERE country = "Fast Kitty online Shark";
+SELECT Country FROM mountain WHERE Country = "German"
+SELECT * FROM products WHERE country = "Fast Kitty Rag"
+SELECT count(*) FROM papers
+SELECT count(*) FROM papers
+SELECT name FROM playlists; ORDER BY date
+SELECT name FROM playlists; ORDER BY name
+SELECT Name FROM people WHERE Nationality != "United States"
+SELECT Name FROM mountain WHERE Nationality != "German"
+SELECT company FROM Companies ORDER BY price DESC
+SELECT Company FROM Companies ORDER BY Money_Requested DESC
+SELECT avg(Quantity) FROM TRACK
+SELECT avg(Gross_in_dollar) FROM film
+SELECT max(T1.duration) , min(Sales_billion) FROM performance WHERE transaction_type_code = 'London'
+SELECT max(T1.duration) , max(membership_amount) FROM performance WHERE Airport_Name != 'London'
+SELECT count(DISTINCT Party) FROM swimmer
+SELECT count(DISTINCT Party) FROM people
+SELECT name FROM playlists; ORDER BY followers DESC
+SELECT name FROM playlists; ORDER BY YEAR DESC
+SELECT title FROM playlists; WHERE YEAR = (SELECT max(YEAR) FROM Movie)
+SELECT T1.title FROM actor AS T1 JOIN LANGUAGE AS T2 ON T1.language_id = T2.staff_id GROUP BY T2.staff_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name FROM debate_people AS T1 JOIN people AS T2 ON T1.Negative = T2.id WHERE T1.Name = "Latin"
+SELECT T2.song_name FROM albums AS T1 JOIN people AS T2 ON T1.i_id = T2.id WHERE T1.name = "Balls to the Wall";
+SELECT title FROM people WHERE name LIKE "%ALA%" GROUP BY name HAVING count(*) > 1
+SELECT title FROM playlists; GROUP BY name HAVING count(*) > 1
+SELECT T1.title FROM products AS T1 JOIN medicine_enzyme_interaction AS T2 ON T1.id = T2.game_id WHERE T2.outcome_code = "Balls to the Wall";
+SELECT title FROM albums WHERE title = "Fast As a Shark";
+SELECT Name FROM mill WHERE document_name > 1000
+SELECT name FROM playlists; WHERE YEAR > 6000 AND YEAR = 600;
+SELECT main_industry , COUNT(*) FROM company GROUP BY main_industry
+SELECT count(*) FROM Companies
+SELECT RESULT FROM TRACK GROUP BY RESULT ORDER BY COUNT(*) ASC
+SELECT Competition_type FROM volume ORDER BY image_name
+SELECT Company_name FROM Companies GROUP BY Company_name ORDER BY count(*) DESC LIMIT 1
+SELECT main_industry FROM airlines GROUP BY main_industry ORDER BY count(*) DESC LIMIT 1
+SELECT Name FROM playlists; WHERE Code NOT IN (SELECT Artwork_ID FROM review)
+SELECT name FROM playlists; EXCEPT SELECT T2.first_name FROM Lessons AS T1 JOIN Accounts AS T2 ON T1.Grape = T2.rID
+SELECT Carrier FROM company WHERE founded < 2000 INTERSECT SELECT Carrier FROM company WHERE Money_Requested > 64
+SELECT main_industry FROM university WHERE founded < 1990 INTERSECT SELECT Company FROM mill WHERE founded > 7
+SELECT count(*) FROM files AS T1 JOIN song AS T2 ON T1.f_id = T2.f_id WHERE T2.genre_is = "Balls to the Wall";
+SELECT count(*) , city FROM customers WHERE title = 'IT Failure" OR first_name = "CA";
+SELECT date_of_latest_revision FROM job_history GROUP BY YEAR HAVING COUNT(*) > 1
+SELECT sum(Domestic_Passengers) FROM artist WHERE founded > (SELECT min(resolution) FROM university)
+SELECT count(*) FROM farm
+SELECT count(*) FROM farm
+SELECT name , CLASS FROM captain
+SELECT T1.name , T2.position FROM race AS T1 JOIN CLASS AS T2 ON T1.crs_code = T2.track_id
+SELECT DISTINCT T3.Fname FROM campuses AS T1 JOIN CLASS AS T2 ON T1.School_ID = T2.School_ID
+SELECT DISTINCT firstname FROM list
+SELECT DISTINCT grade FROM list WHERE grade = 4
+SELECT DISTINCT classroom FROM list WHERE grade = 4
+SELECT DISTINCT firstname FROM Rooms WHERE YEAR = 2008
+SELECT DISTINCT grade FROM takes WHERE grade = 2008
+SELECT Elimination_Move FROM school_details WHERE County_name = "Team CV"
+SELECT title FROM film WHERE name = "Astrid"
+SELECT DISTINCT class_section) FROM list WHERE dept_name = 'Statistics' OR dept_name = "CHI"
+SELECT count(*) FROM postseason WHERE job = "ROY" AND YEAR = "SWEAZY";
+SELECT count(*) , Competition FROM station GROUP BY crs_code
+SELECT count(*) , T1.name FROM station AS T1 JOIN injury_accident AS T2 ON T1.id = T2.game_id GROUP BY T1.name;
+SELECT DISTINCT grade FROM list ORDER BY grade DESC LIMIT 1
+SELECT DISTINCT grade FROM list WHERE YEAR = (SELECT avg(capacity) FROM instructor)
+SELECT DISTINCT T3.Fname FROM list AS T1 JOIN GRADECONVERSION AS T2 ON T1.course_id = T2.department_id GROUP BY grade HAVING count(*) >= 4
+SELECT avg(T2.gradepoint) FROM player AS T1 JOIN teachers AS T2 ON T1.classroom = T2.classroom GROUP BY T1.dept_code HAVING count(*) >= 4
+SELECT StuID , count(*) FROM Student GROUP BY StuID
+SELECT count(T2.friend) , count(*) FROM Student AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.name GROUP BY T2.name
+SELECT T2.school_name , COUNT(*) FROM school_bus AS T1 JOIN school AS T2 ON T1.school_id = T2.school_id JOIN player AS T3 ON T1.driver_id = T3.driver_id GROUP BY T2.school_name
+SELECT T2.name , count(*) FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.name ORDER BY T1.age ASC LIMIT 1
+SELECT T1.name FROM item AS T1 JOIN tracks AS T2 ON T1.i_id = T2.i_id GROUP BY T1.id ORDER BY count(*) DESC LIMIT 1
+SELECT cName FROM college ORDER BY enr DESC LIMIT 1
+SELECT name FROM church WHERE YEAR >= 3
+SELECT T1.name FROM Grapes AS T1 JOIN Rooms AS T2 ON T1.Wrestler_ID = T2.gameid GROUP BY T1.gameid HAVING count(*) >= 3
+SELECT title FROM injury_accident WHERE director = "Los Cameron"
+SELECT T2.name FROM college AS T1 JOIN tryout AS T2 ON T1.course_id = T2.course_id JOIN student AS T3 ON T2.pID = T3.pID WHERE T3.pName = 'Charles'
+SELECT count(T2.friend) FROM discipline_enrollments AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.name WHERE T2.family_name = 'yes'
+SELECT count(T2.friend) FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.name WHERE T1.name = 'Dan'
+SELECT StuID FROM Student EXCEPT SELECT StuID FROM Participates_in
+SELECT avg(Enrollment) FROM SECTION EXCEPT SELECT campus FROM takes
+SELECT school_name FROM school WHERE school_id NOT IN (SELECT school_id FROM endowment)
+SELECT name FROM student EXCEPT SELECT id FROM student
+SELECT transaction_id FROM PersonFriend WHERE name = "Los Angeles"
+SELECT StuID FROM Student WHERE StuID IN (SELECT StuID FROM Has_allergy WHERE Allergy = "Football" INTERSECT SELECT StuID FROM Has_allergy WHERE Allergy = "Cat")
+SELECT T1.stu_fname FROM advisor AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.pID WHERE T2.decision = 'yes' AND T2.pPos = 'striker'
+SELECT T1.name FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.friend WHERE T2.name = 'Boston Labs' INTERSECT SELECT T1.name FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.name WHERE T2.friend = 'Alice'
+SELECT count(*) , student_id FROM student GROUP BY dept_code
+SELECT T1.student_id , count(*) FROM students AS T1 JOIN student_course_registrations AS T2 ON T1.student_id = T2.student_id GROUP BY T1.student_id
+SELECT date_of_transaction , count(*) FROM debate_people WHERE bedtype = "SALE"
+SELECT count(*) , T1.name FROM medication AS T1 JOIN playlist_tracks AS T2 ON T1.id = T2.game_id WHERE T1.name = "Spain"
+SELECT T1.name FROM item AS T1 JOIN tracks AS T2 ON T1.i_id = T2.i_id GROUP BY T1.id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name FROM student AS T1 JOIN course AS T2 ON T1.course_id = T2.course_id GROUP BY T2.s_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name FROM student AS T1 JOIN advisor AS T2 ON T1.id = T2.s_id GROUP BY T2.s_id HAVING count(*) >= 2
+SELECT T1.name FROM student AS T1 JOIN advisor AS T2 ON T1.id = T2.s_id GROUP BY T2.s_id HAVING count(*) >= 2
+SELECT T1.stu_fname FROM student AS T1 JOIN takes AS T2 ON T1.id = T2.id WHERE enroll_grade > 5 GROUP BY T2.pPos HAVING count(*) >= 2
+SELECT CName FROM Rooms WHERE Credits > 5 UNION SELECT CName FROM Rooms GROUP BY YEAR; HAVING count(*) >= 2
+SELECT count(*) FROM tracks WHERE dept_name = "Fast Info. Systems"
+SELECT count(*) FROM item WHERE name = "Fast As a Shark";
+SELECT avg(T2.gradepoint) FROM ENROLLED_IN AS T1 JOIN GRADECONVERSION AS T2 JOIN STUDENT AS T3 ON T1.Grade = T2.lettergrade AND T1.StuID = T3.StuID WHERE T3.city_code = "Smith"
+SELECT avg(T2.gradepoint) FROM ENROLLED_IN AS T1 JOIN GRADECONVERSION AS T2 JOIN STUDENT AS T3 ON T1.Grade = T2.lettergrade AND T1.StuID = T3.StuID WHERE T3.city_code = "Smith"
+SELECT max(Age) FROM STUDENT WHERE class_room = "Pass"
+SELECT max(gradepoint) FROM classroom WHERE grade NOT IN (SELECT station_id FROM student_course_attendance)
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = 'Success' INTERSECT SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = "Defender"
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = 'Success' INTERSECT SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = "CA"
+SELECT avg(age) FROM Person WHERE job = 'male'
+SELECT avg(age) FROM people WHERE job = "Fast As a Shark";
+SELECT email_address , GDP FROM addresses WHERE state = 255 OR age > 40
+SELECT T1.driverid , phone_number FROM user_profiles WHERE state = "Marina" OR zip_postcode > 2
+SELECT title FROM program WHERE cost > 1000
+SELECT name FROM procedures WHERE hours > 1000
+SELECT first_name FROM captain WHERE first_name = "Nancy" OR last_name != 'Beijing'
+SELECT first_name FROM products WHERE first_name = 'Comp. States' OR department_id != '%edu%'
+SELECT head_id , role_name , Amount_Payment FROM Maintenance_Engineers WHERE personal_name = 'Armani'
+SELECT employee_name , role_code FROM problem_log WHERE Email LIKE 'Armani'
+SELECT T1.engineer_id , T1.first_name , T1.last_name FROM Third_Party_Companies AS T1 JOIN Maintenance_Contracts AS T2 ON T1.company_id = T2.maintenance_contract_company_id GROUP BY T1.company_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name , T2.film_id , T2.description FROM school_bus AS T1 JOIN Engineer_Skills AS T2 ON T1.customer_id = T2.customer_id GROUP BY T1.customer_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.engineer_id , T1.first_name , T1.last_name FROM Reservations AS T1 JOIN Engineer_Visits AS T2 ON T1.Room = T2.RoomId GROUP BY T1.engineer_id HAVING count(*) >= 2
+SELECT T3.title , T1.course_description , T2.description FROM Performance AS T1 JOIN Subjects AS T2 ON T1.bandmate = T2.id JOIN Songs AS T3 ON T3.SongId = T1.SongId GROUP BY T2.course_id HAVING count(*) >= 2
+SELECT title FROM albums WHERE name = "Fast As Rating" GROUP BY advisor ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM vocals AS T1 JOIN songs AS T2 ON T1.songid = T2.songid GROUP BY T2.film_id ORDER BY count(*) DESC LIMIT 1
+SELECT part_id , rental_rate FROM employees WHERE rental_rate = 'Visa' GROUP BY payment_method ORDER BY count(*) DESC LIMIT 1
+SELECT T1.asset_id , T1.company_name FROM Third_Party_Companies AS T1 JOIN Rooms AS T2 ON T1.company_id = T2.address_id WHERE T2.last_name = "US 102'
+SELECT role_description FROM claims_processing_stages GROUP BY Policy_Type_Code ORDER BY count(*) ASC LIMIT 1
+SELECT role_description FROM claims_processing_stages WHERE claim_status_name = "Open"
+SELECT part_id , rental_rate FROM Payments GROUP BY Payment_Method_Code ORDER BY count(*) DESC LIMIT 1
+SELECT channel_code , T1.zip_postcode FROM weekly_weather AS T1 JOIN Parking_Fines AS T2 ON T1.cmi_cross_ref_id = T2.cmi_cross_ref_id WHERE T1.detention_type_code = "AFTER" GROUP BY T2.address_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.student_id , T1.partitionid FROM Fault_Log AS T1 JOIN Fault_Log_Parts AS T2 ON T1.uid = T2.part_id GROUP BY T1.fault_log_entry_id HAVING count(*) >= 2
+SELECT problem_log_id , log_entry_date FROM problem_log GROUP BY problem_id HAVING count(*) >= 2
+SELECT name , duration FROM employees WHERE weight < (SELECT min(min_dew_point_f) FROM student)
+SELECT first_name , last_name FROM customers WHERE max_temperature_f < 700
+SELECT Date , surname FROM employees WHERE first_name = "Marina"
+SELECT Date , premise_details FROM problem_log ORDER BY max_speed ASC LIMIT 1
+SELECT interaction_type , count(*) FROM Rooms GROUP BY payment_method_code;
+SELECT premises_type , password FROM premises
+SELECT individual_first_name , Lname , payment_method_code FROM Orders WHERE employee_Name = 'Armani'
+SELECT T3.name , T3.balance , T2.customer_phone FROM products AS T1 JOIN invoices AS T2 ON T1.customer_id = T2.customer_id
+SELECT T1.duration , image_url FROM images
+SELECT Hardware_Model_name , individual_middle_name FROM products WHERE document_name = "LG-P760";
+SELECT T1.Service_Type_Description , T2.Service_Type_Code , Amount_Payment FROM individuals
+SELECT T1.Char_cells , image_url , T2.description FROM Person
+SELECT title , Company_name FROM PersonFriend WHERE name = "Marina"
+SELECT firstname FROM CUSTOMER WHERE City = "luisg@embraer.com.br"
+SELECT title FROM procedures WHERE title = "Astrid" AND last_name = "Gruber";
+SELECT T1.Char_cells , T1.Pixels , Amount_Payment FROM course AS T1 JOIN prereq AS T2 ON T1.course_id = T2.course_id
+SELECT name FROM Movie WHERE name = 'James FIFA a Cup qualification"
+SELECT T1.company_name FROM customers AS t1 JOIN candidate AS t2 ON t1.customer_id = t2.customer_id ORDER BY t2.date_complaint_raised LIMIT 1
+SELECT email FROM customers WHERE state = "Roberto" AND last_name = "Gruber";
+SELECT email FROM customers WHERE state = "Roberto" OR state = "Langosh"
+SELECT T1.Char_cells , MIN(cost) , AVG(cost) FROM images
+SELECT T2.day_Number , T1.Date_Stored FROM Residents AS T1 JOIN Ref_calendar AS T2 ON T1.date_stored = T2.calendar_date
+SELECT count(*) FROM customers WHERE title = "Fast As a Shark";
+SELECT count(*) FROM customers WHERE title = "Fast Info. a Shark";
+SELECT count(*) FROM Fault_Log AS T1 JOIN Skills_Required_To_Fix AS T2 ON T1.fault_log_entry_id = T2.fault_log_entry_id WHERE T2.name = "Ray"
+SELECT count(*) FROM item WHERE name = "flax"
+SELECT title , GDP FROM city WHERE city LIKE "%Alex%"
+SELECT T1.Char_cells , T1.dept_code , address FROM address WHERE city LIKE '%m'
+SELECT open_year , first_name , last_name FROM addresses WHERE zip_postcode LIKE "%Alex%"
+SELECT email_address , first_name , last_name FROM Customers; WHERE zip_postcode LIKE '%m'
+SELECT count(*) FROM files WHERE age < (SELECT avg(age) FROM student)
+SELECT count(*) FROM Person WHERE age < (SELECT max(age) FROM person WHERE job = 'engineer')
+SELECT patient FROM stay WHERE user_login = (SELECT min(min_dew_point_f) FROM student)
+SELECT venue FROM festival_detail WHERE YEAR = (SELECT max(YEAR) FROM Movie)
+SELECT count(*) FROM item WHERE id NOT IN ( SELECT accelerator_id FROM tracks WHERE first_name = 'Canada')
+SELECT count(*) FROM item WHERE id NOT IN (SELECT T1.patient FROM Prescribes
+SELECT count(*) FROM phone WHERE id NOT IN ( SELECT game_id FROM Prescribes )
+SELECT count(*) FROM team_franchise WHERE FirstName NOT IN (SELECT T1.id FROM protein)
+SELECT count(*) FROM albums WHERE SSN NOT IN (SELECT employee_id FROM complaints)
+SELECT count(*) FROM item WHERE forename NOT IN (SELECT apid FROM prereq AS T1 JOIN review AS T2 ON T1.end_station_id = T2.id WHERE T1.name = 'Differential Jackson'
+SELECT T1.Char_cells , T1.age , min(oppose_rate) FROM people AS T1 JOIN laptimes AS T2 ON T1.people_id = T2.people_id WHERE T2.interaction_type = 'inhibitor'
+SELECT AVG(Milliseconds) , T1.Pixels , min(oppose_rate) FROM architect AS T1 JOIN tracks AS T2 ON T1.city_id = T2.people_id WHERE T2.Birth_Date = 'inhibitor'
+SELECT avg(age) FROM Person
+SELECT avg(age) FROM Person
+SELECT Age FROM Person ORDER BY Age DESC LIMIT 1
+SELECT Age FROM people ORDER BY Age DESC LIMIT 1
+SELECT policy_type_code , count(*) FROM policies GROUP BY policy_type_code
+SELECT policy_type_code , budget_type_description FROM policies
+SELECT avg(product_price) FROM products WHERE product_type_code = 'Hardware' GROUP BY payment_method ORDER BY count(*) DESC LIMIT 1
+SELECT Product_Name FROM Products GROUP BY date_of_latest_revision ORDER BY count(*) DESC LIMIT 1
+SELECT T1.Char_cells , T3.Type , email_address FROM customers WHERE Hardware_Model_name = "LG-P760";
+SELECT T1.Service_Type_Description , T3.Type , email_address FROM employees
+SELECT TYPE , document_type_name FROM premises
+SELECT DISTINCT Product_Name , Product_Type_Code FROM enzyme WHERE TYPE = 'inhibitor'
+SELECT T1.problem_description FROM Staff_Roles AS T1 JOIN Courses AS T2 ON T1.outcome_code = T2.outcome_code WHERE T2.first_name = "Fahey"
+SELECT characteristic_name , other_characteristic_details , characteristic_data_type FROM CHARACTERISTICS
+SELECT count(*) FROM artist
+SELECT count(*) FROM review
+SELECT Name FROM artist ORDER BY Name ASC
+SELECT Name FROM artist ORDER BY Name ASC
+SELECT T2.day_Number , date_incident_end FROM INVOICES AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.People_ID
+SELECT T2.day_Number , date_incident_end FROM mailshot_customers
+SELECT Name FROM artist WHERE genre_is LIKE "%a%"
+SELECT Name FROM ARTIST WHERE Name != "%a%"
+SELECT Name FROM artist WHERE Age = "United States" OR languages = "english"
+SELECT T1.artist_name FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name WHERE T1.gender = "UK" OR T1.gender = "english"
+SELECT title FROM albums WHERE name = "Fast As a Shark";
+SELECT title FROM albums WHERE name = "Fast As a Shark";
+SELECT T1.Title , COUNT(*) FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name GROUP BY T2.artist_name
+SELECT Country , COUNT(*) FROM artist GROUP BY Country
+SELECT Memory_in_G FROM products GROUP BY Range ORDER BY COUNT(*) DESC LIMIT 1
+SELECT title FROM vocals GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT TYPE , name FROM artist GROUP BY TYPE
+SELECT f_id FROM products GROUP BY languages
+SELECT title , rating FROM film WHERE TYPE = 'R'
+SELECT title , title FROM vocals AS T1 JOIN songs AS T2 ON T1.songid = T2.songid WHERE title = "Le Pop"
+SELECT DISTINCT artist_name FROM artist WHERE Weeks_on_Top > (SELECT min(resolution) FROM exhibition)
+SELECT DISTINCT T1.artist_name FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name WHERE T1.hours > 9
+SELECT T2.Name FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name GROUP BY T2.artist_name HAVING COUNT(*) > 1
+SELECT T1.artist_name FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name GROUP BY T2.artist_name HAVING count(*) > 1
+SELECT T2.Name , sum(T1.Num_of_stock) FROM artist AS T1 JOIN round AS T2 ON T1.artist_name = T2.artist_name GROUP BY T2.artist_name
+SELECT sum(revenue) , founder FROM manufacturers GROUP BY name
+SELECT Name FROM artist WHERE Artist_ID NOT IN (SELECT People_ID FROM volume)
+SELECT title FROM albums; WHERE course_id NOT IN (SELECT i_id FROM Engineer_Visits)
+SELECT T2.theme FROM artist AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name WHERE T2.Weeks_on_Top < T2.Jul
+SELECT artist_name FROM artist WHERE rating < "1989-09-03" INTERSECT SELECT Appelation FROM song WHERE rating > 1900
+SELECT count(*) FROM services
+SELECT ResTypeDescription FROM film WHERE TYPE = "Chocolate"
+SELECT T1.transaction_type_description FROM All_documents AS T1 JOIN TRANSACTIONS AS T2 ON T1.transaction_type_code = T2.document_id WHERE T1.document_name = "Robin CV"
+SELECT dorm_name FROM people WHERE Residence = "mp4" OR Residence > 1000

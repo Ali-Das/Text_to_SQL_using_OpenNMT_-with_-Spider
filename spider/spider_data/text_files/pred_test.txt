@@ -1,0 +1,1659 @@
+SELECT T1.city FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Shanghai"
+SELECT city FROM student GROUP BY t3.city ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM customers WHERE city = 'Goroka'
+SELECT title FROM vocals WHERE name = "Fast States' GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM city WHERE city = 'United States'
+SELECT town_city FROM addresses WHERE city = 'United States'
+SELECT city FROM addresses WHERE city = 'United States'
+SELECT max(t2.active_to_date) FROM city AS T1 JOIN songs AS T2 ON T1.city_id = T2.city_id WHERE T2.Party = "Shanghai" GROUP BY T1.city_id ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM student WHERE city_code = 255 ORDER BY age DESC LIMIT 1
+SELECT city FROM addresses WHERE city = 'Goroka' GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM city WHERE district = 'United States'
+SELECT Zip_code FROM invoices ORDER BY enr DESC LIMIT 1
+SELECT count(*) FROM Residents WHERE billing_country = "Kim"
+SELECT T2.Jan FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Shanghai"
+SELECT count(*) FROM Residents WHERE billing_country = "Kim"
+SELECT host_city FROM addresses WHERE state = "Roberto" AND last_name = "Almeida";
+SELECT unit_price FROM Residents WHERE T1.DNO = "Kim"
+SELECT T2.Jan FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Taizhou Dinning"
+SELECT count(*) FROM Residents WHERE friend = 'Australia'
+SELECT count(*) FROM people AS T1 JOIN people AS T2 ON T1.country_id = T2.people_id WHERE T1.year = 2016
+SELECT count(*) FROM Residents WHERE city_code = 'Australia'
+SELECT count(*) FROM Residents WHERE Number_Deaths = "Kim"
+SELECT avg(Population) FROM STUDENT WHERE Sex = 'Denmark'
+SELECT avg(Population) FROM county WHERE death_year = 'Denmark'
+SELECT count(*) FROM Residents WHERE state = 'NY';
+SELECT DISTINCT city FROM airports WHERE grade = 94107)
+SELECT count(*) FROM people AS T1 JOIN candidates AS T2 ON T1.country_id = T2.people_id WHERE T1.year = 2016
+SELECT count(*) FROM results WHERE department_name = "flax"
+SELECT count(*) FROM Residents WHERE friend = "ROY"
+SELECT count(*) FROM Residents WHERE gtype = 'Australia'
+SELECT state_province_county FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT customer_name FROM customers ORDER BY followers LIMIT 1
+SELECT state FROM student ORDER BY enr LIMIT 1
+SELECT city FROM customers WHERE city = 'Greenland'
+SELECT city FROM PersonFriend WHERE name = 'Greenland'
+SELECT city FROM station WHERE city = 'United States'
+SELECT city FROM addresses WHERE city = 'United States'
+SELECT city FROM addresses WHERE city = 'United States'
+SELECT city FROM addresses WHERE city = 'United States'
+SELECT city FROM addresses WHERE zip_postcode = 255
+SELECT * FROM film WHERE County_name = "Good Credit Rating"
+SELECT T1.problem_description FROM county AS T1 JOIN election AS T2 ON T1.County_id = T2.District WHERE T2.Party = "Appropriations"
+SELECT state_province_county FROM addresses
+SELECT state_province_county FROM addresses
+SELECT state_province_county FROM addresses WHERE state_province_county = "Defender"
+SELECT T1.State_County FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "Texas"
+SELECT state_province_county FROM tryout WHERE T1.state_province_county LIKE "%6862 Kaitlyn Knolls%"
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "LG-P760";
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "LG-P760";
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT * FROM STUDENT WHERE billing_city = "Rock"
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "Appropriations"
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT state_province_county FROM tryout WHERE T1.state_province_county LIKE "%6862 Kaitlyn Knolls%"
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = "CA"
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.team_id_winner = T2.team_id_br WHERE T1.state_province_county = "CA"
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT state_province_county FROM addresses WHERE state = "Defender"
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT T1.State_County FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "Texas"
+SELECT state FROM student GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT title FROM customers WHERE state = "Roberto" GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM student GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM college GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM customers GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM customers GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT customer_name FROM customers GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM student GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT max(elevation) FROM weather WHERE Airport_Name = 94107
+SELECT sum(city_population) , state FROM weather ORDER BY enr LIMIT 1
+SELECT max(T1.length_meters) FROM mill AS T1 JOIN temperature AS T2 ON T1.city_id = T2.f_id ORDER BY T2.Feb DESC LIMIT 1
+SELECT * FROM weather WHERE t1.campus = "London Credit Rating"
+SELECT title FROM tracks ORDER BY T2.duration DESC LIMIT 1
+SELECT max(t2.active_to_date) FROM products AS t1 JOIN songs AS t2 ON t1.people_id = t2.id WHERE t2.faculty = (SELECT min(date_problem_reported) FROM policies)
+SELECT unit_price FROM payment WHERE County_name = "flax"
+SELECT max(t2.active_to_date) FROM payment AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.People_ID WHERE T2.city = "Shanghai"
+SELECT title FROM tracks WHERE name = "Fast As World Shark";
+SELECT Elimination_Move FROM payment WHERE County_name = "Good Credit Rating"
+SELECT count(*) FROM STUDENT WHERE billing_city = 'Australia'
+SELECT count(*) FROM item WHERE County_name = "flax"
+SELECT count(*) FROM inventory WHERE dept_name = "Demon Info. City'
+SELECT count(*) FROM STUDENT WHERE RESULT = 'Australia'
+SELECT count(*) FROM problem_log WHERE pName = "flax"
+SELECT count(*) FROM Residents WHERE nationality = 'Australia'
+SELECT count(*) FROM results WHERE department_name = "flax"
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "CA"
+SELECT T1.state FROM department AS T1 JOIN invoices AS T2 ON T1.address_id = T1.id WHERE T1.state_province_county = 'Charles'
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "CA"
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = "CA"
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT state_province_county FROM addresses WHERE state = "Defender"
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "CA"
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T1.address_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT state_province_county FROM invoices WHERE T1.state_province_county = "Defender"
+SELECT T1.state FROM department AS T1 JOIN invoices AS T2 ON T1.address_id = T1.id WHERE T1.state_province_county = 'Charles'
+SELECT T1.state FROM department AS T1 JOIN match_season AS T2 ON T1.id = T2.cName WHERE T1.state = 'Marketing'
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T1.address_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT title FROM customers WHERE name = "Roberto"
+SELECT catalog_entry_name FROM catalog_contents WHERE name = "UK"
+SELECT T1.problem_description FROM albums AS T1 JOIN artists AS T2 ON T1.prereq_id = T2.id WHERE T1.name = "Aerosmith";
+SELECT * FROM film WHERE languages = 'Psychology'
+SELECT * FROM film WHERE County_name = "flax"
+SELECT * FROM film WHERE County_name = "flax"
+SELECT * FROM film WHERE crs_code = "Chocolate"
+SELECT title FROM product WHERE name LIKE "%Scanner%"
+SELECT title FROM customers WHERE name = "Astrid" AND last_name = "Edwards";
+SELECT title FROM customers WHERE name = "Astrid" AND last_name = "Edwards";
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT product_name FROM wine WHERE name = "UK"
+SELECT T1.Char_cells FROM problems AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id
+SELECT T1.problem_description FROM albums AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = "Shanghai"
+SELECT title FROM tracks WHERE name = "Demon Info. Systems"
+SELECT match_id FROM EVENTS WHERE shipment_date > (SELECT max(shipment_date) FROM shipments)
+SELECT title FROM film WHERE name = "Nancy"
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT T1.problem_description FROM problems AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = 'Sony'
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.customer_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT state_province_county FROM addresses WHERE city = 'United States'
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT state_province_county FROM addresses WHERE city = 'NY';
+SELECT city FROM city WHERE city = 'morningside'
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.team_id_winner = T2.team_id_br WHERE T1.state_province_county = "CA"
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT city FROM addresses WHERE state = 'NY';
+SELECT state_province_county FROM addresses WHERE city = "Defender"
+SELECT avg(Population) FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT avg(Population) FROM bank ORDER BY no_of_customers DESC LIMIT 1
+SELECT count(*) FROM Residents WHERE friend = 'Australia'
+SELECT avg(Population) FROM county WHERE death_year = 'Denmark'
+SELECT count(*) FROM Residents WHERE job = 'engineer')
+SELECT count(*) FROM people AS T1 JOIN candidates AS T2 ON T1.id = T2.genre_id WHERE T1.email_address = 6
+SELECT avg(Population) FROM city WHERE County_name = "Howard"
+SELECT count(DISTINCT city) FROM ENROLLED_IN WHERE Grade = "ROY"
+SELECT avg(Population) FROM STUDENT WHERE city_code = 'Australia'
+SELECT avg(Population) FROM county WHERE County_name = "Howard"
+SELECT T1.name FROM Person AS T1 JOIN people AS T2 ON T1.party_id = T2.party_id WHERE T2.name = 'Alice' AND T1.gender = 'female'
+SELECT count(*) FROM people AS T1 JOIN candidates AS T2 ON T1.id = T2.genre_id WHERE T2.country = "Lucas"
+SELECT count(*) FROM inventory WHERE dept_name = "Demon Info. City'
+SELECT count(*) FROM results AS T1 JOIN people AS T2 ON T1.classroom = T2.classroom WHERE T2.firstname = "KAWA" AND T1.last_name = "GORDON"
+SELECT count(*) FROM results WHERE department_name = "flax"
+SELECT T2.Jan FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Shanghai"
+SELECT title FROM department WHERE state = 'New York'
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = 'yes' ORDER BY T2.date_of_attendance DESC LIMIT 1;
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T1.address_id ORDER BY T2.invoice_date DESC LIMIT 1
+SELECT T1.state_province_county FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id ORDER BY enr DESC LIMIT 1;
+SELECT state_province_county FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT avg(Population) FROM city ORDER BY Population LIMIT 1
+SELECT avg(Population) FROM state
+SELECT T1.state FROM college AS T1 JOIN player_college AS T2 ON T1.cName = T2.cName WHERE T2.bikes_available > (SELECT T1.state FROM Employees) AS T3 JOIN department AS T4 ON T3.city_id = T4.host_city WHERE T3.pName = 'Charles'
+SELECT T1.state FROM college AS T1 JOIN player_college AS T2 ON T1.cName = T2.cName WHERE T2.bikes_available > (SELECT max(enr) FROM college)
+SELECT state_province_county FROM college WHERE enr > (SELECT max(enr) FROM college)
+SELECT max(elevation) FROM mountain WHERE Competition_type = 94107
+SELECT sum(Domestic_Passengers) FROM Residents WHERE billing_country = (SELECT avg(campusfee) FROM csu_fees)
+SELECT max(Points) FROM STUDENT WHERE RESULT = "Amersham"
+SELECT max(elevation) FROM weather WHERE date_problem_reported = 94107
+SELECT sum(Domestic_Passengers) FROM trip AS T1 JOIN artists AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = 'London'
+SELECT title FROM weather ORDER BY duration DESC LIMIT 1
+SELECT t2.catalog_level_name FROM albums AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id ORDER BY T2.duration DESC LIMIT 1
+SELECT unit_price FROM payment WHERE County_name = "flax"
+SELECT name FROM instructor ORDER BY Time_of_purchase DESC LIMIT 1
+SELECT max(t2.active_to_date) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.game_id WHERE T1.duration = "Shanghai"
+SELECT name FROM weather ORDER BY date DESC LIMIT 1
+SELECT unit_price FROM mountain ORDER BY product_price DESC LIMIT 1
+SELECT title FROM department WHERE city = "Accounting"
+SELECT state_province_county FROM addresses ORDER BY Regional_Population DESC LIMIT 1
+SELECT state FROM city GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT city FROM addresses GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM city GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT city FROM addresses GROUP BY state ORDER BY sum(no_of_customers) DESC LIMIT 1
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT city FROM addresses WHERE state = 'NY'; GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM customers GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = "Roberto" AND last_name = "Almeida";
+SELECT state_province_county FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.cName WHERE state = 'New York'
+SELECT city FROM customers GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT city FROM addresses GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM department GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM department AS T1 JOIN match_season AS T2 ON T1.department_id = T2.department_id JOIN locations AS T3 ON T2.location_id = T3.pID WHERE T3.pName = 'Charles'
+SELECT T1.state FROM election AS T1 JOIN park AS T2 ON T2.location_id = T1.location_id WHERE T1.state_province_county = 'Marketing'
+SELECT T1.state FROM department AS T1 JOIN invoices AS T2 ON T1.id = T2.cName WHERE T1.state_province_county = 'Marketing'
+SELECT T1.state FROM department AS T1 JOIN invoices AS T2 ON T1.id = T2.cName WHERE T1.state_province_county = 'Charles'
+SELECT T1.state FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id ORDER BY T2.Feb LIMIT 1
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id ORDER BY T2.Feb LIMIT 1
+SELECT T1.state FROM customers AS T1 JOIN address AS T2 ON T1.city_id = T2.city_id ORDER BY T2.Feb LIMIT 1
+SELECT T1.state FROM college AS T1 JOIN locations AS T2 ON T2.location_id = T2.country_id WHERE T1.first_name = 'yes'
+SELECT T1.state FROM college AS T1 JOIN locations AS T2 ON T2.location_id = T2.team_id_br WHERE T1.first_name = 'yes'
+SELECT state_province_county FROM addresses WHERE state = 'New York' GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'yes' GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM city ORDER BY enr LIMIT 1
+SELECT t2.catalog_level_name FROM gymnast AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = "Shanghai"
+SELECT max(elevation) FROM STUDENT WHERE shipment_date = (SELECT max(YEAR) FROM claims_documents
+SELECT building_short_name FROM weather WHERE death_year = 'Australia'
+SELECT max(elevation) FROM mountain WHERE Appelation = "United Kingdom"
+SELECT max(Points) FROM addresses WHERE state = 'NY';
+SELECT state_province_county FROM addresses WHERE state NOT IN (SELECT employee_address_id FROM Employees)
+SELECT state_province_county FROM addresses WHERE state NOT IN (SELECT employee_address_id FROM Employees)
+SELECT state_province_county FROM addresses WHERE address_id NOT IN (SELECT employee_address_id FROM Employees)
+SELECT T1.state FROM Addresses AS T1 JOIN Stores AS T2 ON T1.address_id = T2.staff_address_id ORDER BY T2.Feb LIMIT 1
+SELECT T1.state FROM college AS T1 JOIN player_college AS T2 ON T1.player_id = T1.id WHERE T2.bikes_available < T2.Jul
+SELECT count(*) FROM courses WHERE dept_name = 'Physics'
+SELECT count(*) FROM Residents WHERE gtype = "LG-P760";
+SELECT max(elevation) FROM mountain WHERE Appelation = "flax"
+SELECT sum(Domestic_Passengers) FROM trip AS T1 JOIN artists AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = 'London'
+SELECT max(elevation) FROM addresses WHERE state = 'New York'
+SELECT max(elevation) FROM mountain ORDER BY Total_Horses DESC LIMIT 1
+SELECT Height FROM people ORDER BY Height DESC LIMIT 1
+SELECT count(*) FROM Addresses WHERE T2.customer_first_name = "LG-P760";
+SELECT max(Points) FROM products WHERE County_name = "flax"
+SELECT * FROM STUDENT WHERE gtype = "Amersham"
+SELECT count(*) FROM weather WHERE t1.campus = "flax"
+SELECT title FROM flight WHERE first_name = "Fast Angeles"
+SELECT count(*) FROM weather WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT sum(T2.total) FROM problems AS T1 JOIN people AS T2 ON T1.city_id = T2.id ORDER BY T2.duration DESC LIMIT 1
+SELECT date FROM people ORDER BY date DESC LIMIT 1
+SELECT count(*) FROM participants AS T1 JOIN League AS T2 ON T1.country_id = T2.country_id WHERE T2.country = "England"
+SELECT count(*) FROM city WHERE city = 'Australia'
+SELECT count(*) FROM city WHERE city = "Prague";
+SELECT count(*) FROM city
+SELECT count(*) FROM city AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = 'Australia'
+SELECT count(*) FROM city
+SELECT count(DISTINCT city) FROM county_public_safety
+SELECT city FROM addresses WHERE competition_type = 'Australia'
+SELECT count(*) FROM vocals WHERE city = "Demon Info. City'
+SELECT count(*) FROM Residents WHERE gtype = "flax"
+SELECT T2.Jan FROM county AS T1 JOIN election AS T2 ON T1.city_id = T2.city_id WHERE T1.name = "Rock";
+SELECT count(*) FROM Residents AS T1 JOIN campuses AS T2 ON T1.party_id = T2.party_id WHERE T1.city_code = "NYC"
+SELECT count(*) FROM weather WHERE city = 'United States'
+SELECT count(*) FROM routes AS T1 JOIN airports AS T2 ON T1.city_id = T2.city_id WHERE T1.city = 'new States'
+SELECT count(*) FROM airport WHERE city = "Prague";
+SELECT Market_Rate FROM bank WHERE County_name = "Colorado"
+SELECT count(*) FROM Addresses WHERE state_province_county = "197"
+SELECT avg(Population) FROM addresses
+SELECT count(DISTINCT state) FROM department WHERE state = "Defender"
+SELECT count(DISTINCT state) FROM bank
+SELECT count(DISTINCT state) FROM department WHERE state = "Defender"
+SELECT count(DISTINCT state) FROM department WHERE state = 'Physics'
+SELECT count(DISTINCT dept_address) FROM department WHERE state = "Defender"
+SELECT count(DISTINCT state) FROM department WHERE state = "Defender"
+SELECT count(DISTINCT dept_address) FROM department WHERE state = 'Physics'
+SELECT count(DISTINCT dept_address) FROM department WHERE school_code = "Defender"
+SELECT * FROM invoices
+SELECT COUNT(*) FROM department WHERE state = 'NY';
+SELECT count(*) FROM park WHERE state = 'NY';
+SELECT count(DISTINCT state) FROM department ORDER BY enr DESC LIMIT 1
+SELECT count(DISTINCT state) FROM department WHERE state NOT IN (SELECT department_id FROM management);
+SELECT count(DISTINCT state) FROM college WHERE enr > (SELECT avg(enr) FROM college)
+SELECT T1.problem_description FROM county AS T1 JOIN election AS T2 ON T1.County_id = T2.District WHERE T2.Party = "Appropriations"
+SELECT Major FROM STUDENT WHERE Major = "BAL"
+SELECT Major FROM STUDENT WHERE Major = "BAL"
+SELECT TIME FROM STUDENT WHERE Major = "Kim"
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.department = T2.team_id_br WHERE T1.state_province_county = "NYC" AND T2.Election_Cycle = "Bernhard"
+SELECT T2.City FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Shanghai"
+SELECT region_name FROM airport WHERE bname = "Colorado"
+SELECT max(t2.active_to_date) FROM storm WHERE billing_country = "Kim"
+SELECT region_name FROM airlines WHERE bname = "Colorado"
+SELECT T1.state FROM customers AS t1 JOIN customer_addresses AS t2 ON t1.customer_id = t2.customer_id JOIN addresses AS t3 ON t2.address_id = t3.address_id WHERE t3.state_province_county = "Colorado"
+SELECT Dependent_name FROM addresses WHERE city = 'United States'
+SELECT T1.state FROM college AS T1 JOIN locations AS T2 ON T1.branch_id = T2.branch_id WHERE T1.state = 'New Crew"
+SELECT state_province_county FROM addresses WHERE T1.state = "Good Kaitlyn Knolls%"
+SELECT T1.state FROM college AS T1 JOIN locations AS T2 ON T1.branch_id = T2.branch_id WHERE T1.state = 'New Crew"
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.team_id_winner = T2.country_id WHERE T1.state_province_county = "NYC"
+SELECT state_province_county FROM addresses WHERE city = 'New States'
+SELECT city FROM addresses ORDER BY state_province_county DESC LIMIT 1
+SELECT T1.state FROM college AS T1 JOIN locations AS T2 ON T1.Gymnast_ID = T2.People_ID
+SELECT Major FROM STUDENT WHERE Major = "Kim"
+SELECT address_line_1 FROM addresses WHERE state = 'NY';
+SELECT Zip_code FROM county_public_safety WHERE LOCATION = "Kim"
+SELECT building_short_name FROM city WHERE City_ID = "Good Spitzer"
+SELECT organization_name FROM city WHERE County_name = "Good Kaitlyn Knolls%"
+SELECT t1.Regional_Population FROM city AS T1 JOIN hosting_city AS T2 ON T1.city_id = T2.host_city
+SELECT Major FROM STUDENT WHERE city_code = "1994 FIFA World Cup qualification"
+SELECT T1.State_County FROM city AS T1 JOIN hosting_city AS T2 ON T1.city_id = T2.host_city WHERE T1.state_province_county = "Appropriations"
+SELECT t1.Regional_Population FROM city AS T1 JOIN hosting_city AS T2 ON T1.city_id = T2.host_city WHERE T1.Population = "Taizhou States'
+SELECT city FROM Student WHERE Major = 4;
+SELECT avg(Population) FROM Student
+SELECT town_city , count(*) FROM addresses GROUP BY state
+SELECT T1.State_County FROM college AS T1 JOIN locations AS T2 ON T2.location_id = T2.country_id WHERE T2.College = 'Marketing'
+SELECT state_province_county FROM addresses WHERE state = "Defender"
+SELECT state_province_county FROM addresses WHERE state = 'New York'
+SELECT state_province_county FROM addresses WHERE state = 'New States'
+SELECT state_province_county FROM addresses WHERE state = 'New States'
+SELECT T1.state FROM college AS T1 JOIN locations AS T2 ON T2.location_id = T2.country_id WHERE T1.state = 'Marketing'
+SELECT state_province_county FROM addresses WHERE state = 'New States'
+SELECT state_province_county FROM addresses WHERE state = 'New York'
+SELECT T1.state FROM EVENTS AS T1 JOIN player AS T2 ON T1.Appelation = T2.chip_model WHERE T1.state_province_county = "CA"
+SELECT avg(Population) FROM city WHERE County_name = 'Denmark'
+SELECT Census_Ranking FROM city WHERE Major = "Good Spitzer"
+SELECT avg(Population) FROM city WHERE Major = "Good Credit Knolls%"
+SELECT T1.city FROM city AS T1 JOIN city AS T2 ON T1.city_id = T2.city_id GROUP BY T1.city_id ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM addresses WHERE state = 'United States' GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT T1.city FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id GROUP BY T1.city_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.city FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id ORDER BY T2.Feb DESC LIMIT 1
+SELECT city FROM addresses WHERE city = 'United States'
+SELECT city FROM airports WHERE city = 'Goroka'
+SELECT city FROM city ORDER BY GDP DESC LIMIT 1
+SELECT city FROM city GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT T1.city FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Shanghai"
+SELECT city FROM city GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT max(elevation) FROM bank WHERE city = 'Iceland'
+SELECT bname FROM addresses WHERE state = 'Iceland'
+SELECT name FROM manufacturers ORDER BY market_rate DESC LIMIT 1
+SELECT max(t2.active_to_date) FROM albums AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = "Shanghai" GROUP BY major ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM airports ORDER BY membership_amount DESC LIMIT 1
+SELECT city FROM airports ORDER BY membership_amount DESC LIMIT 1
+SELECT name FROM manufacturers GROUP BY founder ORDER BY count(*) DESC LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT T1.line_1 FROM city AS T1 JOIN invoices AS T2 ON T1.city_id = T2.src_apid GROUP BY T1.player_id ORDER BY count(*) ASC LIMIT 1
+SELECT T1.state FROM city AS T1 JOIN temperature AS T2 ON T1.country_id = T2.region_id GROUP BY t2.state_province_county ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id GROUP BY T1.state_province_county ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM city AS T1 JOIN invoices AS T2 ON T1.address_id = T1.id ORDER BY T2.Feb DESC LIMIT 1
+SELECT city FROM addresses GROUP BY city HAVING count(address_id) BETWEEN 1 AND 4;
+SELECT state_province_county FROM addresses WHERE state_province_county = "Colorado"
+SELECT count(*) FROM customers WHERE dept_name = "Fast Info. City'
+SELECT sum(Domestic_Passengers) FROM Residents WHERE Area = 'Australia'
+SELECT f_id FROM film WHERE County_name = "flax"
+SELECT unit_price FROM Residents WHERE Sex = 'Denmark'
+SELECT title FROM department WHERE name = "Fast Info. Systems"
+SELECT max(elevation) FROM mountain ORDER BY Prominence DESC LIMIT 1
+SELECT max(elevation) FROM mountain ORDER BY Height DESC LIMIT 1
+SELECT T2.Height FROM mountain AS T1 JOIN temperature AS T2 ON T1.Mountain_ID = T2.Mountain_ID WHERE T2.Mar = "Shanghai"
+SELECT max(elevation) FROM mountain WHERE Height = (SELECT avg(height) FROM climber)
+SELECT T1.state FROM problems AS T1 JOIN locations AS T2 ON T2.location_id = T2.region_id WHERE T1.city = 3452
+SELECT T1.state FROM problems AS T1 JOIN people AS T2 ON T1.start_station_id = T2.branch_id WHERE T2.city = 'New York'
+SELECT max(elevation) FROM STUDENT WHERE RESULT = "Amersham"
+SELECT max(T1.length_meters) FROM gymnast AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.f_id WHERE T1.duration = "Shanghai"
+SELECT country FROM competition
+SELECT max(elevation) FROM people ORDER BY Black DESC LIMIT 1
+SELECT * FROM invoices WHERE billing_country = "Kim"
+SELECT T1.line_1 FROM college AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.People_ID ORDER BY T1.Total_Points LIMIT 1
+SELECT city FROM addresses WHERE state = 'New York'
+SELECT city FROM addresses WHERE state = 'New York'
+SELECT city FROM addresses GROUP BY city ORDER BY count(*) LIMIT 1
+SELECT T1.state FROM customers AS t1 JOIN customer_addresses AS t2 ON t1.customer_id = t2.customer_id JOIN addresses AS t3 ON t2.address_id = t3.address_id WHERE t3.state_province_county = "Colorado"
+SELECT state_province_county FROM customers WHERE state = 'NY'; ORDER BY city_area DESC LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T1.address_id ORDER BY T2.invoice_date DESC LIMIT 1
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.customer_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT max(t2.active_to_date) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.game_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT max(t2.active_to_date) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.game_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT state FROM city GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT unit_price FROM weather ORDER BY Total_Horses ASC LIMIT 1
+SELECT date FROM weather WHERE competition_type = 94107 AND last_name = "Almeida";
+SELECT sum(T2.total) FROM customers AS t1 JOIN candidate AS t2 ON t1.people_id = t2.people_id WHERE state = "Amersham"
+SELECT name FROM station WHERE good_or_bad_customer = 94107
+SELECT max(OMIM) FROM weather ORDER BY date LIMIT 1
+SELECT name FROM department ORDER BY Sales_billion LIMIT 1
+SELECT unit_price FROM weather ORDER BY Total_Horses ASC LIMIT 1
+SELECT match_id FROM addresses WHERE city = "Accounting"
+SELECT name FROM weather ORDER BY date LIMIT 1
+SELECT sum(hours) FROM weather ORDER BY Total_Horses LIMIT 1
+SELECT state_province_county FROM addresses WHERE line_1_number_building = 'Marketing'
+SELECT T1.state FROM college AS T1 JOIN player_college AS T2 ON T1.player_id = T2.pID WHERE T1.state_province_county = "Christop"
+SELECT customer_name FROM customers WHERE state = "Roberto" GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM college AS T1 JOIN people AS T2 ON T2.location_id = T2.person_id ORDER BY T2.Feb DESC LIMIT 1
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.address_id = T2.player_id WHERE T2.decision = 'yes' GROUP BY T1.state ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM college AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.People_ID GROUP BY T1.dept_code ORDER BY count(*) DESC LIMIT 1
+SELECT state_province_county FROM college WHERE state = 'yes' GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state_province_county FROM college WHERE state = 'NY'; GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.address_id = T1.id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT state_province_county FROM college WHERE state = 'NY'; ORDER BY enr DESC LIMIT 1
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.address_id = T2.player_id WHERE T2.decision = 'yes' GROUP BY T1.customer_id ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM customers WHERE zip_postcode = 94107 GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT Zip_code FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT avg(Population) FROM customers WHERE state = "Colorado"
+SELECT sum(city_population) FROM addresses ORDER BY Regional_Population DESC LIMIT 1
+SELECT avg(Population) FROM invoices
+SELECT sum(city_population) FROM college ORDER BY Population DESC LIMIT 1
+SELECT count(*) FROM Addresses WHERE state_province_county = "Kim" ORDER BY enr DESC LIMIT 1;
+SELECT T2.Jan FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Shanghai"
+SELECT city FROM weather GROUP BY city HAVING count(*) >= 2
+SELECT city FROM city GROUP BY city ORDER BY count(*) LIMIT 1
+SELECT city FROM city ORDER BY GDP LIMIT 1
+SELECT sum(T2.total) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.customer_id WHERE T1.first_name = 'Elsa'
+SELECT state_province_county FROM customers WHERE state = 'yes'
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.team_id_winner = T2.team_id_br WHERE T1.state_province_county = "NYC" AND T2.Election_Cycle = "Bernhard"
+SELECT sum(T2.total) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.game_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT state FROM customers GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM customers GROUP BY state
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = "Accounting"
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM customers GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT max(T1.length_meters) FROM GENRE AS T1 JOIN TRACK AS T2 ON T1.GenreId = T2.GenreId WHERE T2.first_name = "Pop"
+SELECT state FROM department GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM department GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT billing_country FROM invoices GROUP BY billing_country ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.department_id = T2.department_id JOIN locations AS T3 ON T2.location_id = T3.pID WHERE T3.pName = 'Charles'
+SELECT state FROM department GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT billing_country FROM invoices GROUP BY billing_country ORDER BY count(*) DESC LIMIT 1
+SELECT * FROM invoices GROUP BY billing_country ORDER BY count(*) DESC LIMIT 1
+SELECT * FROM addresses WHERE T1.state = "Good Credit Rating"
+SELECT match_id FROM customers WHERE state = 'yes'
+SELECT title FROM customers WHERE title = "Astrid" AND last_name = "Edwards";
+SELECT avg(Population) FROM department ORDER BY enr DESC LIMIT 1
+SELECT T1.state FROM department AS T1 JOIN match_season AS T2 ON T1.address_id = T1.id WHERE T1.state_province_county = "Shanghai"
+SELECT claim_status_description FROM addresses WHERE state = 'NY';
+SELECT title FROM customers WHERE name = "Roberto" GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM Addresses WHERE T1.state = "Carole"
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT name FROM customers ORDER BY enr DESC LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id ORDER BY T1.registration_date DESC LIMIT 1
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT state_province_county FROM addresses WHERE T1.state = 'yes'
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT T1.state FROM college AS T1 JOIN park AS T2 ON T2.location_id = T2.country_id WHERE T1.state_province_county = "Appropriations"
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.address_id = T1.id GROUP BY T1.player_id ORDER BY COUNT(*) DESC LIMIT 1
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state FROM addresses WHERE state = 'yes'
+SELECT state_province_county FROM Student WHERE Major > (SELECT employee_address_id FROM college)
+SELECT Name FROM mountain
+SELECT state_province_county FROM mountain WHERE Appelation = "Howard"
+SELECT city FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT city FROM student GROUP BY city HAVING count(*) >= 2
+SELECT state FROM customers WHERE state = "Roberto" GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT catalog_entry_name FROM STUDENT WHERE billing_city != '%Book%'
+SELECT title FROM department WHERE id NOT IN (SELECT apid FROM prereq
+SELECT title FROM airport WHERE id NOT IN (SELECT enzyme_id FROM prereq)
+SELECT title FROM department WHERE id NOT IN (SELECT apid FROM prereq
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT * FROM addresses WHERE state = 'NY';
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT LName FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT LName FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT state_province_county FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT song_name FROM addresses WHERE state = 'yes' ORDER BY enr DESC LIMIT 1
+SELECT state_province_county FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT city FROM addresses WHERE state = 'New York' GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state FROM addresses WHERE state LIKE "4%" ORDER BY age DESC LIMIT 1
+SELECT state_province_county FROM addresses GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT organization_name FROM college ORDER BY enr LIMIT 1
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.team_id_winner = T2.team_id_br WHERE T1.state_province_county = "NYC" AND T2.Election_Cycle = "Bernhard"
+SELECT state FROM student GROUP BY state ORDER BY avg(mean_sea_level_pressure_inches) LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'New York'
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT T1.problem_description FROM albums AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = "Aerosmith";
+SELECT * FROM products WHERE name = "Fast States'
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.branch_id = T2.branch_id WHERE T1.state = "CA"
+SELECT town_city FROM addresses WHERE state = 'NY'; ORDER BY GDP DESC LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = "CA"
+SELECT count(*) FROM addresses WHERE state != '%International%'
+SELECT T1.lat FROM city AS T1 JOIN laptimes AS T2 ON T1.id = T2.game_id ORDER BY T2.duration LIMIT 1
+SELECT Major FROM city WHERE state = 'yes'
+SELECT bname FROM bank WHERE state = 'New York'
+SELECT name FROM races ORDER BY International_Passengers LIMIT 1
+SELECT id FROM weather ORDER BY product_price LIMIT 1
+SELECT name FROM weather ORDER BY date LIMIT 1
+SELECT title FROM department ORDER BY duration LIMIT 1
+SELECT id FROM weather ORDER BY product_price LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT city FROM weather GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT state_province_county FROM addresses WHERE state = 'New York'
+SELECT max(t2.active_to_date) FROM customers AS t1 JOIN customer_addresses AS t2 ON t1.customer_id = t2.customer_id WHERE state = "San Jose"
+SELECT state_province_county FROM bank WHERE state = "Defender"
+SELECT state FROM addresses WHERE state = 'New York'
+SELECT state_province_county FROM addresses WHERE state = 'NY';
+SELECT * FROM student ORDER BY enr DESC LIMIT 1
+SELECT state FROM student GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM Person WHERE state_province_county = "Georgia";
+SELECT name FROM airport WHERE competition_type = 'New States'
+SELECT count(DISTINCT city) FROM park WHERE city = 'Physics'
+SELECT count(DISTINCT city) FROM park WHERE city = 'Physics'
+SELECT count(DISTINCT Status) FROM department AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = 'Australia'
+SELECT count(DISTINCT T1.Official_native_language) FROM Addresses AS T1 JOIN park AS T2 ON T1.branch_id = T2.branch_id WHERE T2.country = "Rock" OR T2.Party = "Bernhard"
+SELECT state FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.state_province_county = "Shanghai"
+SELECT count(*) FROM city AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = 'Australia'
+SELECT count(*) FROM city AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = 'Australia'
+SELECT count(*) FROM city AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = 'Australia'
+SELECT State FROM addresses
+SELECT count(DISTINCT state) FROM department WHERE school_code = 'BUS'
+SELECT COUNT(*) FROM Addresses WHERE T1.state = "197"
+SELECT COUNT(*) FROM ADDRESSES WHERE count(DISTINCT dept_address) AND 4; = "Kim"
+SELECT sum(T2.total) FROM invoices AS T1 JOIN people AS T2 ON T1.id = T2.team_id_br WHERE T1.state_province_county = "Spanish"
+SELECT avg(price) FROM wine AS T1 JOIN checking AS T2 ON T1.Club_ID = SECRETARY_Vote WHERE T1.name = "AIB"
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.team_id_winner = T2.team_id_br WHERE T1.first_name = "Carole"
+SELECT count(DISTINCT state) FROM addresses GROUP BY state HAVING count(*) >= 1
+SELECT T2.Height FROM climber AS T1 JOIN mountain AS T2 ON T1.Mountain_ID = T2.Mountain_ID WHERE T2.Height = "Uganda"
+SELECT COUNT(*) FROM customers WHERE T1.state = 'Marketing'
+SELECT count(*) FROM participants AS T1 JOIN party AS T2 ON T1.city_id = T2.city_id WHERE T1.state = "Appropriations"
+SELECT T1.state FROM college AS T1 JOIN League AS T2 ON T1.player_id = T2.address_id WHERE T1.state = 'Marketing'
+SELECT address FROM Student WHERE Major = 1004
+SELECT Major FROM party WHERE Major = 'Denmark'
+SELECT title FROM customers WHERE name LIKE "%ALA%"
+SELECT count(*) FROM Student WHERE County = "Kim"
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT count(DISTINCT President_Vote) FROM VOTING_RECORD WHERE Major = "USA"
+SELECT product_details FROM people WHERE T2.nationality = "flax"
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id ORDER BY enr LIMIT 1
+SELECT bname FROM addresses ORDER BY enr LIMIT 1
+SELECT state_province_county FROM invoices WHERE state = 'NY';
+SELECT * FROM invoices ORDER BY monthly_rental LIMIT 1
+SELECT max(Points) FROM mountain WHERE Height = "United CV"
+SELECT count(DISTINCT state) FROM bank WHERE state = "Defender"
+SELECT sum(city_population) FROM invoices ORDER BY enr DESC LIMIT 1
+SELECT bname FROM department WHERE state = "Fast York'
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.customer_id WHERE state = 'New York'
+SELECT T1.state FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.customer_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT state_province_county FROM addresses WHERE address_id NOT IN (SELECT employee_address_id FROM Employees)
+SELECT city FROM bank WHERE state = "Accounting" GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM addresses WHERE state_province_county = 'morningside' ORDER BY Police_officers DESC LIMIT 1
+SELECT count(*) FROM city AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = 'Australia'
+SELECT count(*) FROM city WHERE city = 'United States'
+SELECT state FROM addresses
+SELECT count(DISTINCT state) FROM department ORDER BY count(DISTINCT dept_address) LIMIT 1
+SELECT title FROM student WHERE state = "Astrid" GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT city FROM addresses WHERE state = 'Public' ORDER BY founded DESC LIMIT 1
+SELECT avg(Population) FROM addresses GROUP BY state ORDER BY count(*) LIMIT 1
+SELECT T1.state FROM CUSTOMER AS T1 JOIN Staff AS T2 ON T1.address_id = T2.address_id WHERE T1.state_province_county = "CA"
+SELECT avg(Population) FROM district ORDER BY Population LIMIT 1
+SELECT COUNT(*) FROM department AS T1 JOIN match_season AS T2 ON T1.department_id = T2.department_id WHERE T1.state = "Aerosmith";
+SELECT state_province_county FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT avg(Population) FROM bank ORDER BY city_area ASC LIMIT 1
+SELECT avg(Population) FROM bank ORDER BY no_of_customers DESC LIMIT 1
+SELECT max(date_moved_in) FROM state ORDER BY enr DESC LIMIT 1
+SELECT state_province_county FROM addresses WHERE state LIKE "4%" GROUP BY state ORDER BY count(*) DESC LIMIT 1;
+SELECT organization_name FROM bank WHERE state = 'New York'
+SELECT city FROM addresses WHERE state = 'morningside' GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT name FROM city WHERE city != 'Iceland'
+SELECT city FROM customers WHERE city = 'Greenland'
+SELECT LName FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT T1.problem_description FROM problems AS T1 JOIN people AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = 'Sony'
+SELECT state_province_county FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT Major FROM Student WHERE Major = 600;
+SELECT count(*) FROM city AS T1 JOIN country AS T2 ON T1.country_id = T2.country_id WHERE T2.country = 'Australia'
+SELECT count(*) FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.staff_address_id WHERE T1.city_code = "NYC"
+SELECT max(Points) FROM products WHERE County_name = "flax"
+SELECT T2.Jan FROM county AS t1 JOIN member_of_club AS t2 ON t1.customer_id = t2.customer_id WHERE state = "San Jose"
+SELECT flno FROM weather ORDER BY Total_Horses ASC LIMIT 1
+SELECT max(elevation) FROM mountain WHERE gender = 'Iceland'
+SELECT avg(Population) FROM addresses
+SELECT max(t2.active_to_date) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T1.address_id GROUP BY T2.inventory_id ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN park AS T2 ON T1.team_id_winner = T2.team_id_br WHERE T1.state_province_county LIKE 'D%'
+SELECT count(DISTINCT state) FROM department WHERE state = 'Greenland'
+SELECT T1.State_County FROM county AS T1 JOIN election AS T2 ON T1.city_id = T2.city_id WHERE T2.Party = "Appropriations"
+SELECT state_province_county FROM addresses WHERE state = 'New York'
+SELECT count(DISTINCT state) FROM department WHERE state = "Colorado"
+SELECT T1.state FROM customers AS t1 JOIN customer_addresses AS t2 ON t1.customer_id = t2.customer_id JOIN addresses AS t3 ON t2.address_id = t3.address_id WHERE t3.city_code = "Colorado"
+SELECT state_province_county FROM addresses ORDER BY enr LIMIT 1
+SELECT host_city FROM city WHERE state = "Good States'
+SELECT state FROM customers WHERE state = 'NY'; GROUP BY state ORDER BY count(*) DESC LIMIT 1
+SELECT T1.state FROM Addresses AS T1 JOIN Staff AS T2 ON T1.DNO = T2.Appelation WHERE T1.state_province_county = 'New York'
+SELECT state_province_county FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT city FROM addresses ORDER BY enr DESC LIMIT 1
+SELECT sum(hours) FROM invoices ORDER BY enr DESC LIMIT 1
+SELECT count(*) FROM addresses AS T1 JOIN invoices AS T2 ON T1.id = T2.game_id ORDER BY T2.Feb DESC LIMIT 1
+SELECT count(*) FROM university ORDER BY enr DESC LIMIT 1
+SELECT state FROM customers ORDER BY enr DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title , T1.credits , T1.fault_log_entry_datetime FROM staff AS T1 JOIN problem_log AS T2 ON T1.staff_id = T2.staff_id WHERE T1.staff_first_name = "Rylan" AND T1.staff_last_name = "Homenick"
+SELECT email , dates_active , T1.Hardware_colours FROM customers WHERE good_or_bad_customer = 'Visa'
+SELECT decor FROM customers WHERE product_details = "Pen Donor Rating"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM customers ORDER BY date LIMIT 1
+SELECT title FROM course WHERE name = "sesame"
+SELECT email , dates_active , T1.Hardware_colours FROM customers WHERE good_or_bad_customer = 'Visa'
+SELECT count(*) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.game_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT title FROM products WHERE title = "Fast As a Shark";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers" INTERSECT SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid WHERE t1.fname = "OTHA"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE title = "%ML%" GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM albums WHERE FDA_approved = 94107 GROUP BY project_id ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM department WHERE name = "Fast As World Shark";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM albums AS T1 JOIN review AS T2 ON T1.classroom = T2.classroom WHERE T1.name = "advanced database"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM customers WHERE title = "Fast As a Shark";
+SELECT title FROM genres; WHERE title = "Fast Kitty online Shark";
+SELECT count(*) FROM papers WHERE title = "Fast Info. Systems"
+SELECT count(*) FROM papers WHERE title = "Fast Info. Systems"
+SELECT count(*) FROM vocals WHERE dept_name = "Fast Info. Systems"
+SELECT count(*) FROM vocals WHERE title = "Fast Info. Systems"
+SELECT count(*) FROM Restaurant WHERE T3.dorm_name = "sesame"
+SELECT count(*) FROM customers WHERE title = "Fast Staff'
+SELECT title FROM papers WHERE title = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Blume"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT product_details FROM customers WHERE Appelation = "flax"
+SELECT title FROM tracks WHERE name = "Fast As a Shark";
+SELECT title FROM papers
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM tracks WHERE name = "Fast Kitty a Shark";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "LG-P760";
+SELECT title FROM papers WHERE title = t2.paperid
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM albums; WHERE T2.first_name = "sesame"
+SELECT T1.login_name FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM tracks WHERE title = "Fast As a Shark";
+SELECT title FROM albums; WHERE T2.first_name = 'Mary'
+SELECT title FROM tracks WHERE title = "Demon Kitty Systems"
+SELECT t3.title FROM authors AS T1 JOIN course AS T2 ON T1.classroom = T2.classroom WHERE T1.firstname = "KAWA" AND T1.lastname = "NABOZNY"
+SELECT title FROM papers WHERE t2.authid = 255
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM course WHERE title = "Fast Kitty Rag"
+SELECT title FROM papers WHERE title = "Astrid"
+SELECT title FROM albums; WHERE title = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE title = "Olin" AND t1.lname = "Edwards";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT date_stored FROM payment
+SELECT product_details FROM catalog_contents WHERE t1.authorder = "Nokia Corporation"
+SELECT date_stored FROM payment WHERE first_name = "Astrid" AND last_name = "Edwards";
+SELECT product_category_description FROM payment WHERE Document_name = "LG-P760";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM captain WHERE title = 'Mary'
+SELECT title FROM course WHERE title = 'Psychology'
+SELECT title FROM course WHERE title = "Astrid" AND last_name = "Edwards";
+SELECT title FROM course WHERE payment_method = 'Psychology'
+SELECT title FROM albums; WHERE title = 'Mary'
+SELECT count(*) FROM inventory WHERE store_id = 1
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS T1 JOIN professor AS T2 ON T1.id = T2.genre_id WHERE T1.dept_name = 'Graztevski'
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT t3.title FROM chip_model AS T1 JOIN Fault_Log_Parts AS T2 ON T1.fault_log_entry_id = T2.fault_log_entry_id WHERE t2.Company_name = "Nokia Corporation"
+SELECT T1.duration FROM orders AS T1 JOIN teachers AS T2 ON T1.zip_code = T2.team_id_br WHERE T2.name = "pop"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Binders Unbound" GROUP BY t2.title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM course GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON T2.songid = t3.paperid WHERE t1.fname = "Davis" AND t1.lname = T1.Pixels
+SELECT t3.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON T2.songid = t3.paperid WHERE t1.fname = "LG-P760";
+SELECT count(*) FROM authors WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors WHERE t1.fname = "Atsushi" AND t1.lname = "GORDON"
+SELECT count(*) FROM authors WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM papers WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE title = 'Psychology'
+SELECT count(*) FROM papers WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM product AS T1 JOIN songs AS T2 ON T1.dept_code = T2.classroom WHERE title = "Computer Info. Systems"
+SELECT count(*) FROM book_club WHERE title = "Computer Info. Systems"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM department WHERE name = "Demon Kitty Systems"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM department WHERE name = "Demon Kitty Systems"
+SELECT title FROM department WHERE name LIKE "%Scanner%"
+SELECT title FROM department WHERE name = "Demon Kitty Systems"
+SELECT title FROM tracks WHERE title = "Demon Kitty Systems"
+SELECT title FROM department WHERE name = "Demon Info. Systems"
+SELECT title FROM course WHERE title LIKE '%intern%'
+SELECT title FROM albums; WHERE title = 'Psychology'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM vocals WHERE name = "sesame"
+SELECT title FROM department WHERE name = "Demon Kitty Systems"
+SELECT date_stored FROM course WHERE Document_name = 'Psychology'
+SELECT title FROM course WHERE title = "Fast "%ML%"
+SELECT title FROM course WHERE title = "Fast Kitty Rag"
+SELECT title FROM albums; WHERE title = 'Psychology'
+SELECT title FROM albums; WHERE name = "LG-P760";
+SELECT title FROM customers WHERE title = "sesame"
+SELECT subject_name FROM payment
+SELECT count(*) FROM papers
+SELECT count(*) FROM papers WHERE title = "Fast "%ML%"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM papers WHERE title = 'Mary'
+SELECT count(*) FROM vocals WHERE title LIKE "%ML%"
+SELECT T1.Char_cells FROM albums AS T1 JOIN Subjects AS T2 ON T1.course_id = T2.course_id WHERE T1.duration = "LG-P760";
+SELECT email FROM customers WHERE T1.first_name = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM albums; WHERE title = "LG-P760";
+SELECT email FROM customers WHERE dept_name = 'Psychology'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM papers WHERE title = "%ML%"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT Publication_Date FROM film_market_estimation GROUP BY RESULT ORDER BY count(*) DESC LIMIT 1
+SELECT t3.address_content FROM customers AS t1 JOIN customers_policies AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "LG-P760";
+SELECT Dependent_name FROM authors GROUP BY customer_type_code ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE title = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM item WHERE name = "Demon Kitty a %'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM products WHERE title = "Astrid" AND last_name = "Edwards";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax"
+SELECT title FROM albums; WHERE T2.first_name = 'Mary'
+SELECT title FROM albums;
+SELECT title FROM albums; WHERE title = "Computer Info. Rag"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE title = 'Mary'
+SELECT title FROM employees WHERE first_name = "Nancy" AND last_name = "Edwards";
+SELECT title FROM papers WHERE title = "Olin"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT crs_credit , YEAR FROM SECTION WHERE YEAR = 2002
+SELECT * FROM participants WHERE dept_name = 'History'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM albums; WHERE title = 'Mary'
+SELECT title FROM tracks WHERE T1.first_name = "Aerosmith";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT count(*) FROM authors WHERE title = 'Physics'
+SELECT count(*) FROM authorship WHERE FirstName = "197"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Gibbons"
+SELECT title FROM genres; WHERE email = "LG-P760";
+SELECT title FROM tracks WHERE title = "Demon Kitty Systems"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM Ref_colors WHERE product_details = "LG-P760";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE title = "Jeremy"
+SELECT title FROM course WHERE title = 'Mary'
+SELECT title FROM employees WHERE first_name = "Nancy" AND last_name = "Edwards";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE title = "Olin"
+SELECT title FROM papers WHERE title = "Olin"
+SELECT product_details FROM catalog_contents WHERE t1.authorder = "Nokia Corporation"
+SELECT title FROM albums; WHERE Fname = "sesame"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM albums; WHERE name = "Fast Kitty Rag"
+SELECT t3.title FROM authors AS T1 JOIN course AS T2 ON T1.classroom = T2.classroom WHERE T1.firstname = "KAWA" AND T1.lastname = "GORDON"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM authors WHERE T1.firstname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM weather WHERE name = 'Statistics'
+SELECT * FROM authors WHERE YEAR LIKE 'Full';
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM albums; WHERE title = 'Mary'
+SELECT title FROM albums; WHERE title = 'Mary'
+SELECT title FROM item WHERE product_details = 'Marketing'
+SELECT email FROM employees WHERE title = "Fast As a %'
+SELECT product_category_description FROM products WHERE product_details = "Aerosmith";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM screen_mode AS T1 JOIN phone AS T2 ON T1.department = T2.chip_model WHERE T2.first_name = "LG-P760";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM papers WHERE title = "East Julianaside"
+SELECT title FROM tracks WHERE name = "Demon Kitty a Shark";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT count(*) FROM Restaurant WHERE name = "Fast As a Shark";
+SELECT title FROM airports WHERE dept_name = "Astrid" AND last_name = "ONDERSMA"
+SELECT title FROM airports WHERE dept_name = "Astrid" AND last_name = "ONDERSMA"
+SELECT course_description FROM papers WHERE YEAR = 'Cytosol'
+SELECT title FROM products WHERE city = "Fast Angeles"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM department WHERE dept_name = "Computer Info. Systems"
+SELECT title FROM tracks WHERE title = "Fast As a Shark";
+SELECT t3.title FROM problems AS T1 JOIN staff AS T2 ON T1.reported_by_staff_id = T2.staff_id WHERE T2.event_details = "Christop"
+SELECT title FROM chip_model WHERE title = "Carole"
+SELECT T1.login_name FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM authors WHERE title = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Ohori"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT Author FROM submission WHERE t1.fname = "Japan"
+SELECT count(*) FROM authors WHERE t3.title = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors WHERE t3.title LIKE "%ML%"
+SELECT count(*) FROM authors WHERE user_login = 'Ph.D.'
+SELECT count(*) FROM authors WHERE user_login LIKE "%ML%"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Gibbons"
+SELECT count(*) FROM papers WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT payment_date FROM payment ORDER BY payment_date ASC LIMIT 1
+SELECT title FROM products WHERE title = "Astrid" AND last_name = "Edwards";
+SELECT * FROM images WHERE department_name = "LG-P760";
+SELECT title FROM item WHERE name = "Astrid"
+SELECT title FROM products WHERE name = "Fast Kitty a Shark";
+SELECT title FROM departments WHERE title = "sesame"
+SELECT title FROM papers WHERE title = "Olin"
+SELECT title FROM vocals WHERE name = "Olin"
+SELECT title FROM products WHERE title = "Astrid" AND last_name = "Edwards";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM products WHERE name = "Astrid" AND last_name = "Edwards";
+SELECT title FROM products WHERE T1.first_name = "sesame"
+SELECT title FROM customers WHERE title = "sesame"
+SELECT title FROM products WHERE name = "Astrid" AND last_name = T1.Pixels
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT match_id FROM Assessment_Notes WHERE line_1_number_building = "Jaskolski"
+SELECT email FROM papers WHERE title = 'Mary'
+SELECT count(*) FROM authors WHERE SSN = "197"
+SELECT count(*) FROM authors WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Gibbons"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT title FROM customers ORDER BY email_address LIMIT 1
+SELECT * FROM customers ORDER BY height ASC LIMIT 1
+SELECT title FROM tracks WHERE title = "Demon Kitty Rag"
+SELECT t3.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.product_name = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors WHERE t3.title = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors WHERE title = 'Physics'
+SELECT title FROM authors WHERE t3.title LIKE "%ML%"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.school_id = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t2.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t2.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM vocals WHERE title = "Fast As Scenes%'
+SELECT title FROM vocals WHERE clubname = "sesame"
+SELECT title FROM vocals WHERE name = 'Statistics'
+SELECT title FROM employees WHERE title = 'Psychology'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT T1.login_name FROM Course_Authors_and_Tutors AS T1 JOIN Courses AS T2 ON T1.author_id = T2.author_id WHERE T2.course_name = "advanced database"
+SELECT title FROM vocals WHERE clubname = "sesame"
+SELECT title FROM dorm WHERE name = 'Psychology'
+SELECT decor FROM Rooms WHERE LName = 'King';
+SELECT title FROM vocals WHERE name = 'Statistics'
+SELECT title FROM captain WHERE clubname = "sesame"
+SELECT title FROM employees WHERE title = 'Psychology'
+SELECT title FROM customers WHERE title = "Astrid" AND last_name = "Edwards";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM course WHERE title = 'Cytosol'
+SELECT title FROM employees WHERE competition_type = "sesame"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM tracks WHERE title = "Demon Kitty Systems"
+SELECT title FROM course WHERE title = "LG-P760";
+SELECT title FROM papers WHERE name = 'Mary'
+SELECT title FROM albums; WHERE name = 'Mary'
+SELECT date_stored FROM volume WHERE document_status_code = "working";
+SELECT title FROM course WHERE dept_name = "Astrid" AND last_name = "Edwards";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM customers WHERE first_name = "Nancy" AND last_name = "Edwards";
+SELECT title FROM papers WHERE title = "Olin"
+SELECT title FROM department WHERE dept_name = "Computer Info. Systems"
+SELECT title FROM papers ORDER BY title DESC LIMIT 1
+SELECT title FROM papers ORDER BY title DESC LIMIT 1
+SELECT * FROM Albums WHERE YEAR = "USA"
+SELECT * FROM papers WHERE title = 'Marketing'
+SELECT course_description FROM film WHERE YEAR = 1
+SELECT count(*) FROM authors WHERE title = 112
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT count(*) FROM papers WHERE YEAR LIKE "%ML%"
+SELECT title FROM products WHERE name = "Demon Info. Systems"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM papers WHERE title = "Aerosmith";
+SELECT t3.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Davis" AND t1.lname = "Shivers"
+SELECT title FROM tracks WHERE name = "Fast Kitty a Shark";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT count(*) FROM authors WHERE prof_high_degree = "Ueno" GROUP BY complaint_status_code ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors WHERE prof_high_degree = 3 ORDER BY emp_dob DESC LIMIT 1
+SELECT count(*) FROM item WHERE title = 'Psychology'
+SELECT title FROM papers WHERE YEAR > 85
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM papers WHERE YEAR < 40
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Weirich"
+SELECT title FROM papers WHERE YEAR < 5
+SELECT title FROM course GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM papers WHERE title = "Demon Info. Systems"
+SELECT title FROM papers WHERE user_login = (SELECT min(min_dew_point_f) FROM authorship)
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.amount_claimed = "Binders Unbound"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 5;
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM employees WHERE title = 'Mary' GROUP BY payment_method ORDER BY count(*) DESC LIMIT 1
+SELECT T1.name FROM postseason AS T1 JOIN campuses AS T2 ON T1.medicine_id = T2.id WHERE T1.document_name = "stop" GROUP BY T2.Name ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM course GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY authorship ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM albums; WHERE t1.product_name = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM course WHERE title = 'Mary'
+SELECT title FROM employees WHERE first_name = "Nancy" AND last_name = "Edwards";
+SELECT title FROM customers WHERE first_name = "Astrid" GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT product_details FROM customers WHERE t1.campus = "Tillman Corporation";
+SELECT title FROM customers WHERE title = "Astrid" GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM course WHERE T2.first_name = "Astrid" AND last_name = "Edwards";
+SELECT title FROM employees WHERE first_name = "Nancy" AND last_name = "Edwards";
+SELECT title FROM customers WHERE title = "orange" GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM course WHERE title = "Astrid" AND last_name = "Edwards";
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Weirich"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Blume"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Binders Unbound"
+SELECT YEAR FROM authors WHERE YEAR = 'Visa'
+SELECT title FROM papers WHERE title = "Olin"
+SELECT T1.problem_description FROM problems AS T1 JOIN staff AS T2 ON T1.reported_by_staff_id = T2.staff_id WHERE T2.first_name = "Christop"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Dayana Unbound"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM albums; WHERE t1.product_name = "sesame"
+SELECT title FROM tracks WHERE title = "Fast As Rag"
+SELECT title FROM papers WHERE title = "Olin" AND last_name = "Gibbons"
+SELECT title FROM papers WHERE title LIKE "%Latte%"
+SELECT title FROM employees WHERE first_name = "Nancy" AND last_name = "Edwards";
+SELECT title FROM albums WHERE title = "flax" GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM tracks WHERE name = "Aerosmith";
+SELECT avg(price) FROM tracks WHERE T1.first_name = "flax" GROUP BY dept_code ORDER BY count(*) DESC LIMIT 1
+SELECT T1.Marketing_Region_Name FROM professor AS T1 JOIN songs AS T2 ON T1.start_station_id = T2.id GROUP BY T1.dept_code ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM products WHERE title = "Aerosmith";
+SELECT * FROM tracks WHERE County_name = "flax"
+SELECT AVG(Milliseconds) FROM albums AS T1 JOIN artists AS T2 ON T1.Gymnast_ID = T2.id WHERE T2.city = "KAWA" GROUP BY T2.artist_name ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM tracks WHERE t1.campus = "flax"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT title FROM tracks WHERE name = "Fast Kitty a Shark";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM papers WHERE title = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM products WHERE name = "Fast Kitty a Shark";
+SELECT T1.problem_description FROM albums AS T1 JOIN artists AS T2 ON T1.prereq_id = T2.id WHERE T1.name = "Aerosmith";
+SELECT count(*) FROM authors AS T1 JOIN prescribes AS T2 ON t1.authid = T2.patient JOIN papers AS T3 ON t2.paperid = t3.paperid GROUP BY t1.fname ORDER BY count(*) DESC LIMIT 1
+SELECT T1.login_name FROM authors AS T1 JOIN driverstandings AS T2 ON T1.id = T2.game_id WHERE T2.event_details = "advanced database" GROUP BY T2.Author ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM papers WHERE product_details = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT publisher FROM authors WHERE YEAR = 1989
+SELECT payment_date FROM payment ORDER BY payment_date ASC LIMIT 1
+SELECT payment_date FROM problem_log ORDER BY payment_date ASC LIMIT 1
+SELECT payment_date FROM customers ORDER BY payment_date ASC LIMIT 1
+SELECT title FROM customers GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM customers WHERE title = "Fast As a Shark";
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors WHERE user_login LIKE "%son%"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Olin" AND t2.authorder = 5
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Nameless
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.state_province_county = "Nameless
+SELECT title FROM papers WHERE height < 5 ORDER BY count(*)
+SELECT title FROM papers WHERE title = "Roberto" GROUP BY city ORDER BY count(*) DESC LIMIT 5;
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM products WHERE title = "sesame"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM papers WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM vocals WHERE title = "sesame"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM albums; WHERE T2.first_name = "sesame"
+SELECT title FROM papers WHERE title = 'Mary'
+SELECT title FROM papers WHERE title = 'Mary'
+SELECT subject_name FROM albums;
+SELECT T1.Writer FROM book AS T1 JOIN publication AS T2 ON T1.Book_ID = T2.Book_ID WHERE T2.College = 'Photo'
+SELECT title FROM papers WHERE title = "Olin" AND last_name = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT employee_name FROM dependent WHERE name = "UK"
+SELECT title FROM vocals WHERE title = "Fast As Scenes%'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM papers WHERE t1.fname = "LG-P760";
+SELECT title FROM papers WHERE title = "Aerosmith";
+SELECT title FROM customers WHERE title = 'Statistics'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM journal
+SELECT count(*) FROM journal WHERE title = "Ueno"
+SELECT title FROM papers WHERE title = "Aerosmith";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM authors WHERE title LIKE "%Database%"
+SELECT payment_date FROM customers ORDER BY payment_date ASC LIMIT 1
+SELECT title FROM albums; WHERE title = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM film GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM department WHERE dept_name = "Ueno"
+SELECT T1.login_name FROM journal AS T1 JOIN publication AS T2 ON T1.Book_ID = T2.Book_ID WHERE T2.work_type = 'Photo'
+SELECT title FROM papers WHERE title = "Demon Info. Systems"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title , author_or_editor FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Stephanie" AND t1.lname = "Weirich"
+SELECT T1.login_name FROM Course_Authors_and_Tutors AS T1 JOIN book_club AS T2 ON T1.Submission_ID = T2.journal_ID WHERE T2.course_name = "advanced database"
+SELECT t3.title FROM acceptance AS T1 JOIN prescribes AS T2 ON T1.Submission_ID = T2.Submission_ID WHERE T1.title = 'Elsa'
+SELECT Author FROM authors WHERE t1.fname = "Ueno"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Matthias" AND t1.lname = "Blume"
+SELECT title FROM papers WHERE title = "East Julianaside"
+SELECT title FROM department WHERE name = "Demon Info. Systems"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM papers WHERE special_features = "Binders "%ML%"
+SELECT category FROM book_club WHERE YEAR = 1989
+SELECT count(*) FROM authors WHERE title = 'Physics'
+SELECT title FROM book_club WHERE T1.Title = "Computer Info. Systems"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM customers WHERE title = "Astrid" AND last_name = T1.Pixels
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM papers WHERE T1.firstname LIKE '%D%'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Binders Unbound" GROUP BY t1.lname ORDER BY count(*) DESC LIMIT 1)
+SELECT count(*) FROM authors AS T1 JOIN prescribes AS T2 ON t1.authid = T2.patient JOIN papers AS T3 ON t2.paperid = t3.paperid GROUP BY t1.fname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM papers WHERE YEAR = (SELECT %' FROM authorship)
+SELECT title FROM papers GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM products WHERE title = "Fast As a Shark";
+SELECT title FROM employees WHERE T1.first_name = "Astrid" AND T1.lastname = "Edwards";
+SELECT title FROM employees WHERE first_name = "Nancy" AND last_name = "Gibbons"
+SELECT title FROM customers ORDER BY birth_date ASC LIMIT 1
+SELECT * FROM screen_mode WHERE first_name = "Carole" AND last_name = "SWEAZY";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT TIME FROM Restaurant WHERE gtype = 'mid'
+SELECT title FROM products WHERE name = "Fast Kitty a Shark";
+SELECT title FROM film WHERE title = "Demon Info. Systems"
+SELECT title FROM department WHERE dept_name = "Roberto" AND last_name = "Mancini";
+SELECT count(*) FROM authors WHERE title = "Ueno"
+SELECT title FROM albums; WHERE T2.title = "LG-P760";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname HAVING count(*) > 10
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Weirich"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT title FROM course WHERE product_details = 1 GROUP BY payment_method ORDER BY count(*) DESC LIMIT 1
+SELECT product_details FROM department WHERE line_1_number_building = "Dayana Kaitlyn Knolls%"
+SELECT T2.Author FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Binders Unbound"
+SELECT DISTINCT publisher FROM authors WHERE YEAR != 'Cash'
+SELECT date_became_customer FROM customers ORDER BY Time_of_purchase ASC LIMIT 1
+SELECT sum(T2.total) FROM customers AS T1 JOIN invoices AS T2 ON T1.id = T2.customer_id WHERE T1.first_name = "LG-P760"; AND T1.last_name = "Mancini";
+SELECT title FROM albums; ORDER BY payment_date ASC LIMIT 1
+SELECT title FROM book_club WHERE YEAR = 2004
+SELECT date_of_latest_revision FROM catalog_contents WHERE YEAR = 2002 GROUP BY date_of_latest_revision ORDER BY count(*) DESC LIMIT 1
+SELECT count(*) FROM tracks WHERE title = "Fast Staff'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Blume"
+SELECT title FROM albums; WHERE title = 'Mary'
+SELECT title FROM albums; WHERE T1.firstname = "LG-P760";
+SELECT email FROM papers WHERE fname = 'Psychology'
+SELECT title FROM papers WHERE dept_name = title
+SELECT count(*) FROM Project_Staff WHERE origin = "Janessa" AND last_name = "Sawayn";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT title FROM albums; WHERE T1.firstname = "LG-P760";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Blume"
+SELECT count(*) FROM papers WHERE duration > 8
+SELECT title FROM course WHERE title = "A4"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Ohori"
+SELECT t2.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname HAVING count(*) > 2
+SELECT title FROM albums; WHERE Fname = "LG-P760";
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT title FROM Albums WHERE YEAR = 4
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Binders Unbound"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT count(*) FROM papers WHERE title LIKE "%ML%"
+SELECT title FROM book_club WHERE title = "Janessa" AND last_name = "Sawayn";
+SELECT T2.Jan FROM Restaurant_Type AS T1 JOIN Part_Faults AS T2 ON T1.GenreId = T2.GenreId WHERE T1.name = "Shanghai"
+SELECT count(*) FROM authors WHERE prof_high_degree = "Ueno"
+SELECT * FROM department WHERE title = "Fast CV"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t1.fname , t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Binders Unbound"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname HAVING count(*) >= 5
+SELECT count(*) FROM authors GROUP BY t1.authid HAVING count(*) >= 5
+SELECT title FROM customers WHERE first_name = "Astrid" AND last_name = "Gruber";
+SELECT title FROM products WHERE title = "Fast As a Shark";
+SELECT title FROM albums; WHERE number_deaths > (SELECT avg(hours) FROM projects)
+SELECT title FROM albums; WHERE title = "LG-P760";
+SELECT problem_log_id FROM users WHERE name = 'Iron Wen"
+SELECT state_province_county FROM addresses WHERE state = 'yes'
+SELECT T1.City_Town FROM Addresses AS T1 JOIN Stores AS T2 ON T1.Address_ID = T2.Address_ID WHERE T2.Store_Name = "FJA Filming"
+SELECT city FROM WINE WHERE number_deaths < (SELECT max(YEAR) FROM person)
+SELECT T2.City FROM city AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T2.Mar = "%Latte%"
+SELECT product FROM item WHERE hours < 5
+SELECT ResName FROM Restaurant WHERE basePrice > 100
+SELECT T2.City FROM addresses AS T1 JOIN temperature AS T2 ON T1.city_id = T2.city_id WHERE T1.city = "Tillman Ernser"
+SELECT DISTINCT title FROM item AS t1 JOIN product AS t2 ON t1.songid = t2.songid WHERE t1.product_name = "Deputy"
+SELECT T1.text_of_notes FROM problems AS T1 JOIN staff AS T2 ON T1.classroom = T2.classroom WHERE grade = "Bosco"
+SELECT title FROM course ORDER BY birth_date
+SELECT DISTINCT title FROM course WHERE YEAR = 'R'
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Gibbons"
+SELECT Store_Name FROM Restaurant WHERE YEAR = "USA"
+SELECT T1.Char_cells FROM albums AS T1 JOIN artists AS T2 ON T1.film_id = T2.film_id WHERE title = "Demon Kitty Rag"
+SELECT title FROM tracks WHERE rental_rate < (SELECT max(YEAR) FROM takes WHERE genre_is = 94107)
+SELECT ResName FROM Restaurant WHERE ResName = "Subway";
+SELECT ResTypeName FROM Restaurant_Type; WHERE ResTypeName = 1;
+SELECT T1.title FROM item AS T1 JOIN review AS T2 ON T1.i_id = T2.i_id GROUP BY T2.i_id HAVING count(*) > 100
+SELECT milliseconds FROM albums; WHERE t1.campus = "sesame"
+SELECT customer_phone FROM swimmer WHERE origin = 'Steven Spielberg'
+SELECT title FROM swimmer WHERE title = "Demon Cameron"
+SELECT DISTINCT T1.name FROM useracct AS T1 JOIN follows AS T2 ON T1.zip_code = T2.coupon_id WHERE T2.good_or_bad_customer = "Mary"
+SELECT address_content FROM addresses WHERE title = "East Julianaside"
+SELECT kids FROM Restaurant WHERE FirstName = "ROY" AND LastName = "SWEAZY";
+SELECT title FROM Restaurant WHERE special_features = "Suite Lewis"
+SELECT DISTINCT T3.name FROM item AS T1 JOIN review AS T2 ON T1.classroom = T2.classroom WHERE grade = 1
+SELECT T2.title FROM item AS T1 JOIN review AS T2 ON T1.i_id = T2.i_id WHERE T1.stars >= 3
+SELECT email FROM user_profiles WHERE T1.name LIKE '%superstar%'
+SELECT DISTINCT title FROM swimmer WHERE director = "null" GROUP BY mID HAVING count(*) < 2
+SELECT ResName FROM Restaurant WHERE bedType = "5" AND pets_allowed_yn = 1
+SELECT kids FROM albums; WHERE Student.Fname = "ROY" AND last_name = "SWEAZY";
+SELECT ResName FROM Restaurant WHERE FirstName = "ROY" AND LastName = "SWEAZY";
+SELECT DISTINCT title FROM Movie WHERE T2.rating > (SELECT avg(rating) FROM Catalog_Contents_Additional_Attributes
+SELECT title FROM swimmer WHERE title = 'Mary'
+SELECT problem_log_id FROM Rooms WHERE overall_rating > 8
+SELECT ResName FROM Restaurant WHERE Student.Fname = 'Armani'
+SELECT title FROM albums; WHERE title = "LG-P760";
+SELECT title FROM course WHERE YEAR LIKE "%Latte%"
+SELECT T2.f1 FROM user_profiles AS T1 JOIN follows AS T2 ON T1.uid = T2.f1 WHERE T1.name LIKE '%ee%'
+SELECT T2.City FROM Addresses AS T1 JOIN Stores AS T2 ON T1.Address_ID = T2.Address_ID WHERE T2.Store_Name = "FJA Filming"
+SELECT T2.f1 FROM user_profiles AS T1 JOIN follows AS T2 ON T1.uid = T2.f1 WHERE T1.name = "Mary"
+SELECT title FROM swimmer WHERE first_name = "Astrid" AND YEAR = 1
+SELECT DISTINCT T1.name FROM useracct AS T1 JOIN follows AS T2 ON T1.u_id = T2.f1 WHERE T2.good_or_bad_customer = 1
+SELECT product_details FROM albums; WHERE YEAR = 1
+SELECT DISTINCT channel_code FROM Rooms WHERE YEAR = 1
+SELECT T1.text_of_notes FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Jeremy"
+SELECT title FROM Movie WHERE title = 'Steven Spielberg'
+SELECT count(*) FROM home_game AS T1 JOIN park AS T2 ON T1.park_id = T2.team_id_br WHERE T2.first_name = 'Boston Samuel'
+SELECT count(*) FROM courses AS T1 JOIN game AS T2 ON T1.id = T2.stadium_id WHERE T1.name = 'Walter Samuel'
+SELECT count(*) FROM game AS T1 JOIN game AS T2 ON T1.id = T2.stadium_id WHERE T2.genre_is = 'Australia'
+SELECT count(*) FROM game WHERE dept_name = "Fast Kitty Systems"
+SELECT count(*) FROM game WHERE dept_name = 'No'
+SELECT count(*) FROM Restaurant WHERE Type_Of_Restaurant > 'Sandwich'
+SELECT milliseconds FROM Restaurant WHERE clubname = "Sandwich";
+SELECT milliseconds FROM Restaurant WHERE Student.Fname = "ROY" AND LastName = "SWEAZY";
+SELECT milliseconds FROM Restaurant WHERE clubname = "Recluse Customer'
+SELECT T1.state , T1.dept_code FROM employees AS T1 JOIN invoices AS T2 ON T1.id = T1.address_id WHERE T1.first_name = "Lucas" AND T1.last_name = "Mancini";
+SELECT count(*) FROM authors AS T1 JOIN songs AS T2 ON T1.classroom = T2.classroom WHERE T1.name LIKE '%Led%'
+SELECT avg(rating) FROM review WHERE languages = "Fast Lewis"
+SELECT unit_price FROM enzyme WHERE product_details = "Fast As Rag"
+SELECT count(*) FROM users AS T1 JOIN users AS T2 ON T2.support_rep_id = T2.alid WHERE T1.name = "LG-P760";
+SELECT count(*) FROM Restaurant WHERE FirstName = "ROY" AND LastName = "SWEAZY";
+SELECT count(*) FROM authors AS T1 JOIN authorship AS T2 ON t1.authid = t2.authid WHERE title LIKE "%Database%"
+SELECT unit_price FROM tracks WHERE Appelation = "flax"
+SELECT title FROM item WHERE title = "Fast As online Shark";
+SELECT title FROM item WHERE name = "Fast As Systems"
+SELECT count(*) FROM papers WHERE title = "Fast As a Shark";
+SELECT count(*) FROM item WHERE title = 'Statistics'
+SELECT count(*) FROM papers WHERE title = "Fast As a Shark";
+SELECT count(*) FROM Restaurant WHERE ResName = "Subway";
+SELECT title FROM vocals WHERE title = 'Psychology'
+SELECT count(*) FROM Rating WHERE stars = 1
+SELECT count(*) FROM Restaurant WHERE T3.dorm_name = 'Sandwich'
+SELECT count(*) FROM item WHERE title = "Aerosmith";
+SELECT count(*) FROM Restaurant WHERE order_details = 'Sandwich'
+SELECT count(*) FROM albums WHERE dept_name = "Fast Info. Systems"
+SELECT count(*) FROM Movie WHERE title = 'Mary'
+SELECT AVG(Milliseconds) FROM Restaurant_Type AS T1 JOIN department_store_chain AS T2 ON T1.GenreId = T2.RoomId WHERE T1.name = "Rock"
+SELECT count(*) FROM products WHERE title = "Aerosmith";
+SELECT count(*) FROM papers WHERE title LIKE '%International%'
+SELECT count(*) FROM authors WHERE title LIKE '%International%'
+SELECT count(*) FROM review WHERE title = 'Statistics'
+SELECT title FROM course WHERE title = "Fast Staff'
+SELECT count(*) FROM tracks WHERE dept_name = "Fast Info. Systems"
+SELECT count(*) FROM users WHERE name = 'Mary'
+SELECT avg(rating) FROM song WHERE YEAR = 1996
+SELECT count(*) FROM Restaurant WHERE Student.Fname = 1;
+SELECT count(*) FROM Rating AS T1 JOIN review AS T2 ON T1.u_id = T2.u_id WHERE T1.name = "KAWA" AND T2.last_name = "GORDON"
+SELECT count(*) FROM users WHERE user_login = 1
+SELECT count(*) FROM Restaurant WHERE ResName = 'King';
+SELECT count(*) FROM customers WHERE dept_name = "Fast States'
+SELECT count(*) FROM item WHERE title LIKE "%ML%"
+SELECT unit_price FROM products WHERE title = "Fast Kitty Rag"
+SELECT count(*) FROM review WHERE title = 'Sony'
+SELECT count(*) , title FROM papers GROUP BY title
+SELECT count(*) FROM Rating WHERE stars = 1
+SELECT T1.fault_description FROM Restaurant_Type; AS T1 JOIN has_amenity AS T2 ON T1.Room = T2.RoomId WHERE T2.first_name = "Shanghai"
+SELECT sum(market_rate) FROM Circulation_History GROUP BY Marketing_Region_Code ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM department WHERE first_name = "orange" GROUP BY major ORDER BY count(*) DESC LIMIT 1
+SELECT ResName FROM Reservations AS T1 JOIN Rooms AS T2 ON T1.Room = T2.RoomId WHERE T2.maxOccupancy = 'Anonymous Road"
+SELECT problem_log_id FROM Rooms WHERE Rating > 8
+SELECT ResName FROM Restaurant AS T1 JOIN has_amenity AS T2 ON T1.star_rating_code = T2.RoomId WHERE T1.Address = "660 Shea Crescent"
+SELECT title FROM Restaurant WHERE Student.Fname = "ROY" AND LastName = "SWEAZY";
+SELECT T2.name , avg(T1.stars) FROM Rating AS T1 JOIN review AS T2 ON T1.i_id = T1.playlist_id GROUP BY T1.playlist_id HAVING avg(T1.stars) >= 3
+SELECT count(*) FROM Restaurant WHERE Student.Fname = "ROY" AND LastName = "SWEAZY";
+SELECT T1.name FROM user_profiles AS T1 JOIN tweets AS T2 ON T1.uid = T2.uid GROUP BY T2.uid HAVING avg(T2.rating) < 3
+SELECT Market_Rate FROM review GROUP BY Accreditation_level ORDER BY count(*) DESC LIMIT 1
+SELECT Market_Rate FROM film GROUP BY payment_method ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM vocals WHERE name = "Fast Staff'
+SELECT title FROM playlists; WHERE Fname = "sesame"
+SELECT title FROM genres; WHERE title = "sesame"
+SELECT title FROM vocals WHERE name = "sesame"
+SELECT title FROM albums; WHERE last_name = "sesame"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.local_authority > 30
+SELECT date_of_latest_logon FROM prereq WHERE Grade = "LG-P760";
+SELECT title FROM people
+SELECT affiliation FROM university
+SELECT organisation_details FROM university AS t1 JOIN organization_contact_individuals AS t2 ON t1.organization_id = t2.organization_id JOIN individuals AS t3 ON T2.organisation_type = t3.individual_id WHERE t1.uk_vat_number = "Dayana Party"
+SELECT title FROM Staff WHERE T2.first_name = "sesame"
+SELECT title FROM albums; WHERE name LIKE '%intern%'
+SELECT title FROM songs WHERE title = "Aerosmith";
+SELECT title FROM genres; WHERE name = "Fast Kitty Rag"
+SELECT title FROM genres; WHERE title = "sesame"
+SELECT catalog_entry_name FROM teachers WHERE height > 200
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Weirich"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Olin" AND t2.authorder > 100
+SELECT host_city FROM addresses WHERE city = 'United States'
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT organization_id FROM individuals
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM albums; WHERE T2.name = "sesame"
+SELECT DISTINCT title FROM authors WHERE name = "LG-P760";
+SELECT title FROM albums; WHERE title = "Aerosmith";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax"
+SELECT title FROM papers WHERE first_name = "Roberto" AND last_name = "Almeida";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.city_code = "Binders Unbound"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title > 30
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = "Binders Unbound" AND t1.lname > "Turon"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax"
+SELECT title FROM papers WHERE title = "Fast Julianaside"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE Student.Fname = "sesame" AND t1.lname = T1.Pixels
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.city = "sesame" AND t2.authorder > 1
+SELECT title FROM authors WHERE address = 'Statistics' AND age > 1
+SELECT gdp FROM weather WHERE name = "1994 FIFA World Cup qualification"
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT title FROM vocals WHERE name = "Fast States'
+SELECT title FROM vocals WHERE title = "Astrid" AND T4.last_name = "Gruber";
+SELECT title FROM genres; WHERE title = "sesame"
+SELECT title FROM genres; WHERE Student.Fname = "LG-P760";
+SELECT title FROM weather WHERE name = "Fast States'
+SELECT title FROM weather WHERE name = "Fast States'
+SELECT t3.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title , T2.author_id FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE title = "LG-P760";
+SELECT title FROM papers WHERE title LIKE "%Latte%"
+SELECT title FROM papers WHERE title LIKE "%Latte%"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname LIKE "%Functional%"
+SELECT organisation_details FROM university AS t1 JOIN organization_contact_individuals AS t2 ON t1.organization_id = t2.organization_id JOIN individuals AS t3 ON T2.organisation_type = t3.individual_id WHERE t1.uk_vat_number = "Dayana Party"
+SELECT organisation_details FROM university AS t1 JOIN organization_contact_individuals AS t2 ON t1.organization_id = t2.school_id WHERE t4.country = "Dayana Robel"
+SELECT * FROM program WHERE origin = "Los Angeles"
+SELECT * FROM program WHERE origin = "Los Angeles"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT catalog_entry_name FROM teachers WHERE height > 160
+SELECT catalog_entry_name FROM teachers WHERE height > 8
+SELECT catalog_entry_name FROM teachers WHERE height > 160
+SELECT title FROM Addresses WHERE height > 200
+SELECT title FROM authors WHERE height > 200
+SELECT title FROM authors WHERE height > 200
+SELECT catalog_entry_name FROM teachers WHERE height > 200
+SELECT catalog_entry_name FROM teachers WHERE height > 160 AND height > 20
+SELECT catalog_entry_name FROM teachers WHERE height > 200 AND height > 20
+SELECT catalog_entry_name FROM teachers WHERE height > 220 AND height > 20
+SELECT t3.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Ohori"
+SELECT count(*) , title FROM papers WHERE title = 'Psychology'
+SELECT count(*) FROM authors WHERE t1.fname = "LG-P760";
+SELECT title , dates_active FROM genres;
+SELECT title FROM albums; WHERE YEAR = 1
+SELECT count(*) FROM papers WHERE name = "Demon "%ML%"
+SELECT count(*) FROM authors WHERE SSN = "Atsushi"
+SELECT count(*) FROM authors WHERE user_login LIKE "%ML%"
+SELECT count(*) FROM authors WHERE SSN > 1850
+SELECT count(*) FROM authors WHERE SSN LIKE "%son%" AND t1.lname > "Ohori"
+SELECT count(*) FROM authors WHERE SSN LIKE "%ML%" AND t1.lname > "Ohori"
+SELECT count(*) FROM authors WHERE title = "Fast "%ML%"
+SELECT count(*) FROM authors WHERE dept_name = "Fast Unbound"
+SELECT count(*) FROM authors WHERE title = "Fast "%ML%"
+SELECT count(*) FROM authors WHERE first_name = "Nancy" AND YEAR = "SELBIG";
+SELECT title FROM authors WHERE first_name = "Atsushi" AND last_name = "Almeida";
+SELECT count(*) FROM follows
+SELECT count(*) FROM medication WHERE name = "Fast Info. Parkway'
+SELECT count(*) FROM papers WHERE t1.fname LIKE "%Latte%"
+SELECT title FROM albums; WHERE title = "sesame"
+SELECT count(*) FROM item WHERE title = "Fast Kitty Before a Shark";
+SELECT title FROM vocals WHERE name = "Fast Info. City'
+SELECT count(*) FROM users WHERE name = "UK"
+SELECT count(*) FROM papers WHERE title = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM papers WHERE title = "Aerosmith";
+SELECT title FROM papers WHERE competition_type LIKE "%Latte%"
+SELECT title FROM papers WHERE title LIKE "%Latte%"
+SELECT count(*) FROM authors WHERE t1.fname LIKE '%International%'
+SELECT t3.title FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname LIKE "%Functional%"
+SELECT count(DISTINCT affiliation) FROM university
+SELECT count(*) FROM university WHERE affiliation = "Accounting"
+SELECT count(*) FROM university WHERE affiliation = "Accounting"
+SELECT count(*) FROM university AS t1 JOIN customers_policies AS t2 ON t1.organization_id = t2.organization_id JOIN department AS t3 ON t2.paperid = t3.paperid WHERE t1.region_name = "Tokohu time"
+SELECT count(*) FROM papers WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM papers WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors WHERE origin = "Ueno"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM authors WHERE job = 'Canada') AND last_name = "NABOZNY"
+SELECT count(*) FROM authors WHERE job = 'Canada') AND last_name = "GORDON"
+SELECT count(*) FROM authors WHERE lname = "Ueno"
+SELECT count(*) FROM authors WHERE t1.fname = "Ueno"
+SELECT count(*) FROM authors WHERE t1.title) < t1.title) t1.title) a Pennsylvania"
+SELECT count(*) FROM authors WHERE SSN = "Ueno" AND t2.authid < 5
+SELECT title FROM papers WHERE title LIKE "%ML%"
+SELECT email FROM employees WHERE first_name = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT t3.title , t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.district_name = "Binders Unbound"
+SELECT count(*) , t1.country FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Jeremy" AND t1.lname = "Gibbons"
+SELECT email FROM papers WHERE first_name = 'Mary'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Gibbons"
+SELECT t1.fname , t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.district_name = "Binders Unbound"
+SELECT count(*) , t1.country FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT t3.title , T2.author_id FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.name = "LG-P760";
+SELECT lname FROM authors WHERE YEAR = 1
+SELECT t3.title , T2.personal_name , T2.author_id FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.product_name = "LG-P760";
+SELECT t3.title , T1.Pixels , T1.fault_log_entry_datetime FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN addresses AS t3 ON t2.paperid = t3.paperid WHERE t1.amount_piad = "LG-P760";
+SELECT t3.title , min(used_kb) FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.product_name = "LG-P760";
+SELECT t3.title , T1.Pixels , T1.fault_log_entry_datetime FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.product_name = "LG-P760";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "sesame"
+SELECT title , dates_active , publisher FROM papers WHERE good_or_bad_customer = 'Cytosol'
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Olin" AND t1.lname = "Shivers"
+SELECT count(*) FROM papers AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "Atsushi" AND t1.lname = "Ohori"
+SELECT title FROM papers WHERE title = "Fast "%ML%"
+SELECT title FROM papers WHERE T2.name = "sesame"
+SELECT count(*) FROM authors WHERE t1.fname = "Nancy" AND t1.lname = "Ueno"
+SELECT count(*) FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax"
+SELECT t3.title , T1.Pixels , T1.fault_log_entry_datetime FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.product_name = "LG-P760";
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname LIKE "%Functional%" GROUP BY t2.title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname LIKE "%Functional%" GROUP BY t2.title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY authorship ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY authorship ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM papers WHERE title = 'Statistics' GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT * FROM employees GROUP BY title HAVING count(*) > 10
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax" GROUP BY t2.title ORDER BY count(*) DESC LIMIT 1
+SELECT * FROM employees GROUP BY title HAVING count(*) > 10
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t1.fname = "flax" GROUP BY t2.title ORDER BY count(*) DESC LIMIT 1
+SELECT t2.title FROM employees AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid WHERE t3.title = (SELECT max(authorder) FROM authorship)
+SELECT t3.title FROM Reservations AS T1 JOIN Staff AS T2 ON T1.address_id = T2.Claim_id WHERE T2.first_name = "Janessa" AND T2.last_name = "Sawayn";
+SELECT t3.title FROM employees AS T1 JOIN teachers AS T2 ON T1.city_id = T2.staff_id WHERE T2.first_name = "Christop" GROUP BY T1.last_name ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM papers WHERE title = "East Julianaside" GROUP BY city ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM papers WHERE title = 'Psychology' GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT catalog_entry_name FROM teachers WHERE height > '1987-09-07' GROUP BY project_id ORDER BY count(*) DESC LIMIT 1
+SELECT t1.lname FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.Claim_id WHERE T2.first_name = "Janessa" AND T2.last_name = "Sawayn";
+SELECT t1.lname FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.Claim_id WHERE T2.first_name = "Janessa" AND T2.last_name = "Sawayn";
+SELECT t1.lname FROM Addresses AS T1 JOIN Staff AS T2 ON T1.address_id = T2.Claim_id WHERE T2.first_name = "Janessa" AND T2.last_name = "Sawayn";
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname HAVING count(*) > 10
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT t3.title FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname HAVING count(*) > 10
+SELECT title FROM employees WHERE t3.title LIKE "%Latte%"
+SELECT title FROM employees WHERE t3.title LIKE "%Latte%"
+SELECT date FROM papers WHERE height > 100 UNION SELECT TYPE FROM city WHERE languages = 'Psychology'
+SELECT date FROM store WHERE height > 100
+SELECT title FROM employees GROUP BY title HAVING count(*) > 10
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname HAVING count(*) > 10
+SELECT t1.lname FROM authors AS t1 JOIN authorship AS t2 ON t1.authid = t2.authid JOIN papers AS t3 ON t2.paperid = t3.paperid GROUP BY t1.fname , t1.lname ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM authors WHERE age > 5000
+SELECT title FROM authors WHERE age > 5000
+SELECT title FROM Movie WHERE title = "Daniel Cameron'
+SELECT title FROM Movie WHERE title = "Daniel Kitty Scenes%'
+SELECT title FROM tracks WHERE name = "Astrid" AND last_name = "Edwards";
+SELECT title FROM tracks WHERE title = "Fast As Before T1.Pixels
+SELECT Nationality FROM actor WHERE role_name = "Fast Reader"
+SELECT Nationality FROM actor WHERE role_name = "Fast POLLOCK'
+SELECT title FROM Movie WHERE director = 'Steven Spielberg'
+SELECT role_description FROM actor WHERE role_name = "Proof york city'
+SELECT T2.friend FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.friend WHERE T2.first_name = 'Alice' AND T1.gender = 'female'
+SELECT nickname FROM actor WHERE first_name = 'Alice' AND last_name = "Male"
+SELECT T2.friend FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.friend WHERE T2.first_name = 'Alice' AND T1.gender = 'female'
+SELECT T2.friend FROM actor AS T1 JOIN musical AS T2 ON T1.Musical_ID = T2.Musical_ID WHERE T1.name = 'Alice' AND T1.gender = 'female'
+SELECT T1.Name FROM actor AS T1 JOIN musical AS T2 ON T1.Musical_ID = T2.Musical_ID WHERE title = "The Phantom of the Opera"
+SELECT T2.friend FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.friend WHERE T2.first_name = 'Alice' AND T1.gender = 'female'
+SELECT title FROM customers WHERE first_name = "Astrid" AND last_name = "Edwards";
+SELECT title FROM tracks WHERE title = "Fast As Before You
+SELECT title FROM address WHERE name = "Fast Ernser"
+SELECT title FROM customers WHERE city = "Fast As World Shark";
+SELECT product_details FROM products WHERE product_details = "sesame"
+SELECT count(*) FROM budget AS T1 JOIN artists AS T2 ON T1.end_station_id = T2.id WHERE dept_name = "Demon Info. Systems"
+SELECT title FROM Movie WHERE director = 'James Cameron' AND YEAR > 2000
+SELECT title FROM Movie WHERE director = 'James Cameron'
+SELECT title FROM Movie WHERE director = 'James Cameron'
+SELECT title , albums; , min(price) FROM Staff;
+SELECT T2.friend , T1.mID FROM film_actor AS T1 JOIN actor AS T2 ON T1.actor_id = T2.actor_id WHERE T2.first_name = "LG-P760";
+SELECT title FROM actor WHERE title = "Astrid" AND last_name = albums;
+SELECT T2.actor_id FROM actor WHERE role_name = "Tillman POLLOCK'
+SELECT title FROM Movie WHERE title = "Computer Kitty Scenes%'
+SELECT actor FROM actor WHERE T2.first_name = "sesame"
+SELECT title FROM Movie WHERE title = "Daniel , %'
+SELECT title FROM Movie WHERE director = 'Avatar'
+SELECT title FROM Movie WHERE director = "Demon Spielberg'
+SELECT title FROM Movie WHERE director = 'James Spielberg'
+SELECT title FROM Movie WHERE T2.title = "Aerosmith";
+SELECT title FROM Movie WHERE t2.Company_name = "Aerosmith";
+SELECT title FROM Movie WHERE director = "Computer Kitty Before You
+SELECT budget_type_description FROM movie WHERE YEAR = 2001
+SELECT * FROM item WHERE YEAR = 'R'
+SELECT title FROM film WHERE YEAR = 'R'
+SELECT T2.friend FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.friend WHERE T2.first_name = 'Alice' AND T1.gender = 'female'
+SELECT T2.friend FROM film_actor AS T1 JOIN PersonFriend AS T2 ON T1.actor_id = T2.friend WHERE T2.first_name = 'Alice' AND T1.gender = T2.actor_id
+SELECT artist_name FROM artist WHERE Age > 30
+SELECT director FROM Movie WHERE director = 'Steven Spielberg'
+SELECT T2.friend FROM Person AS T1 JOIN PersonFriend AS T2 ON T1.name = T2.friend WHERE T2.first_name = 'Alice' AND T1.gender = "Spring"
+SELECT title FROM Movie WHERE director = 'Steven Spielberg'
+SELECT title FROM film WHERE title = 'R'
+SELECT title FROM Movie WHERE T2.first_name = "sesame"
+SELECT title FROM Movie WHERE director = "Computer Spielberg'
+SELECT title FROM Movie WHERE T2.first_name = "Aerosmith";
+SELECT title FROM Movie WHERE director = "Computer Cameron'
+SELECT title FROM Movie WHERE director = 'Steven Spielberg'
+SELECT title FROM film WHERE title = 'R'
+SELECT title FROM film
+SELECT friend FROM Movie WHERE title = 'Avatar'
+SELECT friend FROM PersonFriend WHERE name = "Astrid" AND last_name = "Sawayn";
+SELECT title FROM albums;
+SELECT color_description FROM actor WHERE name = "Fast FIFA Prix"
+SELECT T1.title FROM Rating AS T1 JOIN Movie AS T2 ON T1.mID = T2.mID JOIN Reviewer AS T3 ON T2.skill_id = T3.rID WHERE T2.title = "LG-P760";
+SELECT director FROM film WHERE city = 'Psychology'
+SELECT title FROM film WHERE title = "Fast As a Shark";
+SELECT T2.friend FROM actor AS T1 JOIN song AS T2 ON T1.Musical_ID = T2.Musical_ID WHERE T1.gender = "Female"
+SELECT artist_name FROM artist WHERE Age > 30
+SELECT T1.gender FROM people WHERE is_male = "UK" AND age > 30
+SELECT T2.friend FROM actor AS T1 JOIN song AS T2 ON T1.Musical_ID = T2.Musical_ID WHERE T1.gender = "Female"
+SELECT director FROM Movie WHERE director = 'Avatar'
+SELECT T2.friend FROM Rating AS T1 JOIN Movie AS T2 ON T1.mID = T2.mID WHERE T1.stars = 1
+SELECT T2.friend FROM actor AS T1 JOIN musical AS T2 ON T1.Musical_ID = T2.Musical_ID WHERE T2.first_name = 'Alice' AND T1.gender = 'female'
+SELECT title FROM film WHERE city = "Computer Kitty Scenes%'
+SELECT title FROM Movie WHERE director = 'Avatar'
+SELECT role_description FROM ROLES WHERE T1.name = "sesame"
+SELECT title FROM Movie WHERE director = 'Steven Spielberg'
+SELECT title FROM movie WHERE title = "Demon Lewis"
+SELECT title FROM movie WHERE title = 'Alice' AND last_name = "Shivers"
+SELECT title FROM Movie WHERE director = 'Avatar'
+SELECT title FROM Movie WHERE Student.Fname = "Marina"
+SELECT * FROM actor WHERE name = "Aerosmith";
+SELECT count(*) FROM actor WHERE title = "Aerosmith";
+SELECT count(*) FROM Movie WHERE T2.title = "LG-P760";
+SELECT count(*) FROM Movie WHERE YEAR = 2008
+SELECT count(*) FROM Movie WHERE director = 'Steven Spielberg'
+SELECT count(*) FROM Movie WHERE director = 'James Spielberg'
+SELECT count(*) FROM Movie WHERE T2.first_name = "LG-P760";
+SELECT title FROM Movie WHERE director = "Aerosmith";
+SELECT title FROM Movie WHERE title = "Aerosmith";
+SELECT count(*) FROM Movie WHERE T2.title = "LG-P760";
+SELECT count(*) FROM actor WHERE country = "UK" AND age > 30
+SELECT title FROM Movie WHERE director = "Astrid" AND YEAR = 1
+SELECT title FROM Movie WHERE YEAR = 'R'
+SELECT count(*) FROM Movie WHERE director = 'Steven Spielberg'
+SELECT count(*) FROM Movie WHERE YEAR > 2008
+SELECT title FROM Movie WHERE YEAR = 1
+SELECT title FROM Movie WHERE YEAR = 1
+SELECT title FROM Movie WHERE YEAR > 6000 AND YEAR = 1
+SELECT count(*) FROM actor AS T1 JOIN song AS T2 ON T1.artist_name = T2.artist_name WHERE T1.gender = "Female" AND T1.gender = 'F' AND T1.year > 30
+SELECT count(*) FROM actor AS T1 JOIN songs AS T2 ON T1.Musical_ID = T2.Musical_ID WHERE T1.name = "Aerosmith";
+SELECT count(*) FROM actor WHERE T1.Name = "Aerosmith";
+SELECT title FROM Movie WHERE director = "Computer Cameron' INTERSECT SELECT T2.title , t1.other_characteristic_details , T1.stars FROM Rating AS T1 JOIN Movie AS T2 ON T1.mID = T2.mID WHERE T1.stars = 1
+SELECT title FROM Movie WHERE name = "Aerosmith";
+SELECT title FROM Movie WHERE title = "Astrid" AND YEAR = 1
+SELECT title FROM Movie WHERE name = "Aerosmith";
+SELECT friend FROM actor WHERE name = "Fast Spielberg'
+SELECT title FROM Movie WHERE director = 'James Cameron'
+SELECT T2.title FROM Rating AS T1 JOIN Movie AS T2 ON T1.mID = T2.mID GROUP BY T1.mID ORDER BY count(*) DESC LIMIT 1
+SELECT max(T1.stars) FROM Rating AS T1 JOIN Movie AS T2 ON T1.mID = T2.mID WHERE T2.first_name = 'AIRPORT POLLOCK' GROUP BY T1.mID ORDER BY count(*) DESC LIMIT 1
+SELECT T2.friend FROM Rating AS T1 JOIN Movie AS T2 ON T1.mID = T2.mID WHERE T2.stars = (SELECT max(YEAR) FROM Movie)
+SELECT T1.title FROM Rating AS T1 JOIN Movie AS T2 ON T1.mID = T2.mID WHERE T2.Store_Name = "LG-P760";
+SELECT title FROM Movie WHERE director = "sesame"
+SELECT director FROM Movie GROUP BY title ORDER BY count(*) DESC LIMIT 1
+SELECT title FROM Movie WHERE title = "sesame" ORDER BY max_aperture DESC LIMIT 1
+SELECT count(*) FROM customers WHERE dept_name = "Fast Info. City'
+SELECT count(*) FROM Restaurant WHERE FirstName = "ROY" AND LastName = "SWEAZY";
+SELECT count(*) FROM medication WHERE dept_name = 'Canada') AND EVENTS = "Ueno"
+SELECT count(*) FROM weather WHERE name = "Roberto" AND last_name = "Almeida";
+SELECT count(*) FROM weather WHERE name = "Fast States'
+SELECT count(*) FROM customers WHERE title = "San Info. City'
+SELECT title FROM weather WHERE name = "Fast States'
+SELECT Kids FROM Restaurant WHERE ResTypeName = "2010-09-21"
+SELECT title FROM film WHERE title = "Demon Kitty World Cup qualification"
+SELECT Elimination_Move FROM Restaurant WHERE clubname = "Japan"
+SELECT Elimination_Move FROM Restaurant WHERE customer_status_code = "Japan"
+SELECT title FROM department WHERE dept_name = 'History'
+SELECT title FROM film WHERE title = "Demon Kitty World Cup qualification"
+SELECT T1.Marketing_Region_Name FROM Addresses AS T1 JOIN Stores AS T2 ON T1.Address_ID = T2.Address_ID WHERE T2.Store_Name = "FJA Filming"
+SELECT ResName FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT ResName FROM Restaurant AS T1 JOIN Restaurant AS T2 ON T1.Attraction_Type_Code = T2.star_rating_code WHERE T2.Mar = "Suite 634"
+SELECT ResName FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT T1.Marketing_Region_Name FROM Addresses AS T1 JOIN Stores AS T2 ON T1.address_id = T2.address_id WHERE T2.Store_Name = "FJA Filming"
+SELECT title FROM weather WHERE first_name = "Roberto" AND last_name = "Edwards";
+SELECT Kids FROM Restaurant WHERE Winery = "5"
+SELECT Kids FROM Restaurant WHERE FirstName = "ROY" AND LastName = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE Student.Fname = "ROY" AND Student.Lname = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE Student.Fname = "ROY" AND T2.last_name = Restaurant.ResID
+SELECT ResName FROM Restaurant WHERE ResTypeName = "2010-09-21"
+SELECT kids FROM Restaurant WHERE Student.Fname = "ROY" AND YEAR = "SWEAZY";
+SELECT ResName FROM Rating AS T1 JOIN Restaurant AS T2 ON T1.Room = T2.RoomId WHERE T2.How_to_Get_There = "Confirmed"
+SELECT kids FROM Restaurant WHERE Student.Fname = "ROY" AND YEAR = "SWEAZY";
+SELECT ResName FROM Reservations AS T1 JOIN Restaurant AS T2 ON T1.Room = T2.RoomId WHERE T2.How_to_Get_There = "FJA Filming"
+SELECT kids FROM Restaurant WHERE YEAR = 4
+SELECT kids FROM Restaurant WHERE YEAR = 2008
+SELECT count(*) FROM accelerator_compatible_browser WHERE billing_city = "ROY" AND YEAR = (SELECT max(YEAR) FROM Has_allergy WHERE Allergy = "USPS";
+SELECT count(*) FROM Restaurant WHERE Winery = "King";
+SELECT count(*) FROM Restaurant WHERE Student.Fname = "ROY" AND Student.Lname = "SWEAZY";
+SELECT count(*) FROM Residents WHERE billing_city = "Rock"
+SELECT count(*) FROM Restaurant WHERE Winery = "ROY" AND LastName = "SWEAZY";
+SELECT title FROM vocals WHERE country = "Demon Kitty Rag"
+SELECT title FROM course WHERE competition_type = 103
+SELECT Kids FROM Restaurant WHERE ResTypeName = "2010-09-21"
+SELECT kids FROM Restaurant WHERE Winery = "ROY" AND pets_allowed_yn = "SWEAZY";
+SELECT ResTypeDescription FROM Restaurant WHERE ResTypeName = "2010-09-21"
+SELECT kids FROM Restaurant WHERE Winery = "ROY" AND pets_allowed_yn = "SWEAZY";
+SELECT count(*) FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+SELECT * FROM products WHERE name = "Demon Info. Systems"
+SELECT title FROM Restaurant WHERE title = "ROY" AND last_name = "SWEAZY";
+SELECT title FROM products WHERE name = "Nancy" AND last_name = "Edwards";
+SELECT title FROM PersonFriend WHERE director = "Fast Cameron"
+SELECT Kids FROM Restaurant WHERE FirstName = "ROY" AND LastName = "SWEAZY";
+SELECT title FROM course WHERE competition_type = 'Statistics'
+SELECT title FROM course WHERE competition_type = 'Statistics'
+SELECT title FROM products WHERE name = "sesame"
+SELECT title FROM course WHERE competition_type = 'R'
+SELECT title FROM Restaurant_Type WHERE FirstName = "ROY" AND last_name = "SWEAZY";
+SELECT title FROM Restaurant WHERE Student.Fname = "ROY" AND last_name = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+SELECT title FROM Restaurant WHERE ResName = "ROY" AND last_name = "SWEAZY";
+SELECT title FROM Restaurant WHERE director = "ROY" AND YEAR = 1
+SELECT title FROM customers WHERE T1.firstname = "Nancy" AND last_name = "Edwards";
+SELECT title FROM products WHERE title = "Demon Kitty Scenes%'
+SELECT title FROM products WHERE title = "Fast Info. Systems"
+SELECT ResName FROM Reservations AS T1 JOIN has_amenity AS T2 ON T1.Room = T2.RoomId WHERE T2.How_to_Get_There = "660 Shea Crescent"
+SELECT title FROM products WHERE name = "Nancy" AND last_name = "Edwards";
+SELECT title FROM Restaurant WHERE Student.Fname = "ROY" AND last_name = "SWEAZY";
+SELECT * FROM products WHERE title = "Demon Info. Systems"
+SELECT title FROM vocals WHERE country = "Demon Kitty Rag"
+SELECT ResName FROM Restaurant WHERE T1.Address = "660 Shea Crescent"
+SELECT Kids FROM Restaurant WHERE Student.Fname = "ROY" AND LastName = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE Student.Fname = "ROY" AND Student.Lname = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE Winery = "BAL"
+SELECT Kids FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT Kids FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT ResName FROM Type_Of_Restaurant AS T1 JOIN Restaurant AS T2 ON T1.Room = T2.RoomId WHERE T2.maxOccupancy = "Suite 634"
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21"
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21"
+SELECT title FROM film WHERE competition_type = "Roberto" AND last_name = "Edwards";
+SELECT Kids FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT Kids FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT Kids FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT title FROM film WHERE competition_type = 'Friendly'
+SELECT title FROM film WHERE competition_type = "Roberto" AND last_name = "Almeida";
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21"
+SELECT Kids FROM Restaurant WHERE Winery = "2010-09-21" AND FirstName = "DAMIEN" AND LastName = "TRACHSEL";
+SELECT count(*) FROM Restaurant WHERE YEAR = "USA" AND ties = "DAMIEN" AND YEAR = "TRACHSEL";
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21" AND FirstName = "DAMIEN" AND LastName = "TRACHSEL";
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21" AND FirstName = "DAMIEN" AND LastName = "TRACHSEL";
+SELECT count(*) FROM Restaurant WHERE YEAR = 3 AND ties = "CONRAD"
+SELECT decor FROM Restaurant WHERE Winery = "2010-10-23" AND FirstName = "DAMIEN" AND LastName = "TRACHSEL";
+SELECT avg(price) FROM Restaurant WHERE YEAR = 2008 AND ties = "DAMIEN" AND YEAR = 2010
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21" AND FirstName = "DAMIEN" AND LastName = "TRACHSEL";
+SELECT T1.amenity_name FROM Rating AS T1 JOIN Rooms AS T2 ON T1.mID = T2.mID JOIN Restaurant AS T3 ON T1.rID = T3.rID WHERE T3.name = 'Anonymous Harris'
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21" AND FirstName = "DAMIEN" AND EVENTS = "TRACHSEL";
+SELECT t3.title FROM albums AS T1 JOIN product AS T2 ON T1.film_id = T2.film_id WHERE T1.first_name = "Graphics"
+SELECT ResName FROM Reservations AS T1 JOIN Restaurant AS T2 ON T1.Room = T2.RoomId WHERE T1.Address = "660 Shea Crescent"
+SELECT milliseconds FROM Restaurant WHERE dst_apid = 2008
+SELECT title FROM Restaurant WHERE ResName = "ROY" AND LastName = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE ResTypeName = "2010-09-21"
+SELECT title FROM course WHERE title = "Roberto" AND last_name = "Almeida";
+SELECT Kids FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+SELECT milliseconds FROM Restaurant WHERE dst_apid = 1004
+SELECT title FROM course WHERE competition_type = 'Friendly'
+SELECT Kids FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT kids FROM Restaurant WHERE Winery = "5" AND pets_allowed_yn = 1
+SELECT ResName FROM Rating AS T1 JOIN Restaurant AS T2 ON T1.Room = T2.RoomId WHERE T1.Address = "Confirmed"
+SELECT title FROM film WHERE country = 'R'
+SELECT title FROM course WHERE competition_type = "Roberto" AND last_name = "Almeida";
+SELECT title FROM course WHERE title = "Roberto" AND last_name = "Almeida";
+SELECT Kids FROM Restaurant WHERE ResName = "2010-09-21"
+SELECT kids FROM Restaurant WHERE ResName = "ROY" AND LastName = "SWEAZY";
+SELECT product FROM course WHERE competition_type = "Roberto" AND last_name = "Almeida";
+SELECT title FROM course WHERE competition_type = "Roberto" AND last_name = "Almeida";
+SELECT milliseconds FROM Restaurant WHERE ResTypeName = "2010-09-21"
+SELECT Kids FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+SELECT title FROM course WHERE competition_type = "Roberto" AND last_name = "Almeida";
+SELECT milliseconds FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+SELECT title FROM course WHERE country = 'Statistics'
+SELECT title FROM products WHERE name = "Fast As a Shark";
+SELECT title FROM products WHERE name = "sesame"
+SELECT title FROM products WHERE name = "Fast Info. Systems"
+SELECT ResName FROM Rating AS T1 JOIN Restaurant AS T2 ON T1.Room = T2.RoomId WHERE T1.Address = "Confirmed"
+SELECT kids FROM Restaurant WHERE Winery = "ROY" AND pets_allowed_yn = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE CheckIn = "2010-09-21"
+SELECT ResName FROM Restaurant WHERE Student.Fname = "ROY" AND LastName = "SWEAZY";
+SELECT Kids FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
+SELECT T2.star_rating_description FROM Rating AS T1 JOIN Restaurant AS T2 ON T1.mID = T2.mID JOIN Restaurant AS T3 ON T1.rID = T3.rID WHERE T3.name = 'Anonymous Jackson'
+SELECT kids FROM Restaurant WHERE Winery = "ROY" AND pets_allowed_yn = "SWEAZY";
+SELECT ResTypeDescription FROM Restaurant WHERE Type_Of_Restaurant = "2010-09-21"
