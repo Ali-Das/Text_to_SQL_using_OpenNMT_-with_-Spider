@@ -44,7 +44,7 @@ python3  json_to_jsonl_conversion.py
 ```
 python3  parallel_corpora_gen.py
 ```
-## Step V: Download Glove file for embedding from [Here](https://github.com/Ali-Das/Text_to_SQL_using_ OpenNMT) and store in the glove folder.
+## Step V: Download Glove file for embedding from [Here](https://github.com/Ali-Das/Text_to_SQL_using_OpenNMT) and store in the glove folder.
 for example:
 ```
 !mkdir "/content/drive/MYDrive/glove"
