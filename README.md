@@ -32,7 +32,7 @@ pip install -r requirements.opt.txt
 
 ```
 ## Step III: Download the Spider dataset.
-The Spider dataset can be downloaded from [Here](https://yale-lily.github.io/spider) and stored in the spider/spider_data/db_and_json_files folder.
+The Spider dataset can be downloaded from [Here](https://yale-lily.github.io/spider) and stored in the spider/db_and_json_files folder.
 
 ## Step IV: Create jsonl and various text files
 
