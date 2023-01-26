@@ -1,4 +1,5 @@
 ################################
+####This is the evaluation file of Spider downloaded from https://github.com/taoyds/spider/blob/master/evaluation.py ####3
 # val: number(float)/string(str)/sql(dict)
 # col_unit: (agg_id, col_id, isDistinct(bool))
 # val_unit: (unit_op, col_unit1, col_unit2)
